@@ -12,6 +12,7 @@ global MMax = 6
 global Zoom = false
 MouseSpeed = % ran(MMin, MMax)
 SetDefaultMouseSpeed, MouseSpeed
+SetKeyDelay, 50, 25
 
 ;-=-\ Functions \-=-
 ran(min, max)
@@ -76,7 +77,7 @@ return
 $F5::
   Send, {Enter}
   Send, /hideout
-  Sleep, 20 
+  Sleep, 200 
   Send, {Enter}
 return
 
@@ -85,7 +86,7 @@ return
 $^/::
   Send, {Enter}
   Send, /reset_xp
-  Sleep, 20 
+  Sleep, 200 
   Send, {Enter}
 return
 
@@ -105,8 +106,8 @@ $LShift::
   GetKeyState, Lst, LButton
   GetKeyState, Rst, RButton
   if (Lst = "D" or Rst = "D") {
-  SoundPlay, %A_WinDir%\Media\Windows Background.wav
     Send, {Q}
+    SoundPlay, %A_WinDir%\Media\Windows Default.wav
     ; Possible +"5" flask
     ; Sleep, 20
     ; Send, 5  
@@ -116,18 +117,17 @@ return
 ; Flasks macro
 #IfWinActive, Path of Exile 
 $2::
-  SoundPlay, %A_WinDir%\Media\Windows Background.wav
   Send, 1
   Send, 2
   Send, 3
   Send, 4
 ;  Send, 5
+  SoundPlay, %A_WinDir%\Media\Windows Default.wav
 return
 
 ; run +control clicker loop
 #IfWinActive, Path of Exile 
 $^Backspace::
-  SoundPlay, %A_WinDir%\Media\Windows Background.wav
   BreakLoop := 0
   Loop, 1000 {
     Send ^{Click} 

@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <PathOfBuilding>
-	<Mode mode="LIST">
-		<Arg boolean="false"/>
-		<Arg string=""/>
+	<Mode mode="BUILD">
+		<Arg string="C:/Documents/Path of Building/Builds/dmytro_cheva - DeeMyRage.xml"/>
+		<Arg string="dmytro_cheva - DeeMyRage"/>
 	</Mode>
 	<Accounts/>
 	<SharedItems/>
-	<Misc defaultItemAffixQuality="0.5" showTitlebarName="true" dpiScaleOverridePercent="0" showWarnings="true" slotOnlyTooltips="true" migrateEldritchImplicits="true" notSupportedModTooltips="true" POESESSID="" showPublicBuilds="true" showFlavourText="true" showAllItemAffixes="true" showAnimations="true" disableDevAutoSave="false" buildSortMode="NAME" invertSliderScrollDirection="false" nodePowerTheme="RED/BLUE" connectionProtocol="0" colorNegative="^xDD0022" betaTest="false" defaultGemQuality="0" defaultCharLevel="1" showThousandsSeparators="true" edgeSearchHighlight="true" thousandsSeparator="," colorHighlight="^xFF0000" decimalSeparator="." colorPositive="^x33FF77"/>
+	<Misc defaultItemAffixQuality="0.5" showTitlebarName="true" dpiScaleOverridePercent="0" showWarnings="true" slotOnlyTooltips="true" migrateEldritchImplicits="true" notSupportedModTooltips="true" connectionProtocol="0" POESESSID="" showPublicBuilds="true" showFlavourText="true" showAnimations="true" showAllItemAffixes="true" buildSortMode="NAME" nodePowerTheme="RED/BLUE" disableDevAutoSave="false" invertSliderScrollDirection="false" colorNegative="^xDD0022" betaTest="false" defaultGemQuality="0" defaultCharLevel="1" showThousandsSeparators="true" edgeSearchHighlight="true" thousandsSeparator="," colorHighlight="^xFF0000" decimalSeparator="." colorPositive="^x33FF77"/>
 </PathOfBuilding>

@@ -98,9 +98,9 @@ $^p::
 
 ; Jump!!! Shift + action
 ; Map Q ability to jump/move/slide
-; Shift + Left/Right click: Send Q
-$+LButton::
-$+RButton::
+; Control + Left/Right click: Send Q
+$^LButton::
+$^RButton::
   Send, {Q}
   SoundPlay, %A_WinDir%\Media\Windows Default.wav
 return

@@ -96,10 +96,10 @@ $^p::
   Send, /passives
   Send, {Enter}
 
-; Jump!!! Shift + action
-; Map Q ability to jump/move/slide
-; Control + Left/Right click: Send Q
-$^LButton::
+; Jump!!!
+; Map Q ability to jump/move/slide 
+; Control + Right click: Send Q
+; Using: Holding LMB, press Control than RMB
 $^RButton::
   Send, {Q}
   SoundPlay, %A_WinDir%\Media\Windows Default.wav

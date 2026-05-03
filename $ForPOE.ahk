@@ -97,11 +97,11 @@ $^p::
   Send, {Enter}
 
 ; Jump!!!
-; Map Q ability to jump/move/slide 
-; Control + Right click: Send Q
+; Map MMB ability to jump/move/slide 
+; Control + Right click: Send Middle Button
 ; Using: Holding LMB, press Control than RMB
 $^RButton::
-  Send, {Q}
+  Send, {MButton}
   SoundPlay, %A_WinDir%\Media\Windows Default.wav
 return
 

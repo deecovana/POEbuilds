@@ -97,13 +97,13 @@ $^p::
   Send, {Enter}
 
 ; Jump!!!
-; Map jump/move/slide ability to MMB
-; Control/Shift + Right click: Send MMB
+; Map MMB ability to jump/move/slide 
+; Control/Shift + Right click: Send Middle Button
 ; Using: Holding LMB, press Control than RMB
 $^RButton::
 $+RButton::
-  Send, MButton
-  SoundPlay, %A_WinDir%\Media\Speech Misrecognition.wav
+  Send, {MButton}
+  SoundPlay, %A_WinDir%\Media\Windows Default.wav
 return
 
 ; Flasks macro mapped to key 2

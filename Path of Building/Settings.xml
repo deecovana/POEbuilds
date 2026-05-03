@@ -4,7 +4,9 @@
 		<Arg string="C:/Documents/Path of Building/Builds/dmytro_cheva - DeeMyRage.xml"/>
 		<Arg string="dmytro_cheva - DeeMyRage"/>
 	</Mode>
-	<Accounts/>
+	<Accounts lastRealm="PC" lastAccountName="dmytro_cheva#4815">
+		<Account accountName="dmytro_cheva#4815"/>
+	</Accounts>
 	<SharedItems/>
-	<Misc defaultItemAffixQuality="0.5" showTitlebarName="true" dpiScaleOverridePercent="0" showWarnings="true" slotOnlyTooltips="true" migrateEldritchImplicits="true" notSupportedModTooltips="true" connectionProtocol="0" POESESSID="" showPublicBuilds="true" showFlavourText="true" showAnimations="true" showAllItemAffixes="true" buildSortMode="NAME" nodePowerTheme="RED/BLUE" disableDevAutoSave="false" invertSliderScrollDirection="false" colorNegative="^xDD0022" betaTest="false" defaultGemQuality="0" defaultCharLevel="1" showThousandsSeparators="true" edgeSearchHighlight="true" thousandsSeparator="," colorHighlight="^xFF0000" decimalSeparator="." colorPositive="^x33FF77"/>
+	<Misc colorNegative="^xDD0022" dpiScaleOverridePercent="0" colorHighlight="^xFF0000" showThousandsSeparators="true" edgeSearchHighlight="true" thousandsSeparator="," betaTest="false" defaultGemQuality="0" defaultCharLevel="1" defaultItemAffixQuality="0.5" showTitlebarName="true" disableDevAutoSave="false" showWarnings="true" slotOnlyTooltips="true" migrateEldritchImplicits="true" showAnimations="true" showAllItemAffixes="true" showFlavourText="true" showPublicBuilds="true" connectionProtocol="0" invertSliderScrollDirection="false" POESESSID="" notSupportedModTooltips="true" buildSortMode="NAME" nodePowerTheme="RED/BLUE" decimalSeparator="." colorPositive="^x33FF77"/>
 </PathOfBuilding>

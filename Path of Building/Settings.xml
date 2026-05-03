@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <PathOfBuilding>
 	<Mode mode="BUILD">
-		<Arg string="C:/Documents/Path of Building/Builds/dmytro_cheva - DeeMyRage.xml"/>
-		<Arg string="dmytro_cheva - DeeMyRage"/>
+		<Arg string="C:/Documents/Path of Building/Builds/DeeMyArc.xml"/>
+		<Arg string="DeeMyArc"/>
 	</Mode>
-	<Accounts lastRealm="PC" lastAccountName="dmytro_cheva#4815">
+	<Accounts lastRealm="PC" lastAccountName="SteamCovan#3373">
+		<Account accountName="SteamCovan#3373"/>
 		<Account accountName="dmytro_cheva#4815"/>
 	</Accounts>
 	<SharedItems/>
-	<Misc colorNegative="^xDD0022" dpiScaleOverridePercent="0" colorHighlight="^xFF0000" showThousandsSeparators="true" edgeSearchHighlight="true" thousandsSeparator="," betaTest="false" defaultGemQuality="0" defaultCharLevel="1" defaultItemAffixQuality="0.5" showTitlebarName="true" disableDevAutoSave="false" showWarnings="true" slotOnlyTooltips="true" migrateEldritchImplicits="true" showAnimations="true" showAllItemAffixes="true" showFlavourText="true" showPublicBuilds="true" connectionProtocol="0" invertSliderScrollDirection="false" POESESSID="" notSupportedModTooltips="true" buildSortMode="NAME" nodePowerTheme="RED/BLUE" decimalSeparator="." colorPositive="^x33FF77"/>
+	<Misc nodePowerTheme="RED/BLUE" connectionProtocol="0" colorNegative="^xDD0022" showPublicBuilds="true" colorHighlight="^xFF0000" buildSortMode="NAME" showThousandsSeparators="true" edgeSearchHighlight="true" thousandsSeparator="," colorPositive="^x33FF77" decimalSeparator="." defaultItemAffixQuality="0.5" showTitlebarName="true" dpiScaleOverridePercent="0" showWarnings="true" slotOnlyTooltips="true" migrateEldritchImplicits="true" notSupportedModTooltips="true" disableDevAutoSave="false" invertSliderScrollDirection="false" POESESSID="" showFlavourText="true" showAnimations="true" showAllItemAffixes="true" betaTest="true" defaultGemQuality="0" defaultCharLevel="1"/>
 </PathOfBuilding>

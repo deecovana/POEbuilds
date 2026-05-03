@@ -1,6 +1,11 @@
 # POEbuilds GitHub @deecovana repo (CC4 2026)
 
+## 26.05.03 On SteamCovan#3373 start DeeMyArc build
+- Save POB
+- Continue to Act 3
+
 ## 26.05.03 Finish Acts
+--- Deleted
 - MyRage planned 80
 - Modified $ForPOE.ahk Control/Shift + Right click to A key
   - Need to be mapped, MMB ability to A key

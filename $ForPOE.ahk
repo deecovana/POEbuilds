@@ -103,7 +103,7 @@ $^p::
 $^RButton::
 $+RButton::
   Send, {MButton}
-  SoundPlay, %A_WinDir%\Media\Windows Default.wav
+  SoundPlay, %A_WinDir%\Media\Windows Speech Misrecognition.wav
 return
 
 ; Flasks macro mapped to key 2
@@ -127,7 +127,7 @@ $^Backspace::
       BreakLoop := 0
       break
     }
-    SoundPlay, %A_WinDir%\Media\Windows Default.wav 
+    SoundPlay, %A_WinDir%\Media\Windows Speech Misrecognition.wav 
   }
 return
 
@@ -143,6 +143,6 @@ $+^Backspace::
       BreakLoop := 0
       break
     }
-    SoundPlay, %A_WinDir%\Media\Windows Default.wav 
+    SoundPlay, %A_WinDir%\Media\Windows Speech Misrecognition.wav 
   }
 return

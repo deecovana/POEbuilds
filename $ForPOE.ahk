@@ -97,12 +97,12 @@ $^p::
   Send, {Enter}
 
 ; Jump!!!
-; Map jump/move/slide ability (default MMB) to A key, in controls
-; Control/Shift + Right click: Send A key
+; Map jump/move/slide ability to MMB
+; Control/Shift + Right click: Send MMB
 ; Using: Holding LMB, press Control than RMB
 $^RButton::
 $+RButton::
-  Send, A
+  Send, MButton
   SoundPlay, %A_WinDir%\Media\Speech Misrecognition.wav
 return
 

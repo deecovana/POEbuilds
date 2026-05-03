@@ -12,7 +12,7 @@ global MMax = 6
 global Zoom = false
 MouseSpeed = % ran(MMin, MMax)
 SetDefaultMouseSpeed, MouseSpeed
-SetKeyDelay, 50, 25
+SetKeyDelay, 20, 10
 
 ;-=-\ Functions \-=-
 ran(min, max)
@@ -24,12 +24,14 @@ ran(min, max)
 ;-=-\ Init \-=-
 SoundPlay, %A_WinDir%\Media\Windows Foreground.wav
 
-;reload
+; reload
 $^+R::Reload
 
-;suspend/resume
+; suspend/resume
 $^+S::
-;pause/resume
+; CAREFULL !!! Mapped to Alt+S !!!
+$!s::
+; pause/resume
 $^+P::
 ;use both to sleep/pause
   ;thanks to Rohwedder
@@ -40,7 +42,7 @@ $^+P::
     Reload ;Reload Script
 Return
 
-;exit
+; exit
 $^+W::
   SoundPlay, %A_WinDir%\Media\Windows Notify System Generic.wav
   Sleep, 1000
@@ -71,62 +73,49 @@ return
 ;return
      
 ;-----Let's play POE1!-----
+#IfWinActive, Path of Exile 
 ;;=======================================================================
 
 ; Jump to Hideout on F5
 $F5::
   Send, {Enter}
   Send, /hideout
-  Sleep, 200 
   Send, {Enter}
 return
 
 ; Reset XP counter
-#IfWinActive, Path of Exile 
 $^/::
   Send, {Enter}
   Send, /reset_xp
-  Sleep, 200 
   Send, {Enter}
 return
 
 ; List passives in chat window
-#IfWinActive, Path of Exile 
 $^p::
   Send, {Enter}
   Send, /passives
-  Sleep, 20 
   Send, {Enter}
 
 ; Jump!!! Shift + action
-; Left or right mouse is down when shift pressed
-#IfWinActive, Path of Exile 
-$LShift::
-  ; + Clicked
-  GetKeyState, Lst, LButton
-  GetKeyState, Rst, RButton
-  if (Lst = "D" or Rst = "D") {
-    Send, {Q}
-    SoundPlay, %A_WinDir%\Media\Windows Default.wav
-    ; Possible +"5" flask
-    ; Sleep, 20
-    ; Send, 5  
-  }
+; Map Q ability to jump/move/slide
+; Shift + Left/Right click: Send Q
+$+LButton::
+$+RButton::
+  Send, {Q}
+  SoundPlay, %A_WinDir%\Media\Windows Default.wav
 return
 
-; Flasks macro
-#IfWinActive, Path of Exile 
+; Flasks macro mapped to key 2
 $2::
   Send, 1
   Send, 2
   Send, 3
   Send, 4
-;  Send, 5
+; Send, 5
   SoundPlay, %A_WinDir%\Media\Windows Default.wav
 return
 
 ; run +control clicker loop
-#IfWinActive, Path of Exile 
 $^Backspace::
   BreakLoop := 0
   Loop, 1000 {
@@ -142,7 +131,6 @@ $^Backspace::
 return
 
 ; run +control+shift clicker loop
-#IfWinActive, Path of Exile 
 $+^Backspace::
   SoundPlay, %A_WinDir%\Media\Windows Background.wav
   BreakLoop := 0

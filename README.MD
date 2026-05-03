@@ -2,7 +2,7 @@
 
 ## 26.05.03 Finish Acts
 - MyRage planned 80
-- Modified $ForPOE.ahk Shifft+LButton/RButton to Q key
+- Modified $ForPOE.ahk Control + Left/Right click to MButton
 
 ## 26.05.02 Begin re-Play POE
 - Added POB folder

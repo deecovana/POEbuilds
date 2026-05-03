@@ -2,7 +2,8 @@
 
 ## 26.05.03 Finish Acts
 - MyRage planned 80
-- Modified $ForPOE.ahk Control/Shift + Right click to MButton
+- Modified $ForPOE.ahk Control/Shift + Right click to A key
+  - Need to be mapped, MMB ability to A key
 
 ## 26.05.02 Begin re-Play POE
 - Added POB folder

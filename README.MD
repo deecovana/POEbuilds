@@ -3,6 +3,7 @@
 ## 26.05.04 Add POE folder with filters
 - Save local FIXED Dee MyRage filter 
   - Add CustomSound files
+  - Add script and copy all files
 - Continue to Act 3
 
 ## 26.05.03 On SteamCovan#3373 start DeeMyArc build

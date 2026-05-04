@@ -1,8 +1,10 @@
 # POEbuilds GitHub @deecovana repo (CC4 2026)
 
+## 26.05.04 Add POE folder with filters
+- Continue to Act 3
+
 ## 26.05.03 On SteamCovan#3373 start DeeMyArc build
 - Save POB
-- Continue to Act 3
 
 ## 26.05.03 Finish Acts
 --- Deleted

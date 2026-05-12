@@ -4,10 +4,10 @@
 		<Arg string="C:/Documents/Path of Building/Builds/DeeMyArc.xml"/>
 		<Arg string="DeeMyArc"/>
 	</Mode>
-	<Accounts lastRealm="PC" lastAccountName="SteamCovan#3373">
-		<Account accountName="SteamCovan#3373"/>
+	<Accounts lastAccountName="SteamCovan#3373" lastRealm="PC">
 		<Account accountName="dmytro_cheva#4815"/>
+		<Account accountName="SteamCovan#3373"/>
 	</Accounts>
 	<SharedItems/>
-	<Misc nodePowerTheme="RED/BLUE" connectionProtocol="0" colorNegative="^xDD0022" showPublicBuilds="true" colorHighlight="^xFF0000" buildSortMode="NAME" showThousandsSeparators="true" edgeSearchHighlight="true" thousandsSeparator="," colorPositive="^x33FF77" decimalSeparator="." defaultItemAffixQuality="0.5" showTitlebarName="true" dpiScaleOverridePercent="0" showWarnings="true" slotOnlyTooltips="true" migrateEldritchImplicits="true" notSupportedModTooltips="true" disableDevAutoSave="false" invertSliderScrollDirection="false" POESESSID="" showFlavourText="true" showAnimations="true" showAllItemAffixes="true" betaTest="true" defaultGemQuality="0" defaultCharLevel="1"/>
+	<Misc nodePowerTheme="RED/BLUE" colorPositive="^x33FF77" dpiScaleOverridePercent="0" POESESSID="" colorNegative="^xDD0022" invertSliderScrollDirection="false" colorHighlight="^xFF0000" showFlavourText="true" showThousandsSeparators="true" edgeSearchHighlight="true" thousandsSeparator="," showPublicBuilds="true" decimalSeparator="." disableDevAutoSave="false" defaultItemAffixQuality="0.5" showTitlebarName="true" showWarnings="true" slotOnlyTooltips="true" migrateEldritchImplicits="true" betaTest="true" defaultGemQuality="0" defaultCharLevel="1" connectionProtocol="0" showAnimations="true" showAllItemAffixes="true" notSupportedModTooltips="true" buildSortMode="NAME"/>
 </PathOfBuilding>

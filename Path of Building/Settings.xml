@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <PathOfBuilding>
 	<Mode mode="BUILD">
-		<Arg string="C:/Documents/Path of Building/Builds/DeeMyArc.xml"/>
-		<Arg string="DeeMyArc"/>
+		<Arg string="C:/Documents/Path of Building/Builds/PlootLoot Blood.xml"/>
+		<Arg string="PlootLoot Blood"/>
 	</Mode>
-	<Accounts lastAccountName="SteamCovan#3373" lastRealm="PC">
+	<Accounts lastRealm="PC" lastAccountName="SteamCovan#3373">
 		<Account accountName="dmytro_cheva#4815"/>
 		<Account accountName="SteamCovan#3373"/>
 	</Accounts>
 	<SharedItems/>
-	<Misc nodePowerTheme="RED/BLUE" colorPositive="^x33FF77" dpiScaleOverridePercent="0" POESESSID="" colorNegative="^xDD0022" invertSliderScrollDirection="false" colorHighlight="^xFF0000" showFlavourText="true" showThousandsSeparators="true" edgeSearchHighlight="true" thousandsSeparator="," showPublicBuilds="true" decimalSeparator="." disableDevAutoSave="false" defaultItemAffixQuality="0.5" showTitlebarName="true" showWarnings="true" slotOnlyTooltips="true" migrateEldritchImplicits="true" betaTest="true" defaultGemQuality="0" defaultCharLevel="1" connectionProtocol="0" showAnimations="true" showAllItemAffixes="true" notSupportedModTooltips="true" buildSortMode="NAME"/>
+	<Misc buildSortMode="NAME" nodePowerTheme="RED/BLUE" colorPositive="^x33FF77" disableDevAutoSave="false" showAllItemAffixes="true" colorNegative="^xDD0022" showAnimations="true" colorHighlight="^xFF0000" showFlavourText="true" showThousandsSeparators="true" edgeSearchHighlight="true" thousandsSeparator="," decimalSeparator="." showPublicBuilds="true" defaultItemAffixQuality="0.5" showTitlebarName="true" dpiScaleOverridePercent="0" showWarnings="true" slotOnlyTooltips="true" migrateEldritchImplicits="true" connectionProtocol="0" notSupportedModTooltips="true" POESESSID="" betaTest="true" defaultGemQuality="0" defaultCharLevel="1" invertSliderScrollDirection="false"/>
 </PathOfBuilding>

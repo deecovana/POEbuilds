@@ -1,27 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <PathOfBuilding>
-	<Build mainSocketGroup="7" level="38" bandit="None" targetVersion="3_0" pantheonMajorGod="TheBrineKing" pantheonMinorGod="Yugul" className="Witch" ascendClassName="Elementalist" viewMode="TREE" characterLevelAutoMode="false">
-		<PlayerStat value="205.194495" stat="AverageDamage"/>
-		<PlayerStat value="205.194495" stat="AverageBurstDamage"/>
-		<PlayerStat value="2.54" stat="Speed"/>
-		<PlayerStat value="5" stat="PreEffectiveCritChance"/>
-		<PlayerStat value="2.15" stat="CritChance"/>
+	<Build mainSocketGroup="3" level="86" bandit="None" targetVersion="3_0" pantheonMajorGod="TheBrineKing" pantheonMinorGod="Yugul" className="Witch" ascendClassName="Elementalist" viewMode="SKILLS" characterLevelAutoMode="false">
+		<PlayerStat value="0" stat="AverageHit"/>
+		<PlayerStat value="0" stat="AverageBurstDamage"/>
+		<PlayerStat value="0" stat="Speed"/>
 		<PlayerStat value="1" stat="CritMultiplier"/>
-		<PlayerStat value="43" stat="HitChance"/>
-		<PlayerStat value="521.1940173" stat="TotalDPS"/>
+		<PlayerStat value="100" stat="HitChance"/>
+		<PlayerStat value="0" stat="TotalDPS"/>
 		<PlayerStat value="0" stat="TotalDot"/>
-		<PlayerStat value="521.1940173" stat="WithBleedDPS"/>
-		<PlayerStat value="509.25680967009" stat="IgniteDPS"/>
-		<PlayerStat value="1030.4508269701" stat="WithIgniteDPS"/>
-		<PlayerStat value="521.1940173" stat="WithPoisonDPS"/>
-		<PlayerStat value="509.25680967009" stat="TotalDotDPS"/>
+		<PlayerStat value="0" stat="WithBleedDPS"/>
+		<PlayerStat value="0" stat="WithIgniteDPS"/>
+		<PlayerStat value="0" stat="WithPoisonDPS"/>
+		<PlayerStat value="0" stat="TotalDotDPS"/>
 		<PlayerStat value="0" stat="CullingDPS"/>
 		<PlayerStat value="0" stat="ReservationDPS"/>
-		<PlayerStat value="1030.4508269701" stat="CombinedDPS"/>
-		<PlayerStat value="2.9" stat="AreaOfEffectRadiusMetres"/>
-		<PlayerStat value="9" stat="ManaCost"/>
+		<PlayerStat value="0" stat="CombinedDPS"/>
+		<PlayerStat value="0.528" stat="Cooldown"/>
+		<PlayerStat value="7.5" stat="AreaOfEffectRadiusMetres"/>
+		<PlayerStat value="0" stat="ManaCost"/>
 		<PlayerStat value="0" stat="ManaPercentCost"/>
-		<PlayerStat value="22.86" stat="ManaPerSecondCost"/>
+		<PlayerStat value="0" stat="ManaPerSecondCost"/>
 		<PlayerStat value="0" stat="ManaPercentPerSecondCost"/>
 		<PlayerStat value="0" stat="LifeCost"/>
 		<PlayerStat value="0" stat="LifePercentCost"/>
@@ -31,67 +29,70 @@
 		<PlayerStat value="0" stat="ESPerSecondCost"/>
 		<PlayerStat value="0" stat="ESPercentPerSecondCost"/>
 		<PlayerStat value="0" stat="RageCost"/>
-		<PlayerStat value="0" stat="SoulCost"/>
-		<PlayerStat value="83" stat="Str"/>
-		<PlayerStat value="53" stat="ReqStr"/>
-		<PlayerStat value="79" stat="Dex"/>
-		<PlayerStat value="162" stat="Int"/>
-		<PlayerStat value="83" stat="ReqInt"/>
+		<PlayerStat value="50" stat="SoulCost"/>
+		<PlayerStat value="192" stat="Str"/>
+		<PlayerStat value="142" stat="ReqStr"/>
+		<PlayerStat value="101" stat="Dex"/>
+		<PlayerStat value="92" stat="ReqDex"/>
+		<PlayerStat value="267" stat="Int"/>
+		<PlayerStat value="200" stat="ReqInt"/>
 		<PlayerStat value="0" stat="Devotion"/>
-		<PlayerStat value="3430.1877952003" stat="TotalEHP"/>
-		<PlayerStat value="1569" stat="PhysicalMaximumHitTaken"/>
-		<PlayerStat value="3930" stat="LightningMaximumHitTaken"/>
-		<PlayerStat value="3562" stat="FireMaximumHitTaken"/>
-		<PlayerStat value="2651" stat="ColdMaximumHitTaken"/>
-		<PlayerStat value="834" stat="ChaosMaximumHitTaken"/>
-		<PlayerStat value="409" stat="OffHandAccuracy"/>
-		<PlayerStat value="792" stat="Life"/>
-		<PlayerStat value="28" stat="Spec:LifeInc"/>
-		<PlayerStat value="792" stat="LifeUnreserved"/>
-		<PlayerStat value="792" stat="LifeRecoverable"/>
+		<PlayerStat value="20524.399369031" stat="TotalEHP"/>
+		<PlayerStat value="7648" stat="PhysicalMaximumHitTaken"/>
+		<PlayerStat value="16769" stat="LightningMaximumHitTaken"/>
+		<PlayerStat value="16769" stat="FireMaximumHitTaken"/>
+		<PlayerStat value="16769" stat="ColdMaximumHitTaken"/>
+		<PlayerStat value="7424" stat="ChaosMaximumHitTaken"/>
+		<PlayerStat value="2821" stat="Life"/>
+		<PlayerStat value="78" stat="Spec:LifeInc"/>
+		<PlayerStat value="2821" stat="LifeUnreserved"/>
+		<PlayerStat value="2821" stat="LifeRecoverable"/>
 		<PlayerStat value="100" stat="LifeUnreservedPercent"/>
-		<PlayerStat value="35.7" stat="LifeRegenRecovery"/>
+		<PlayerStat value="363.8" stat="LifeRegenRecovery"/>
 		<PlayerStat value="0" stat="LifeLeechGainRate"/>
-		<PlayerStat value="644" stat="Mana"/>
-		<PlayerStat value="20" stat="Spec:ManaInc"/>
-		<PlayerStat value="108" stat="ManaUnreserved"/>
-		<PlayerStat value="16.770186335404" stat="ManaUnreservedPercent"/>
-		<PlayerStat value="46.3" stat="ManaRegenRecovery"/>
+		<PlayerStat value="1431" stat="Mana"/>
+		<PlayerStat value="51" stat="Spec:ManaInc"/>
+		<PlayerStat value="515" stat="ManaUnreserved"/>
+		<PlayerStat value="35.988819007687" stat="ManaUnreservedPercent"/>
+		<PlayerStat value="52.1" stat="ManaRegenRecovery"/>
 		<PlayerStat value="0" stat="ManaLeechGainRate"/>
-		<PlayerStat value="211" stat="EnergyShield"/>
-		<PlayerStat value="211" stat="EnergyShieldRecoveryCap"/>
-		<PlayerStat value="0" stat="Spec:EnergyShieldInc"/>
+		<PlayerStat value="1311" stat="EnergyShield"/>
+		<PlayerStat value="1311" stat="EnergyShieldRecoveryCap"/>
+		<PlayerStat value="20" stat="Spec:EnergyShieldInc"/>
 		<PlayerStat value="0" stat="EnergyShieldRegenRecovery"/>
 		<PlayerStat value="0" stat="EnergyShieldLeechGainRate"/>
 		<PlayerStat value="0" stat="Ward"/>
 		<PlayerStat value="0" stat="RageRegenRecovery"/>
-		<PlayerStat value="163" stat="Evasion"/>
+		<PlayerStat value="21" stat="Evasion"/>
 		<PlayerStat value="0" stat="Spec:EvasionInc"/>
 		<PlayerStat value="0" stat="MeleeEvadeChance"/>
 		<PlayerStat value="0" stat="ProjectileEvadeChance"/>
-		<PlayerStat value="12" stat="Armour"/>
+		<PlayerStat value="3856" stat="Armour"/>
 		<PlayerStat value="0" stat="Spec:ArmourInc"/>
-		<PlayerStat value="12" stat="PhysicalDamageReduction"/>
-		<PlayerStat value="34" stat="EffectiveBlockChance"/>
-		<PlayerStat value="25" stat="EffectiveSpellBlockChance"/>
+		<PlayerStat value="61" stat="PhysicalDamageReduction"/>
+		<PlayerStat value="22" stat="EffectiveBlockChance"/>
+		<PlayerStat value="31" stat="EffectiveSpellBlockChance"/>
 		<PlayerStat value="0" stat="AttackDodgeChance"/>
 		<PlayerStat value="0" stat="SpellDodgeChance"/>
 		<PlayerStat value="0" stat="EffectiveSpellSuppressionChance"/>
-		<PlayerStat value="71" stat="FireResist"/>
-		<PlayerStat value="0" stat="FireResistOverCap"/>
-		<PlayerStat value="60" stat="ColdResist"/>
-		<PlayerStat value="0" stat="ColdResistOverCap"/>
-		<PlayerStat value="74" stat="LightningResist"/>
-		<PlayerStat value="0" stat="LightningResistOverCap"/>
-		<PlayerStat value="5" stat="ChaosResist"/>
+		<PlayerStat value="75" stat="FireResist"/>
+		<PlayerStat value="28" stat="FireResistOverCap"/>
+		<PlayerStat value="75" stat="ColdResist"/>
+		<PlayerStat value="3" stat="ColdResistOverCap"/>
+		<PlayerStat value="75" stat="LightningResist"/>
+		<PlayerStat value="21" stat="LightningResistOverCap"/>
+		<PlayerStat value="62" stat="ChaosResist"/>
 		<PlayerStat value="0" stat="ChaosResistOverCap"/>
-		<PlayerStat value="1.14" stat="EffectiveMovementSpeedMod"/>
-		<PlayerStat value="12631.167310005" stat="FullDPS"/>
-		<PlayerStat value="937.57839571908" stat="FullDotDPS"/>
-		<FullDPSSkill source="" value="11014.268914286" skillPart="1 Projectile" stat="6x Blazing Salvo"/>
-		<FullDPSSkill source="" value="679.32" skillPart="" stat="Herald of Thunder"/>
-		<FullDPSSkill source="Blazing Salvo" value="564.74130795308" skillPart="" stat="Best Ignite DPS"/>
-		<FullDPSSkill source="" value="372.837087766" skillPart="" stat="Full DoT DPS"/>
+		<PlayerStat value="1.37" stat="EffectiveMovementSpeedMod"/>
+		<PlayerStat value="79547.346217056" stat="FullDPS"/>
+		<PlayerStat value="30739.270580556" stat="FullDotDPS"/>
+		<FullDPSSkill source="Frostblink" value="30739.270580556" skillPart="" stat="Best Ignite DPS"/>
+		<FullDPSSkill source="" value="25095.7617" skillPart="" stat="Armageddon Brand of Recall"/>
+		<FullDPSSkill source="" value="12577.71" skillPart="" stat="Herald of Thunder"/>
+		<FullDPSSkill source="" value="9907.9875" skillPart="" stat="Shield Charge"/>
+		<FullDPSSkill source="" value="474.8820615" skillPart="Flame Golem: Immolate" stat="Summon Flame Golem"/>
+		<FullDPSSkill source="" value="399.275625" skillPart="Chaos Golem: Default Attack" stat="Summon Chaos Golem"/>
+		<FullDPSSkill source="" value="352.45875" skillPart="Stone Golem: Default Attack" stat="Summon Stone Golem"/>
 		<PlayerStat value="0" stat="PowerCharges"/>
 		<PlayerStat value="3" stat="PowerChargesMax"/>
 		<PlayerStat value="0" stat="FrenzyCharges"/>
@@ -467,36 +468,52 @@ eternal_notable_block_1, 1, 0, 1"/>
 			</Skill>
 		</SkillSet>
 		<SkillSet id="9" title="DeeMyArc">
-			<Skill mainActiveSkill="1" label="" mainActiveSkillCalcs="1" enabled="true" includeInFullDPS="true" slot="Gloves">
-				<Gem enableGlobal2="false" skillId="FlameWall" enableGlobal1="true" skillPartCalcs="1" quality="0" gemId="Metadata/Items/Gems/SkillGemFlameWall" skillPart="1" count="3" enabled="true" level="10" variantId="FlameWall" nameSpec="Flame Wall"/>
-				<Gem enableGlobal2="false" skillId="SupportEfficacy" enableGlobal1="true" quality="0" gemId="Metadata/Items/Gems/SupportGemEfficacy" count="1" enabled="true" level="8" variantId="SupportEfficacy" nameSpec="Efficacy"/>
-				<Gem enableGlobal2="true" skillId="SupportBurningDamage" enableGlobal1="true" quality="0" gemId="Metadata/Items/Gems/SupportGemIncreasedBurningDamage" count="1" enabled="true" level="3" variantId="SupportBurningDamage" nameSpec="Burning Damage"/>
-				<Gem enableGlobal2="true" skillId="SupportIncreasedAreaOfEffect" enableGlobal1="true" quality="0" gemId="Metadata/Items/Gems/SupportGemIncreasedAreaOfEffect" count="1" enabled="true" level="1" variantId="SupportIncreasedAreaofEffect" nameSpec="Increased Area of Effect"/>
+			<Skill mainActiveSkill="nil" label="" mainActiveSkillCalcs="1" enabled="true" includeInFullDPS="true" slot="Weapon 2">
+				<Gem enableGlobal2="nil" skillId="HeraldOfThunder" enableGlobal1="true" quality="0" gemId="Metadata/Items/Gems/SkillGemHeraldOfThunder" count="nil" enabled="true" level="19" variantId="HeraldOfThunder" nameSpec="Herald of Thunder"/>
+				<Gem enableGlobal2="nil" skillId="HeraldOfAsh" enableGlobal1="true" quality="0" gemId="Metadata/Items/Gems/SkillGemHeraldOfAsh" count="nil" enabled="true" level="19" variantId="HeraldOfAsh" nameSpec="Herald of Ash"/>
+				<Gem enableGlobal2="nil" skillId="BrandRecall" enableGlobal1="true" quality="0" gemId="Metadata/Items/Gems/SkillGemRecallBrands" count="nil" enabled="true" level="5" variantId="BrandRecall" nameSpec="Brand Recall"/>
 			</Skill>
-			<Skill mainActiveSkill="1" label="" mainActiveSkillCalcs="1" enabled="true" includeInFullDPS="true" slot="Body Armour">
-				<Gem enableGlobal2="false" skillId="BlazingSalvo" enableGlobal1="true" quality="0" gemId="Metadata/Items/Gems/SkillGemBlazingSalvo" skillPart="1" count="6" enabled="true" level="7" variantId="BlazingSalvo" nameSpec="Blazing Salvo"/>
-				<Gem enableGlobal2="true" skillId="SupportCombustion" enableGlobal1="true" quality="0" gemId="Metadata/Items/Gems/SupportGemChanceToIgnite" count="1" enabled="true" level="8" variantId="SupportCombustion" nameSpec="Combustion"/>
-				<Gem enableGlobal2="false" skillId="SupportArcaneSurge" enableGlobal1="true" quality="0" gemId="Metadata/Items/Gems/SupportGemArcaneSurge" skillPart="1" count="1" enabled="true" level="3" variantId="SupportArcaneSurge" nameSpec="Arcane Surge"/>
-				<Gem enableGlobal2="true" skillId="SupportImmolate" enableGlobal1="true" quality="0" gemId="Metadata/Items/Gems/SupportGemImmolate" count="1" enabled="true" level="1" variantId="SupportImmolate" nameSpec="Immolate"/>
-			</Skill>
-			<Skill mainActiveSkill="1" label="" mainActiveSkillCalcs="1" enabled="false" includeInFullDPS="false" slot="Weapon 1 Swap"/>
-			<Skill mainActiveSkill="1" label="" mainActiveSkillCalcs="1" enabled="true" includeInFullDPS="false" slot="Weapon 1">
-				<Gem enableGlobal2="false" skillId="Frostblink" enableGlobal1="true" quality="0" gemId="Metadata/Items/Gems/SkillGemFrostblink" count="1" enabled="true" level="10" variantId="Frostblink" nameSpec="Frostblink"/>
-				<Gem enableGlobal2="false" skillId="SupportElementalProliferation" enableGlobal1="true" quality="0" gemId="Metadata/Items/Gems/SupportGemElementalProliferation" count="1" enabled="true" level="11" variantId="SupportElementalProliferation" nameSpec="Elemental Proliferation"/>
-			</Skill>
-			<Skill mainActiveSkill="1" label="" mainActiveSkillCalcs="1" enabled="true" includeInFullDPS="false" slot="Weapon 2">
-				<Gem enableGlobal2="false" skillId="ElementalWeakness" enableGlobal1="true" quality="0" gemId="Metadata/Items/Gems/SkillGemElementalWeakness" count="1" enabled="true" level="5" variantId="ElementalWeakness" nameSpec="Elemental Weakness"/>
-				<Gem enableGlobal2="true" skillId="SupportIncreasedAreaOfEffect" enableGlobal1="true" quality="0" gemId="Metadata/Items/Gems/SupportGemIncreasedAreaOfEffect" count="1" enabled="true" level="1" variantId="SupportIncreasedAreaofEffect" nameSpec="Increased Area of Effect"/>
+			<Skill mainActiveSkill="nil" label="" mainActiveSkillCalcs="nil" enabled="true" includeInFullDPS="true" slot="Body Armour">
+				<Gem enableGlobal2="nil" skillId="ArmageddonBrandAltY" enableGlobal1="true" quality="20" gemId="Metadata/Items/Gems/SkillGemArmageddonBrand" count="nil" enabled="true" level="21" variantId="ArmageddonBrandAltY" nameSpec="Armageddon Brand of Recall"/>
+				<Gem enableGlobal2="nil" skillId="SupportEfficacy" enableGlobal1="true" quality="0" gemId="Metadata/Items/Gems/SupportGemEfficacy" count="nil" enabled="true" level="19" variantId="SupportEfficacy" nameSpec="Efficacy"/>
+				<Gem enableGlobal2="nil" skillId="SupportControlledDestruction" enableGlobal1="true" quality="0" gemId="Metadata/Items/Gems/SupportGemControlledDestruction" count="nil" enabled="true" level="19" variantId="SupportControlledDestruction" nameSpec="Controlled Destruction"/>
+				<Gem enableGlobal2="nil" skillId="SupportElementalFocus" enableGlobal1="true" quality="0" gemId="Metadata/Items/Gems/SupportGemElementalFocus" count="nil" enabled="true" level="19" variantId="SupportElementalFocus" nameSpec="Elemental Focus"/>
+				<Gem enableGlobal2="nil" skillId="SupportArcaneSurge" enableGlobal1="true" quality="0" gemId="Metadata/Items/Gems/SupportGemArcaneSurge" count="nil" enabled="true" level="18" variantId="SupportArcaneSurge" nameSpec="Arcane Surge"/>
+				<Gem enableGlobal2="nil" skillId="SupportInnervate" enableGlobal1="true" quality="0" gemId="Metadata/Items/Gems/SupportGemOnslaughtOnSlayingShockedEnemy" count="nil" enabled="true" level="19" variantId="SupportInnervate" nameSpec="Innervate"/>
 			</Skill>
 			<Skill mainActiveSkill="1" label="" mainActiveSkillCalcs="1" enabled="true" includeInFullDPS="true" slot="Helmet">
-				<Gem enableGlobal2="false" skillId="Clarity" enableGlobal1="true" quality="0" gemId="Metadata/Items/Gems/SkillGemClarity" count="1" enabled="true" level="8" variantId="Clarity" nameSpec="Clarity"/>
-				<Gem enableGlobal2="false" skillId="Vitality" enableGlobal1="true" quality="0" gemId="Metadata/Items/Gems/SkillGemVitality" count="1" enabled="true" level="6" variantId="Vitality" nameSpec="Vitality"/>
-				<Gem enableGlobal2="false" skillId="HeraldOfAsh" enableGlobal1="true" quality="0" gemId="Metadata/Items/Gems/SkillGemHeraldOfAsh" count="1" enabled="true" level="6" variantId="HeraldOfAsh" nameSpec="Herald of Ash"/>
-				<Gem enableGlobal2="true" skillId="HeraldOfThunder" enableGlobal1="true" quality="0" gemId="Metadata/Items/Gems/SkillGemHeraldOfThunder" count="1" enabled="true" level="6" variantId="HeraldOfThunder" nameSpec="Herald of Thunder"/>
+				<Gem enableGlobal2="false" skillId="VaalClarity" enableGlobal1="true" quality="0" gemId="Metadata/Items/Gems/SkillGemVaalClarity" count="1" enabled="true" level="19" variantId="VaalClarity" nameSpec="Vaal Clarity"/>
+				<Gem enableGlobal2="false" skillId="Vitality" enableGlobal1="true" quality="0" gemId="Metadata/Items/Gems/SkillGemVitality" count="1" enabled="true" level="18" variantId="Vitality" nameSpec="Vitality"/>
+				<Gem enableGlobal2="false" skillId="ShieldCharge" enableGlobal1="true" quality="0" gemId="Metadata/Items/Gems/SkillGemShieldCharge" count="1" enabled="true" level="18" variantId="ShieldCharge" nameSpec="Shield Charge"/>
+				<Gem enableGlobal2="false" skillId="ArcticArmour" enableGlobal1="true" quality="0" gemId="Metadata/Items/Gems/SkillGemNewArcticArmour" count="1" enabled="true" level="18" variantId="ArcticArmour" nameSpec="Arctic Armour"/>
 			</Skill>
-			<Skill mainActiveSkill="1" label="" mainActiveSkillCalcs="1" enabled="true" includeInFullDPS="false" slot="Boots">
-				<Gem enableGlobal2="false" skillId="ShieldCharge" enableGlobal1="true" quality="0" gemId="Metadata/Items/Gems/SkillGemShieldCharge" count="1" enabled="true" level="6" variantId="ShieldCharge" nameSpec="Shield Charge"/>
-				<Gem enableGlobal2="true" skillId="SupportElementalPenetration" enableGlobal1="true" quality="0" gemId="Metadata/Items/Gems/SupportGemElementalPenetration" count="1" enabled="true" level="3" variantId="SupportElementalPenetration" nameSpec="Elemental Penetration"/>
+			<Skill mainActiveSkill="nil" label="" mainActiveSkillCalcs="nil" enabled="true" includeInFullDPS="nil" slot="Boots">
+				<Gem enableGlobal2="nil" skillId="PenanceBrandAltY" enableGlobal1="true" quality="20" gemId="Metadata/Items/Gems/SkillGemPenanceBrand" count="3" enabled="true" level="21" variantId="PenanceBrandAltY" nameSpec="Penance Brand of Conduction"/>
+				<Gem enableGlobal2="nil" skillId="SupportCombustion" enableGlobal1="true" quality="0" gemId="Metadata/Items/Gems/SupportGemChanceToIgnite" count="nil" enabled="true" level="19" variantId="SupportCombustion" nameSpec="Combustion"/>
+				<Gem enableGlobal2="nil" skillId="SupportControlledDestruction" enableGlobal1="true" quality="0" gemId="Metadata/Items/Gems/SupportGemControlledDestruction" count="nil" enabled="true" level="19" variantId="SupportControlledDestruction" nameSpec="Controlled Destruction"/>
+				<Gem enableGlobal2="nil" skillId="SupportUnboundAilments" enableGlobal1="true" quality="0" gemId="Metadata/Items/Gems/SupportGemUnboundAilments" count="nil" enabled="true" level="19" variantId="SupportUnboundAilments" nameSpec="Unbound Ailments"/>
+			</Skill>
+			<Skill mainActiveSkill="nil" label="" mainActiveSkillCalcs="nil" enabled="true" includeInFullDPS="nil" slot="Weapon 1 Swap">
+				<Gem enableGlobal2="nil" skillId="ArcticArmour" enableGlobal1="true" quality="0" gemId="Metadata/Items/Gems/SkillGemNewArcticArmour" count="nil" enabled="true" level="19" variantId="ArcticArmour" nameSpec="Arctic Armour"/>
+				<Gem enableGlobal2="nil" skillId="SupportCruelty" enableGlobal1="true" quality="0" gemId="Metadata/Items/Gems/SupportGemCruelty" count="nil" enabled="true" level="19" variantId="SupportCruelty" nameSpec="Cruelty"/>
+			</Skill>
+			<Skill mainActiveSkill="nil" label="" mainActiveSkillCalcs="nil" enabled="true" includeInFullDPS="nil" slot="Weapon 1 Swap">
+				<Gem enableGlobal2="nil" skillId="SupportIncreasedAreaOfEffect" enableGlobal1="true" quality="0" gemId="Metadata/Items/Gems/SupportGemIncreasedAreaOfEffect" count="nil" enabled="true" level="19" variantId="SupportIncreasedAreaofEffect" nameSpec="Increased Area of Effect"/>
+			</Skill>
+			<Skill mainActiveSkill="nil" label="" mainActiveSkillCalcs="nil" enabled="true" includeInFullDPS="nil" slot="Weapon 2 Swap">
+				<Gem enableGlobal2="nil" skillId="SupportFasterCasting" enableGlobal1="true" quality="0" gemId="Metadata/Items/Gems/SupportGemFasterCast" count="nil" enabled="true" level="17" variantId="SupportFasterCasting" nameSpec="Faster Casting"/>
+				<Gem enableGlobal2="nil" skillId="SupportEfficacy" enableGlobal1="true" quality="0" gemId="Metadata/Items/Gems/SupportGemEfficacy" count="nil" enabled="true" level="19" variantId="SupportEfficacy" nameSpec="Efficacy"/>
+			</Skill>
+			<Skill mainActiveSkill="nil" label="" mainActiveSkillCalcs="nil" enabled="true" includeInFullDPS="true" slot="Gloves">
+				<Gem enableGlobal2="nil" skillId="SummonFlameGolem" enableGlobal1="true" skillMinionSkillCalcs="1" quality="0" gemId="Metadata/Items/Gems/SkillGemSummonFlameGolem" count="nil" skillMinionSkill="1" enabled="true" skillMinion="SummonedFlameGolem" level="19" variantId="SummonFlameGolem" nameSpec="Summon Flame Golem"/>
+				<Gem enableGlobal2="nil" skillId="ElementalWeakness" enableGlobal1="true" quality="6" gemId="Metadata/Items/Gems/SkillGemElementalWeakness" count="nil" enabled="true" level="19" variantId="ElementalWeakness" nameSpec="Elemental Weakness"/>
+				<Gem enableGlobal2="nil" skillId="SummonChaosGolem" enableGlobal1="true" skillMinionSkillCalcs="1" quality="0" gemId="Metadata/Items/Gems/SkillGemSummonChaosGolem" count="nil" skillMinionSkill="1" enabled="true" skillMinion="SummonedChaosGolem" level="19" variantId="SummonChaosGolem" nameSpec="Summon Chaos Golem"/>
+				<Gem enableGlobal2="nil" skillId="SummonStoneGolem" enableGlobal1="true" skillMinionSkillCalcs="1" quality="0" gemId="Metadata/Items/Gems/SkillGemSummonRockGolem" count="nil" skillMinionSkill="1" enabled="true" skillMinion="SummonedStoneGolem" level="18" variantId="SummonStoneGolem" nameSpec="Summon Stone Golem"/>
+			</Skill>
+			<Skill mainActiveSkill="1" label="" mainActiveSkillCalcs="1" enabled="true" includeInFullDPS="true" slot="Weapon 1">
+				<Gem enableGlobal2="false" skillId="Frostblink" enableGlobal1="true" quality="0" gemId="Metadata/Items/Gems/SkillGemFrostblink" count="1" enabled="true" level="19" variantId="Frostblink" nameSpec="Frostblink"/>
+				<Gem enableGlobal2="false" skillId="SupportElementalProliferation" enableGlobal1="true" quality="0" gemId="Metadata/Items/Gems/SupportGemElementalProliferation" count="1" enabled="true" level="19" variantId="SupportElementalProliferation" nameSpec="Elemental Proliferation"/>
+				<Gem enableGlobal2="false" skillId="SupportCombustion" enableGlobal1="true" quality="0" gemId="Metadata/Items/Gems/SupportGemChanceToIgnite" count="1" enabled="true" level="19" variantId="SupportCombustion" nameSpec="Combustion"/>
 			</Skill>
 		</SkillSet>
 	</Skills>
@@ -1487,9 +1504,9 @@ Implicits: 0
 {variant:2}Minimum Endurance Charges equal to Maximum while stationary
 {variant:2}Minimum Frenzy Charges equal to Maximum while stationary
 {variant:2}Minimum Power Charges equal to Maximum while stationary
-{variant:3,4}Count as having maximum number of Endurance Charges
-{variant:3,4}Count as having maximum number of Frenzy Charges
-{variant:3,4}Count as having maximum number of Power Charges
+{variant:4,3}Count as having maximum number of Endurance Charges
+{variant:4,3}Count as having maximum number of Frenzy Charges
+{variant:4,3}Count as having maximum number of Power Charges
 {variant:5}Count as having maximum number of Endurance Charges
 {variant:6}Count as having maximum number of Frenzy Charges
 {variant:7}Count as having maximum number of Power Charges
@@ -2096,64 +2113,83 @@ Enemies you Kill have a 20% chance to Explode, dealing a quarter of their maximu
 		</Item>
 		<Item id="67">
 			Rarity: RARE
-Chimeric Thread
-Chain Belt
-Unique ID: add5ee7270ce406b6e7d5c6f7ef44a994b5e73916cc3b39e2607d86ce949b373
-Item Level: 6
+Brimstone Tower
+Archon Kite Shield
+Armour: 470
+ArmourBasePercentile: 0.9855
+Energy Shield: 113
+EnergyShieldBasePercentile: 1
+Unique ID: 7978d88033e49f080d3d1d0970aadc65e706e053c42c8588ad70b6c2e08b0af7
+Item Level: 86
+Quality: 20
+Sockets: B-R-B
+LevelReq: 68
 Implicits: 1
-+19 to maximum Energy Shield
-+9 to Strength
-+15 to maximum Mana
-+9% to Cold Resistance
-+11% to Lightning Resistance
-9% increased Flask Life Recovery rate
++12% to all Elemental Resistances
++54 to Strength
+79% increased Spell Critical Strike Chance
++213 to Armour
++57 to maximum Energy Shield
++156 to maximum Life
+30% chance to Avoid Elemental Ailments
 			<ModRange id="1" range="0.5"/>
 			<ModRange id="2" range="0.5"/>
 			<ModRange id="3" range="0.5"/>
 			<ModRange id="4" range="0.5"/>
 			<ModRange id="5" range="0.5"/>
 			<ModRange id="6" range="0.5"/>
+			<ModRange id="7" range="0.5"/>
 		</Item>
 		<Item id="68">
 			Rarity: RARE
-Fate Hand
-Velvet Gloves
-Energy Shield: 22
-EnergyShieldBasePercentile: 0
-Unique ID: accef5ac6eb754621926d2631efefe0695c50a210e3513836762d34f49cb01e2
-Item Level: 18
-Quality: 0
-Sockets: R-B-B
-LevelReq: 12
-Implicits: 0
-+14 to Intelligence
-7% increased Attack Speed
-+12 to maximum Energy Shield
-+3 to maximum Life
-+22 to maximum Mana
-+7% to Fire Resistance
+Honour Turn
+Coral Ring
+Unique ID: 22eb0fa837edf75ed6930423c06adf2b8451c7828e4e5baf91b49804720c6e66
+Item Level: 85
+LevelReq: 67
+Implicits: 1
++30 to maximum Life
+20% increased Fire Damage
+22% increased Lightning Damage
+27% increased Rarity of Items found
++34% to Chaos Resistance
+10% of Damage taken Recouped as Life
+{crafted}Adds 11 to 14 Fire Damage
+{crafted}Adds 1 to 22 Lightning Damage
 			<ModRange id="1" range="0.5"/>
 			<ModRange id="2" range="0.5"/>
 			<ModRange id="3" range="0.5"/>
 			<ModRange id="4" range="0.5"/>
 			<ModRange id="5" range="0.5"/>
 			<ModRange id="6" range="0.5"/>
+			<ModRange id="7" range="0.5"/>
+			<ModRange id="8" range="0.5"/>
 		</Item>
 		<Item id="69">
-			Rarity: UNIQUE
-The Ignomon
-Gold Amulet
-Unique ID: 01d3cb885680391d6f52b270c646f44fe1cee28bfb2371a71984282e22f81f96
-Item Level: 18
-LevelReq: 8
-Implicits: 1
-20% increased Rarity of Items found
-Adds 23 to 40 Fire Damage to Attacks
-+134 to Accuracy Rating
-+127 to Evasion Rating
-+20% to Fire Resistance
-20% increased Light Radius
-Nearby Enemies are Blinded
+			Rarity: RARE
+Pandemonium Coat
+Grand Ringmail
+Armour: 1964
+ArmourBasePercentile: 0.8414
+Energy Shield: 458
+EnergyShieldBasePercentile: 0.8315
+Unique ID: 94b64f7d77cd48e5d53dccd1320a42bbcf5f989640da4bba7d49bc7b41ef1676
+Searing Exarch Item
+Eater of Worlds Item
+Item Level: 85
+Quality: 20
+Sockets: B-B-B-B-B-B
+LevelReq: 73
+Implicits: 2
+6% increased maximum Energy Shield
+16% increased Fire Damage
++107 to Armour
+127% increased Armour and Energy Shield
++44 to maximum Energy Shield
+50% faster start of Energy Shield Recharge
++20% to Lightning Resistance
+14% increased Stun and Block Recovery
+{crafted}+19% to Fire and Cold Resistances
 			<ModRange id="1" range="0.5"/>
 			<ModRange id="2" range="0.5"/>
 			<ModRange id="3" range="0.5"/>
@@ -2161,88 +2197,64 @@ Nearby Enemies are Blinded
 			<ModRange id="5" range="0.5"/>
 			<ModRange id="6" range="0.5"/>
 			<ModRange id="7" range="0.5"/>
+			<ModRange id="8" range="0.5"/>
+			<ModRange id="9" range="0.5"/>
 		</Item>
 		<Item id="70">
-			Rarity: MAGIC
-Medic&apos;s Giant Mana Flask of Interference
-Unique ID: 6aab834ab51bb61a2d6ff2da327567b2d4eef24aa218fe1e03be469b31ee1f7d
-Item Level: 30
-Quality: 0
-LevelReq: 24
-Implicits: 0
-11% chance to gain a Flask Charge when you deal a Critical Strike
-Hinders nearby Enemies with 19% reduced Movement Speed if used while not on Full Mana
-			<ModRange id="1" range="0.5"/>
-		</Item>
-		<Item id="71">
 			Rarity: RARE
-Vortex Jack
-Scholar&apos;s Robe
-Energy Shield: 51
-EnergyShieldBasePercentile: 0.5
-Unique ID: 585c81eef4075547f1634e00a659f7bae12115a19250094e0fed13a550d0aaf0
-Item Level: 25
-Quality: 0
-Sockets: B-B-B-G
-LevelReq: 18
-Implicits: 0
-+18 to Intelligence
-+3 to maximum Energy Shield
-+13% to Lightning Resistance
-+5% to Chaos Resistance
+Behemoth Twine
+Rustic Sash
+Unique ID: 9c3c241271c1199038302df8bb147925a9f0193e086bc6683a0bdabe4d60a4b1
+Item Level: 85
+LevelReq: 67
+Implicits: 1
+22% increased Global Physical Damage
++52 to Armour
++15 to maximum Energy Shield
+Regenerate 33.3 Life per second
++57 to maximum Mana
++47% to Lightning Resistance
++33% to Chaos Resistance
+{crafted}+22 to Strength and Dexterity
 			<ModRange id="1" range="0.5"/>
 			<ModRange id="2" range="0.5"/>
 			<ModRange id="3" range="0.5"/>
 			<ModRange id="4" range="0.5"/>
+			<ModRange id="5" range="0.5"/>
+			<ModRange id="6" range="0.5"/>
+			<ModRange id="7" range="0.5"/>
+			<ModRange id="8" range="0.5"/>
+		</Item>
+		<Item id="71">
+			Rarity: MAGIC
+Seething Sanctified Life Flask of the Antitoxin
+Unique ID: c995192d0886c9ff19780db501fe83ffaa9c909231a6b2dde6828f90616310fc
+Item Level: 51
+Quality: 0
+LevelReq: 50
+Implicits: 0
+66% reduced Amount Recovered
+Instant Recovery
+Grants Immunity to Poison for 8 seconds if used while Poisoned
+			<ModRange id="1" range="0.5"/>
+			<ModRange id="2" range="0.5"/>
+			<ModRange id="3" range="0.5"/>
 		</Item>
 		<Item id="72">
-			Rarity: NORMAL
-Quartz Sceptre
-Unique ID: 96be6b24cc8299f26bfc0ea6e43acb9f45e551f96bc3a2ae72949cc4a75f8e0d
-Item Level: 15
-Quality: 0
-Sockets: B-G-B
-LevelReq: 15
-Implicits: 1
-20% increased Elemental Damage
-			<ModRange id="1" range="0.5"/>
-		</Item>
-		<Item id="73">
-			Rarity: NORMAL
-Jade Hatchet
-Unique ID: f92595998a68ed93523ffb631178d7c16d45fff300ec3514e008bfe35d75dcdb
-Item Level: 15
-Quality: 0
-Sockets: B R R
-LevelReq: 6
-Implicits: 0
-		</Item>
-		<Item id="74">
-			Rarity: NORMAL
-Quicksilver Flask
-Unique ID: 57779de1a0823eae3dd37731306084412eda7a5bc2b3a2873e5e302bbbe88423
-Item Level: 4
-Quality: 0
-LevelReq: 4
-Implicits: 0
-		</Item>
-		<Item id="75">
 			Rarity: RARE
-Brood Bane
-Goat&apos;s Horn
-Unique ID: 6196ab3c4694d2f94ca782e807d868de98993c8d1514a8c36cbfedc892b06d5b
-Item Level: 15
-Quality: 0
-Sockets: B-B-B
-LevelReq: 6
+Foe Heart
+Onyx Amulet
+Unique ID: 247136b0a835ecb89db9a0bb415c045af420f52a2d34ae048a08b085583e2545
+Item Level: 81
+LevelReq: 48
 Implicits: 1
-Adds 1 to 4 Fire Damage to Spells and Attacks
-+18% to Fire Damage over Time Multiplier
-Adds 8 to 15 Fire Damage
-12% increased Global Accuracy Rating
-Minions deal 26% increased Damage
-10% increased Light Radius
-{crafted}+15 to Dexterity
++15 to all Attributes
+21% increased Spell Damage
+10% increased Fire Damage
+13% increased Global Critical Strike Chance
++14 to maximum Life
++9% to Cold Resistance
+{crafted}+46 to maximum Mana
 			<ModRange id="1" range="0.5"/>
 			<ModRange id="2" range="0.5"/>
 			<ModRange id="3" range="0.5"/>
@@ -2251,144 +2263,222 @@ Minions deal 26% increased Damage
 			<ModRange id="6" range="0.5"/>
 			<ModRange id="7" range="0.5"/>
 		</Item>
-		<Item id="76">
-			Rarity: MAGIC
-Beryl Paua Ring of Plunder
-Unique ID: 02e47ddd1f92e3ac304eb37cc7898e3c5de9e971ce365cd4d78b05ae45e6c2a3
-Item Level: 17
-LevelReq: 2
+		<Item id="73">
+			Rarity: RARE
+Loath Salvation
+Zealot Helmet
+Armour: 146
+ArmourBasePercentile: 0.1481
+Energy Shield: 43
+EnergyShieldBasePercentile: 0.2083
+Unique ID: 0c6bcaf44113d0aed8fe5150632efe5e28a726a36da2af566aece97c412b27fd
+Eater of Worlds Item
+Item Level: 47
+Quality: 20
+Sockets: B-R-R-G
+LevelReq: 44
 Implicits: 1
-+27 to maximum Mana
-+18 to maximum Mana
-10% increased Rarity of Items found
+21% increased Energy Shield Recharge Rate
++162 to Accuracy Rating
++10 to maximum Energy Shield
++52 to maximum Mana
++8% to Fire Resistance
+{crafted}+18 to Strength
 			<ModRange id="1" range="0.5"/>
 			<ModRange id="2" range="0.5"/>
 			<ModRange id="3" range="0.5"/>
+			<ModRange id="4" range="0.5"/>
+			<ModRange id="5" range="0.5"/>
+			<ModRange id="6" range="0.5"/>
+		</Item>
+		<Item id="74">
+			Rarity: UNIQUE
+The Sorrow of the Divine
+Sulphur Flask
+Unique ID: 444048a75a4a8cb1246a445764d98ca6aa8ad6407c525b5305aee283ab28583f
+Item Level: 57
+Quality: 7
+LevelReq: 27
+Implicits: 2
+{crafted}Used when you take a Savage Hit
+Creates Consecrated Ground on Use
+Life Recovery from Flasks also applies to Energy Shield during Effect
+25% increased Duration
+Zealot&apos;s Oath during Effect
+			<ModRange id="3" range="0.5"/>
+			<ModRange id="4" range="0.5"/>
+			<ModRange id="5" range="0.5"/>
+			<ModRange id="6" range="0.5"/>
+		</Item>
+		<Item id="75">
+			Rarity: UNIQUE
+Gang&apos;s Momentum
+Legion Boots
+Armour: 389
+ArmourBasePercentile: 0.8674
+Energy Shield: 79
+EnergyShieldBasePercentile: 0.7348
+Unique ID: b4a9c9ee4a037ed986e5b51df11defb9946d66777a21c39803d3607cefa6cddf
+Item Level: 59
+Quality: 20
+Sockets: B-B-B-B
+LevelReq: 58
+Implicits: 0
+175% increased Armour and Energy Shield
++60% to Fire Resistance
+25% increased Movement Speed
+11% chance to Ignite
+29% increased Damage with Hits and Ailments against Ignited Enemies
+			<ModRange id="1" range="0.5"/>
+			<ModRange id="2" range="0.5"/>
+			<ModRange id="3" range="0.5"/>
+			<ModRange id="4" range="0.5"/>
+			<ModRange id="5" range="0.5"/>
+		</Item>
+		<Item id="76">
+			Rarity: NORMAL
+Quartz Wand
+Unique ID: 923c0ad165b71a6d442655e8186a0b6391b81c0dc7c5435e7bbda28c5bab9305
+Item Level: 25
+Quality: 0
+Sockets: G-R B
+LevelReq: 18
+Implicits: 1
+Adds 2 to 5 Cold Damage to Spells and Attacks
+			<ModRange id="1" range="0.5"/>
 		</Item>
 		<Item id="77">
-			Rarity: MAGIC
-Undiluted Grand Life Flask of Convection
-Unique ID: 2c30e140ea3746da32faf2322e5b9edcf6701e7d1131dc701d53cb51f830f941
-Item Level: 24
+			Rarity: NORMAL
+Calling Wand
+Unique ID: 5b106387f0b74cdcc4c60c14aef1a0706c8d68f9e457d977540b0d87b519ac7c
+Item Level: 25
 Quality: 0
-LevelReq: 18
-Implicits: 0
-42% increased Recovery rate
-Grants Immunity to Chill for 7 seconds if used while Chilled
-Grants Immunity to Freeze for 7 seconds if used while Frozen
+Sockets: G-B-B
+LevelReq: 20
+Implicits: 1
+Minions deal 15% increased Damage
 			<ModRange id="1" range="0.5"/>
-			<ModRange id="2" range="0.5"/>
-			<ModRange id="3" range="0.5"/>
 		</Item>
 		<Item id="78">
 			Rarity: MAGIC
-Prudent Giant Life Flask of Thermodynamics
-Unique ID: f0f7a98c49e14e0056ece7fbc45d87dd5302bffa12045b3b6f8b3ae920da8658
-Item Level: 31
+Physician&apos;s Granite Flask of Imposing
+Unique ID: 9bb093cd657f185cf141bf7643a924e4befaf75e21241fbd8b584697a4c4ecab
+Item Level: 42
 Quality: 0
-LevelReq: 24
+LevelReq: 27
+Implicits: 1
+{crafted}Used when Charges reach full
+20% chance to gain a Flask Charge when you deal a Critical Strike
+23% chance to Freeze, Shock and Ignite during Effect
+			<ModRange id="3" range="0.5"/>
+			<ModRange id="4" range="0.5"/>
+		</Item>
+		<Item id="79">
+			Rarity: MAGIC
+Startled Sanctified Life Flask of Alleviation
+Unique ID: 3b43d74001aa6f8fa7cf21ab857f517ffa4b19786f8e2462a282dd2894879d5d
+Item Level: 51
+Quality: 0
+LevelReq: 50
 Implicits: 0
-104% more Recovery if used while on Low Life
-Grants Immunity to Chill for 10 seconds if used while Chilled
-Grants Immunity to Freeze for 10 seconds if used while Frozen
+27% reduced Amount Recovered
+Instant Recovery when on Low Life
+Grants Immunity to Bleeding for 10 seconds if used while Bleeding
+Grants Immunity to Corrupted Blood for 10 seconds if used while affected by Corrupted Blood
 			<ModRange id="1" range="0.5"/>
 			<ModRange id="2" range="0.5"/>
 			<ModRange id="3" range="0.5"/>
+			<ModRange id="4" range="0.5"/>
 		</Item>
-		<Item id="79">
+		<Item id="80">
 			Rarity: RARE
-Viper Spell
-Tarnished Spirit Shield
-Energy Shield: 25
-EnergyShieldBasePercentile: 0
-Unique ID: 505c2e599f19439419f9677790da73d84bea1b234005eadbf330e9de306c0b58
-Item Level: 32
-Quality: 20
-Sockets: B-B-B
-LevelReq: 23
+Doom Spiral
+Prismatic Ring
+Unique ID: dd31a3298260a19e8324b2a85cf895227e64f23a8daa987517c092b721f58518
+Item Level: 81
+LevelReq: 64
 Implicits: 1
-8% increased Spell Damage
-45% increased Chance to Block
-+8 to Intelligence
-18% increased Fire Damage
-+31 to maximum Mana
++10% to all Elemental Resistances
+Adds 1 to 2 Physical Damage to Attacks
+8% increased Cast Speed
++96 to maximum Life
+22% increased Mana Regeneration Rate
++24% to Cold Resistance
+{crafted}Adds 12 to 15 Fire Damage
+{crafted}Adds 1 to 22 Lightning Damage
 			<ModRange id="1" range="0.5"/>
 			<ModRange id="2" range="0.5"/>
 			<ModRange id="3" range="0.5"/>
 			<ModRange id="4" range="0.5"/>
 			<ModRange id="5" range="0.5"/>
-		</Item>
-		<Item id="80">
-			Rarity: MAGIC
-Coral Ring of the Inuit
-Unique ID: 611d05606657b56edfab2675a4938a5f1db95acfa661cce90b124049665bdd83
-Item Level: 12
-Implicits: 1
-+23 to maximum Life
-+11% to Cold Resistance
-			<ModRange id="1" range="0.5"/>
-			<ModRange id="2" range="0.5"/>
+			<ModRange id="6" range="0.5"/>
+			<ModRange id="7" range="0.5"/>
+			<ModRange id="8" range="0.5"/>
 		</Item>
 		<Item id="81">
 			Rarity: RARE
-Viper Peak
-Tribal Circlet
-Energy Shield: 48
-EnergyShieldBasePercentile: 0.6338
-Unique ID: 5871793051b053f3abbec0d1153f53a785ea12d51ce3005be099d041876d4e89
-Item Level: 31
-Quality: 0
-Sockets: B-R-R-G
-LevelReq: 26
-Implicits: 0
-54% increased Energy Shield
-+25 to maximum Life
-+34 to maximum Mana
-+19% to Cold Resistance
-			<ModRange id="1" range="0.5"/>
-			<ModRange id="2" range="0.5"/>
-			<ModRange id="3" range="0.5"/>
-			<ModRange id="4" range="0.5"/>
-		</Item>
-		<Item id="82">
-			Rarity: MAGIC
-Physician&apos;s Giant Life Flask of Damping
-Unique ID: 8b9fa67b3c9776d202325c4738d1c111917af66225ace9c38facef418b18bb9f
-Item Level: 27
-Quality: 0
-LevelReq: 24
-Implicits: 0
-19% chance to gain a Flask Charge when you deal a Critical Strike
-Grants Immunity to Ignite for 6 seconds if used while Ignited
-Removes all Burning when used
-			<ModRange id="1" range="0.5"/>
-			<ModRange id="2" range="0.5"/>
-			<ModRange id="3" range="0.5"/>
-		</Item>
-		<Item id="83">
-			Rarity: RARE
-Oblivion Dash
-Chain Boots
-Armour: 12
-ArmourBasePercentile: 0.25
-Energy Shield: 3
-EnergyShieldBasePercentile: 0
-Unique ID: 84fe5a221a0a7ddba27f662adc47313816a9b0ea04c58f997fb7b3f80e9ce3c6
-Item Level: 15
-Quality: 0
-Sockets: R-G B
-LevelReq: 5
-Implicits: 0
-+3 to maximum Life
-+15 to maximum Mana
-10% increased Rarity of Items found
-+8% to Fire Resistance
-+14% to Lightning Resistance
+Phoenix Touch
+Crusader Gloves
+Armour: 192
+ArmourBasePercentile: 0.0118
+Energy Shield: 40
+EnergyShieldBasePercentile: 0.0842
+Unique ID: f64574a00317d0b8d0fb84d6b6610253be59fef24ca9e675a616f78b809fcfea
+Searing Exarch Item
+Item Level: 80
+Quality: 20
+Sockets: R-B-B-R
+LevelReq: 66
+Implicits: 1
++6% to Fire Damage over Time Multiplier
+32% increased Armour and Energy Shield
++63 to maximum Life
++25% to Cold Resistance
++13% to Lightning Resistance
+{crafted}+19 to Strength
 			<ModRange id="1" range="0.5"/>
 			<ModRange id="2" range="0.5"/>
 			<ModRange id="3" range="0.5"/>
 			<ModRange id="4" range="0.5"/>
 			<ModRange id="5" range="0.5"/>
+			<ModRange id="6" range="0.5"/>
+		</Item>
+		<Item id="82">
+			Rarity: MAGIC
+Analyst&apos;s Quartz Flask of Composure
+Unique ID: a75558d459c3d71557a57c7e07e1557de4e3a78e84386a39574987858861ec8c
+Item Level: 63
+Quality: 0
+LevelReq: 28
+Implicits: 1
+{crafted}Used when you take a Savage Hit
+21% increased Duration
+31% Chance to Avoid being Stunned during Effect
+			<ModRange id="4" range="0.5"/>
+			<ModRange id="5" range="0.5"/>
+		</Item>
+		<Item id="83">
+			Rarity: RARE
+Armageddon Barb
+Omen Wand
+Unique ID: 6242437c63e9a8cbc0e63f71021ee91b6feca3f179f9877b2023c5b0133d5e9e
+Item Level: 82
+Quality: 20
+Sockets: B-B-B
+LevelReq: 53
+Implicits: 1
+27% increased Spell Damage
+40% increased Spell Damage
+107% increased Spell Critical Strike Chance
++31% to Global Critical Strike Multiplier
++78 to maximum Mana
+{crafted}16% increased Fire Damage
+			<ModRange id="1" range="0.5"/>
+			<ModRange id="2" range="0.5"/>
+			<ModRange id="3" range="0.5"/>
+			<ModRange id="4" range="0.5"/>
+			<ModRange id="5" range="0.5"/>
+			<ModRange id="6" range="0.5"/>
 		</Item>
 		<ItemSet id="5" useSecondWeaponSet="false" title="Low Budget (Clearing)">
 			<Slot itemId="0" name="Weapon 2 Swap" itemPbURL=""/>
@@ -2999,9 +3089,9 @@ Implicits: 0
 			<Slot itemId="0" name="Helmet Abyssal Socket 1" itemPbURL=""/>
 		</ItemSet>
 		<ItemSet id="9" useSecondWeaponSet="false" title="DeeMyArc">
-			<Slot itemId="72" name="Weapon 2 Swap" itemPbURL=""/>
-			<Slot itemId="73" name="Weapon 1 Swap" itemPbURL=""/>
-			<Slot itemId="74" name="Flask 5" itemPbURL=""/>
+			<Slot itemId="77" name="Weapon 2 Swap" itemPbURL=""/>
+			<Slot itemId="76" name="Weapon 1 Swap" itemPbURL=""/>
+			<Slot itemId="82" name="Flask 5" itemPbURL=""/>
 			<Slot itemId="0" name="Belt Abyssal Socket 6" itemPbURL=""/>
 			<Slot itemId="0" name="Body Armour Abyssal Socket 4" itemPbURL=""/>
 			<Slot itemId="0" name="Helmet Abyssal Socket 6" itemPbURL=""/>
@@ -3017,15 +3107,15 @@ Implicits: 0
 			<Slot itemId="0" name="Weapon 1 Swap Abyssal Socket 2" itemPbURL=""/>
 			<Slot itemId="0" name="Weapon 1 Swap Abyssal Socket 1" itemPbURL=""/>
 			<Slot itemId="0" name="Boots Abyssal Socket 1" itemPbURL=""/>
-			<Slot itemId="75" name="Weapon 1" itemPbURL=""/>
+			<Slot itemId="83" name="Weapon 1" itemPbURL=""/>
 			<Slot itemId="0" name="Gloves Abyssal Socket 1" itemPbURL=""/>
-			<Slot itemId="81" name="Helmet" itemPbURL=""/>
-			<Slot itemId="79" name="Weapon 2" itemPbURL=""/>
-			<Slot itemId="71" name="Body Armour" itemPbURL=""/>
-			<Slot itemId="68" name="Gloves" itemPbURL=""/>
-			<Slot itemId="83" name="Boots" itemPbURL=""/>
+			<Slot itemId="73" name="Helmet" itemPbURL=""/>
+			<Slot itemId="67" name="Weapon 2" itemPbURL=""/>
+			<Slot itemId="69" name="Body Armour" itemPbURL=""/>
+			<Slot itemId="81" name="Gloves" itemPbURL=""/>
+			<Slot itemId="75" name="Boots" itemPbURL=""/>
 			<Slot itemId="0" name="Body Armour Abyssal Socket 2" itemPbURL=""/>
-			<Slot itemId="80" name="Ring 2" itemPbURL=""/>
+			<Slot itemId="68" name="Ring 2" itemPbURL=""/>
 			<Slot itemId="0" name="Ring 3" itemPbURL=""/>
 			<Slot itemId="0" name="Weapon 2 Swap Abyssal Socket 6" itemPbURL=""/>
 			<Slot itemId="0" name="Gloves Abyssal Socket 3" itemPbURL=""/>
@@ -3046,7 +3136,7 @@ Implicits: 0
 			<Slot itemId="0" name="Weapon 1 Abyssal Socket 1" itemPbURL=""/>
 			<Slot itemId="0" name="Body Armour Abyssal Socket 5" itemPbURL=""/>
 			<Slot itemId="0" name="Belt Abyssal Socket 3" itemPbURL=""/>
-			<Slot itemId="82" name="Flask 3" itemPbURL=""/>
+			<Slot itemId="71" name="Flask 3" itemPbURL=""/>
 			<Slot itemId="0" name="Boots Abyssal Socket 4" itemPbURL=""/>
 			<Slot itemId="0" name="Weapon 1 Abyssal Socket 2" itemPbURL=""/>
 			<Slot itemId="0" name="Weapon 2 Abyssal Socket 2" itemPbURL=""/>
@@ -3061,17 +3151,17 @@ Implicits: 0
 			<Slot itemId="0" name="Graft 2" itemPbURL=""/>
 			<Slot itemId="0" name="Weapon 1 Swap Abyssal Socket 6" itemPbURL=""/>
 			<Slot itemId="0" name="Weapon 1 Swap Abyssal Socket 4" itemPbURL=""/>
-			<Slot itemId="67" name="Belt" itemPbURL=""/>
+			<Slot itemId="70" name="Belt" itemPbURL=""/>
 			<Slot itemId="0" name="Weapon 2 Swap Abyssal Socket 1" itemPbURL=""/>
-			<Slot itemId="76" name="Ring 1" itemPbURL=""/>
+			<Slot itemId="80" name="Ring 1" itemPbURL=""/>
 			<Slot itemId="0" name="Boots Abyssal Socket 3" itemPbURL=""/>
-			<Slot itemId="69" name="Amulet" itemPbURL=""/>
+			<Slot itemId="72" name="Amulet" itemPbURL=""/>
 			<Slot itemId="0" name="Boots Abyssal Socket 5" itemPbURL=""/>
 			<Slot itemId="0" name="Weapon 2 Abyssal Socket 4" itemPbURL=""/>
 			<Slot itemId="0" name="Gloves Abyssal Socket 2" itemPbURL=""/>
 			<Slot itemId="0" name="Weapon 2 Abyssal Socket 6" itemPbURL=""/>
-			<Slot itemId="70" name="Flask 1" itemPbURL=""/>
-			<Slot itemId="77" name="Flask 2" itemPbURL=""/>
+			<Slot itemId="74" name="Flask 1" itemPbURL=""/>
+			<Slot itemId="79" name="Flask 2" itemPbURL=""/>
 			<Slot itemId="0" name="Helmet Abyssal Socket 1" itemPbURL=""/>
 		</ItemSet>
 		<TradeSearchWeights/>
@@ -3138,19 +3228,16 @@ Implicits: 0
 			<Input string="TheBrineKing" name="pantheonMajorGod"/>
 			<Input boolean="true" name="useEnduranceCharges"/>
 			<Input boolean="true" name="conditionEnemyFireExposure"/>
-			<Input boolean="true" name="conditionEnemyBurning"/>
 			<Input boolean="true" name="conditionKilledRecently"/>
-			<Input boolean="true" name="conditionEnemyCoveredInAsh"/>
-			<Input number="119719" name="minionPactLife"/>
 			<Input string="//SHAPER OF FLAMES ASCENDANCY
 40% Of Physical Damage Taken As Fire Damage" name="customMods"/>
-			<Input boolean="true" name="conditionShockedEnemyRecently"/>
+			<Input number="119719" name="minionPactLife"/>
+			<Input boolean="true" name="conditionEnemyShocked"/>
 			<Input boolean="true" name="buffOnslaught"/>
 			<Input boolean="true" name="summonLightningGolemEnableWrath"/>
-			<Input boolean="true" name="conditionEnemyShocked"/>
 			<Input string="Yugul" name="pantheonMinorGod"/>
+			<Input boolean="true" name="conditionShockedEnemyRecently"/>
 			<Input boolean="true" name="conditionEnemyIgnited"/>
-			<Input number="0" name="resistancePenalty"/>
 			<Placeholder number="3" name="enemyFirePen"/>
 			<Placeholder number="1" name="multiplierHallowingFlameStacksRemovedByAlly"/>
 			<Placeholder number="700" name="enemySpeed"/>
@@ -3160,17 +3247,17 @@ Implicits: 0
 			<Placeholder number="50" name="enemyColdResist"/>
 			<Placeholder number="61989" name="enemyArmour"/>
 			<Placeholder number="5" name="configSpectralTigerCount"/>
-			<Placeholder number="2241" name="enemyLightningDamage"/>
-			<Placeholder number="1" name="ShockStacks"/>
+			<Placeholder number="15" name="meleeDistance"/>
+			<Placeholder number="84" name="enemyLevel"/>
 			<Placeholder number="896" name="enemyChaosDamage"/>
 			<Placeholder number="40" name="projectileDistance"/>
 			<Placeholder number="2241" name="enemyPhysicalDamage"/>
 			<Placeholder number="2241" name="enemyColdDamage"/>
 			<Placeholder number="15" name="multiplierWitheredStackCountSelf"/>
-			<Placeholder number="84" name="enemyLevel"/>
+			<Placeholder number="3" name="enemyColdPen"/>
 			<Placeholder number="30" name="enemyCritDamage"/>
 			<Placeholder number="50" name="enemyLightningResist"/>
-			<Placeholder number="3" name="enemyColdPen"/>
+			<Placeholder number="2241" name="enemyLightningDamage"/>
 			<Placeholder number="2241" name="enemyFireDamage"/>
 			<Placeholder number="3" name="enemyLightningPen"/>
 			<Placeholder number="10143" name="enemyEvasion"/>
@@ -3178,7 +3265,7 @@ Implicits: 0
 			<Placeholder number="1" name="ScorchStacks"/>
 			<Placeholder number="5" name="enemyCritChance"/>
 			<Placeholder number="70" name="enemyDamageRollRange"/>
-			<Placeholder number="15" name="meleeDistance"/>
+			<Placeholder number="1" name="ShockStacks"/>
 		</ConfigSet>
 		<ConfigSet id="6" title="Low Budget (Bossing)">
 			<Input number="17" name="multiplierNonVaalSummonedMinion"/>
@@ -3186,14 +3273,14 @@ Implicits: 0
 			<Input string="TheBrineKing" name="pantheonMajorGod"/>
 			<Input boolean="true" name="useEnduranceCharges"/>
 			<Input boolean="true" name="conditionEnemyFireExposure"/>
-			<Input number="151383" name="minionPactLife"/>
 			<Input string="//SHAPER OF FLAMES ASCENDANCY
 40% Of Physical Damage Taken As Fire Damage" name="customMods"/>
-			<Input boolean="true" name="conditionShockedEnemyRecently"/>
+			<Input number="151383" name="minionPactLife"/>
+			<Input boolean="true" name="conditionEnemyShocked"/>
 			<Input boolean="true" name="buffOnslaught"/>
 			<Input boolean="true" name="summonLightningGolemEnableWrath"/>
-			<Input boolean="true" name="conditionEnemyShocked"/>
 			<Input string="Yugul" name="pantheonMinorGod"/>
+			<Input boolean="true" name="conditionShockedEnemyRecently"/>
 			<Input boolean="true" name="conditionEnemyIgnited"/>
 			<Placeholder number="3" name="enemyFirePen"/>
 			<Placeholder number="1" name="multiplierHallowingFlameStacksRemovedByAlly"/>
@@ -3204,17 +3291,17 @@ Implicits: 0
 			<Placeholder number="50" name="enemyColdResist"/>
 			<Placeholder number="61989" name="enemyArmour"/>
 			<Placeholder number="5" name="configSpectralTigerCount"/>
-			<Placeholder number="3" name="enemyColdPen"/>
-			<Placeholder number="1" name="ShockStacks"/>
+			<Placeholder number="2241" name="enemyLightningDamage"/>
+			<Placeholder number="15" name="meleeDistance"/>
 			<Placeholder number="896" name="enemyChaosDamage"/>
 			<Placeholder number="40" name="projectileDistance"/>
 			<Placeholder number="2241" name="enemyPhysicalDamage"/>
 			<Placeholder number="2241" name="enemyColdDamage"/>
 			<Placeholder number="15" name="multiplierWitheredStackCountSelf"/>
-			<Placeholder number="84" name="enemyLevel"/>
+			<Placeholder number="3" name="enemyColdPen"/>
 			<Placeholder number="30" name="enemyCritDamage"/>
 			<Placeholder number="50" name="enemyLightningResist"/>
-			<Placeholder number="2241" name="enemyLightningDamage"/>
+			<Placeholder number="84" name="enemyLevel"/>
 			<Placeholder number="2241" name="enemyFireDamage"/>
 			<Placeholder number="3" name="enemyLightningPen"/>
 			<Placeholder number="10143" name="enemyEvasion"/>
@@ -3222,7 +3309,7 @@ Implicits: 0
 			<Placeholder number="1" name="ScorchStacks"/>
 			<Placeholder number="5" name="enemyCritChance"/>
 			<Placeholder number="70" name="enemyDamageRollRange"/>
-			<Placeholder number="15" name="meleeDistance"/>
+			<Placeholder number="1" name="ShockStacks"/>
 		</ConfigSet>
 		<ConfigSet id="1" title="150D Budget (Clearing)">
 			<Input number="17" name="multiplierNonVaalSummonedMinion"/>
@@ -3230,14 +3317,14 @@ Implicits: 0
 			<Input string="TheBrineKing" name="pantheonMajorGod"/>
 			<Input boolean="true" name="useEnduranceCharges"/>
 			<Input boolean="true" name="conditionEnemyFireExposure"/>
-			<Input number="209094" name="minionPactLife"/>
 			<Input string="//SHAPER OF FLAMES ASCENDANCY
 40% Of Physical Damage Taken As Fire Damage" name="customMods"/>
-			<Input boolean="true" name="conditionShockedEnemyRecently"/>
+			<Input number="209094" name="minionPactLife"/>
+			<Input boolean="true" name="conditionEnemyShocked"/>
 			<Input boolean="true" name="buffOnslaught"/>
 			<Input boolean="true" name="summonLightningGolemEnableWrath"/>
-			<Input boolean="true" name="conditionEnemyShocked"/>
 			<Input string="Yugul" name="pantheonMinorGod"/>
+			<Input boolean="true" name="conditionShockedEnemyRecently"/>
 			<Input boolean="true" name="conditionEnemyIgnited"/>
 			<Placeholder number="3" name="enemyFirePen"/>
 			<Placeholder number="1" name="multiplierHallowingFlameStacksRemovedByAlly"/>
@@ -3248,17 +3335,17 @@ Implicits: 0
 			<Placeholder number="50" name="enemyColdResist"/>
 			<Placeholder number="61989" name="enemyArmour"/>
 			<Placeholder number="5" name="configSpectralTigerCount"/>
-			<Placeholder number="2241" name="enemyLightningDamage"/>
-			<Placeholder number="1" name="ShockStacks"/>
+			<Placeholder number="15" name="meleeDistance"/>
+			<Placeholder number="84" name="enemyLevel"/>
 			<Placeholder number="896" name="enemyChaosDamage"/>
 			<Placeholder number="40" name="projectileDistance"/>
 			<Placeholder number="2241" name="enemyPhysicalDamage"/>
 			<Placeholder number="2241" name="enemyColdDamage"/>
 			<Placeholder number="15" name="multiplierWitheredStackCountSelf"/>
-			<Placeholder number="84" name="enemyLevel"/>
+			<Placeholder number="3" name="enemyColdPen"/>
 			<Placeholder number="30" name="enemyCritDamage"/>
 			<Placeholder number="50" name="enemyLightningResist"/>
-			<Placeholder number="3" name="enemyColdPen"/>
+			<Placeholder number="2241" name="enemyLightningDamage"/>
 			<Placeholder number="2241" name="enemyFireDamage"/>
 			<Placeholder number="3" name="enemyLightningPen"/>
 			<Placeholder number="10143" name="enemyEvasion"/>
@@ -3266,7 +3353,7 @@ Implicits: 0
 			<Placeholder number="1" name="ScorchStacks"/>
 			<Placeholder number="5" name="enemyCritChance"/>
 			<Placeholder number="70" name="enemyDamageRollRange"/>
-			<Placeholder number="15" name="meleeDistance"/>
+			<Placeholder number="1" name="ShockStacks"/>
 		</ConfigSet>
 		<ConfigSet id="3" title="150D Budget (Bossing)">
 			<Input number="17" name="multiplierNonVaalSummonedMinion"/>
@@ -3274,14 +3361,14 @@ Implicits: 0
 			<Input string="TheBrineKing" name="pantheonMajorGod"/>
 			<Input boolean="true" name="useEnduranceCharges"/>
 			<Input boolean="true" name="conditionEnemyFireExposure"/>
-			<Input number="246432" name="minionPactLife"/>
 			<Input string="//SHAPER OF FLAMES ASCENDANCY
 40% Of Physical Damage Taken As Fire Damage" name="customMods"/>
-			<Input boolean="true" name="conditionShockedEnemyRecently"/>
+			<Input number="246432" name="minionPactLife"/>
+			<Input boolean="true" name="conditionEnemyShocked"/>
 			<Input boolean="true" name="buffOnslaught"/>
 			<Input boolean="true" name="summonLightningGolemEnableWrath"/>
-			<Input boolean="true" name="conditionEnemyShocked"/>
 			<Input string="Yugul" name="pantheonMinorGod"/>
+			<Input boolean="true" name="conditionShockedEnemyRecently"/>
 			<Input boolean="true" name="conditionEnemyIgnited"/>
 			<Placeholder number="3" name="enemyFirePen"/>
 			<Placeholder number="1" name="multiplierHallowingFlameStacksRemovedByAlly"/>
@@ -3292,17 +3379,17 @@ Implicits: 0
 			<Placeholder number="50" name="enemyColdResist"/>
 			<Placeholder number="61989" name="enemyArmour"/>
 			<Placeholder number="5" name="configSpectralTigerCount"/>
-			<Placeholder number="2241" name="enemyLightningDamage"/>
-			<Placeholder number="1" name="ShockStacks"/>
+			<Placeholder number="15" name="meleeDistance"/>
+			<Placeholder number="84" name="enemyLevel"/>
 			<Placeholder number="896" name="enemyChaosDamage"/>
 			<Placeholder number="40" name="projectileDistance"/>
 			<Placeholder number="2241" name="enemyPhysicalDamage"/>
 			<Placeholder number="2241" name="enemyColdDamage"/>
 			<Placeholder number="15" name="multiplierWitheredStackCountSelf"/>
-			<Placeholder number="84" name="enemyLevel"/>
+			<Placeholder number="3" name="enemyColdPen"/>
 			<Placeholder number="30" name="enemyCritDamage"/>
 			<Placeholder number="50" name="enemyLightningResist"/>
-			<Placeholder number="3" name="enemyColdPen"/>
+			<Placeholder number="2241" name="enemyLightningDamage"/>
 			<Placeholder number="2241" name="enemyFireDamage"/>
 			<Placeholder number="3" name="enemyLightningPen"/>
 			<Placeholder number="10143" name="enemyEvasion"/>
@@ -3310,23 +3397,23 @@ Implicits: 0
 			<Placeholder number="1" name="ScorchStacks"/>
 			<Placeholder number="5" name="enemyCritChance"/>
 			<Placeholder number="70" name="enemyDamageRollRange"/>
-			<Placeholder number="15" name="meleeDistance"/>
+			<Placeholder number="1" name="ShockStacks"/>
 		</ConfigSet>
 		<ConfigSet id="2" title="High Budget Megalomaniacs (Clearing)">
 			<Input number="17" name="multiplierNonVaalSummonedMinion"/>
 			<Input number="65" name="conditionShockEffect"/>
 			<Input string="TheBrineKing" name="pantheonMajorGod"/>
-			<Input boolean="true" name="useEnduranceCharges"/>
+			<Input string="Yugul" name="pantheonMinorGod"/>
 			<Input boolean="true" name="conditionEnemyFireExposure"/>
-			<Input boolean="true" name="conditionEnemyShocked"/>
-			<Input boolean="true" name="conditionShockedEnemyRecently"/>
+			<Input number="283770" name="minionPactLife"/>
 			<Input string="//SHAPER OF FLAMES ASCENDANCY
 40% Of Physical Damage Taken As Fire Damage" name="customMods"/>
-			<Input number="283770" name="minionPactLife"/>
+			<Input boolean="true" name="conditionEnemyShocked"/>
+			<Input boolean="true" name="useEnduranceCharges"/>
 			<Input boolean="true" name="buffOnslaught"/>
 			<Input boolean="true" name="summonLightningGolemEnableWrath"/>
 			<Input boolean="true" name="useFrenzyCharges"/>
-			<Input string="Yugul" name="pantheonMinorGod"/>
+			<Input boolean="true" name="conditionShockedEnemyRecently"/>
 			<Input boolean="true" name="conditionEnemyIgnited"/>
 			<Placeholder number="3" name="enemyFirePen"/>
 			<Placeholder number="1" name="multiplierHallowingFlameStacksRemovedByAlly"/>
@@ -3337,17 +3424,17 @@ Implicits: 0
 			<Placeholder number="50" name="enemyColdResist"/>
 			<Placeholder number="61989" name="enemyArmour"/>
 			<Placeholder number="5" name="configSpectralTigerCount"/>
-			<Placeholder number="2241" name="enemyLightningDamage"/>
-			<Placeholder number="1" name="ShockStacks"/>
+			<Placeholder number="15" name="meleeDistance"/>
+			<Placeholder number="84" name="enemyLevel"/>
 			<Placeholder number="896" name="enemyChaosDamage"/>
 			<Placeholder number="40" name="projectileDistance"/>
 			<Placeholder number="2241" name="enemyPhysicalDamage"/>
 			<Placeholder number="2241" name="enemyColdDamage"/>
 			<Placeholder number="15" name="multiplierWitheredStackCountSelf"/>
-			<Placeholder number="84" name="enemyLevel"/>
+			<Placeholder number="3" name="enemyColdPen"/>
 			<Placeholder number="30" name="enemyCritDamage"/>
 			<Placeholder number="50" name="enemyLightningResist"/>
-			<Placeholder number="3" name="enemyColdPen"/>
+			<Placeholder number="2241" name="enemyLightningDamage"/>
 			<Placeholder number="2241" name="enemyFireDamage"/>
 			<Placeholder number="3" name="enemyLightningPen"/>
 			<Placeholder number="10143" name="enemyEvasion"/>
@@ -3355,7 +3442,7 @@ Implicits: 0
 			<Placeholder number="1" name="ScorchStacks"/>
 			<Placeholder number="5" name="enemyCritChance"/>
 			<Placeholder number="70" name="enemyDamageRollRange"/>
-			<Placeholder number="15" name="meleeDistance"/>
+			<Placeholder number="1" name="ShockStacks"/>
 		</ConfigSet>
 		<ConfigSet id="4" title="High Budget Megalomaniacs (Bossing)">
 			<Input number="17" name="multiplierNonVaalSummonedMinion"/>
@@ -3363,14 +3450,14 @@ Implicits: 0
 			<Input string="TheBrineKing" name="pantheonMajorGod"/>
 			<Input boolean="true" name="useEnduranceCharges"/>
 			<Input boolean="true" name="conditionEnemyFireExposure"/>
-			<Input number="321109" name="minionPactLife"/>
 			<Input string="//SHAPER OF FLAMES ASCENDANCY
 40% Of Physical Damage Taken As Fire Damage" name="customMods"/>
-			<Input boolean="true" name="conditionShockedEnemyRecently"/>
+			<Input number="321109" name="minionPactLife"/>
+			<Input boolean="true" name="conditionEnemyShocked"/>
 			<Input boolean="true" name="buffOnslaught"/>
 			<Input boolean="true" name="summonLightningGolemEnableWrath"/>
-			<Input boolean="true" name="conditionEnemyShocked"/>
 			<Input string="Yugul" name="pantheonMinorGod"/>
+			<Input boolean="true" name="conditionShockedEnemyRecently"/>
 			<Input boolean="true" name="conditionEnemyIgnited"/>
 			<Placeholder number="3" name="enemyFirePen"/>
 			<Placeholder number="1" name="multiplierHallowingFlameStacksRemovedByAlly"/>
@@ -3381,17 +3468,17 @@ Implicits: 0
 			<Placeholder number="50" name="enemyColdResist"/>
 			<Placeholder number="61989" name="enemyArmour"/>
 			<Placeholder number="5" name="configSpectralTigerCount"/>
-			<Placeholder number="3" name="enemyColdPen"/>
-			<Placeholder number="1" name="ShockStacks"/>
+			<Placeholder number="2241" name="enemyLightningDamage"/>
+			<Placeholder number="15" name="meleeDistance"/>
 			<Placeholder number="896" name="enemyChaosDamage"/>
 			<Placeholder number="40" name="projectileDistance"/>
 			<Placeholder number="2241" name="enemyPhysicalDamage"/>
 			<Placeholder number="2241" name="enemyColdDamage"/>
 			<Placeholder number="15" name="multiplierWitheredStackCountSelf"/>
-			<Placeholder number="84" name="enemyLevel"/>
+			<Placeholder number="3" name="enemyColdPen"/>
 			<Placeholder number="30" name="enemyCritDamage"/>
 			<Placeholder number="50" name="enemyLightningResist"/>
-			<Placeholder number="2241" name="enemyLightningDamage"/>
+			<Placeholder number="84" name="enemyLevel"/>
 			<Placeholder number="2241" name="enemyFireDamage"/>
 			<Placeholder number="3" name="enemyLightningPen"/>
 			<Placeholder number="10143" name="enemyEvasion"/>
@@ -3399,23 +3486,23 @@ Implicits: 0
 			<Placeholder number="1" name="ScorchStacks"/>
 			<Placeholder number="5" name="enemyCritChance"/>
 			<Placeholder number="70" name="enemyDamageRollRange"/>
-			<Placeholder number="15" name="meleeDistance"/>
+			<Placeholder number="1" name="ShockStacks"/>
 		</ConfigSet>
 		<ConfigSet id="7" title="Aspirational (Clearing)">
 			<Input number="17" name="multiplierNonVaalSummonedMinion"/>
 			<Input number="65" name="conditionShockEffect"/>
 			<Input string="TheBrineKing" name="pantheonMajorGod"/>
-			<Input boolean="true" name="useEnduranceCharges"/>
+			<Input string="Yugul" name="pantheonMinorGod"/>
 			<Input boolean="true" name="conditionEnemyFireExposure"/>
-			<Input boolean="true" name="conditionEnemyShocked"/>
-			<Input boolean="true" name="conditionShockedEnemyRecently"/>
+			<Input number="288749" name="minionPactLife"/>
 			<Input string="//SHAPER OF FLAMES ASCENDANCY
 40% Of Physical Damage Taken As Fire Damage" name="customMods"/>
-			<Input number="288749" name="minionPactLife"/>
+			<Input boolean="true" name="conditionEnemyShocked"/>
+			<Input boolean="true" name="useEnduranceCharges"/>
 			<Input boolean="true" name="buffOnslaught"/>
 			<Input boolean="true" name="summonLightningGolemEnableWrath"/>
 			<Input boolean="true" name="useFrenzyCharges"/>
-			<Input string="Yugul" name="pantheonMinorGod"/>
+			<Input boolean="true" name="conditionShockedEnemyRecently"/>
 			<Input boolean="true" name="conditionEnemyIgnited"/>
 			<Placeholder number="3" name="enemyFirePen"/>
 			<Placeholder number="1" name="multiplierHallowingFlameStacksRemovedByAlly"/>
@@ -3426,17 +3513,17 @@ Implicits: 0
 			<Placeholder number="50" name="enemyColdResist"/>
 			<Placeholder number="61989" name="enemyArmour"/>
 			<Placeholder number="5" name="configSpectralTigerCount"/>
-			<Placeholder number="2241" name="enemyLightningDamage"/>
-			<Placeholder number="1" name="ShockStacks"/>
+			<Placeholder number="15" name="meleeDistance"/>
+			<Placeholder number="84" name="enemyLevel"/>
 			<Placeholder number="896" name="enemyChaosDamage"/>
 			<Placeholder number="40" name="projectileDistance"/>
 			<Placeholder number="2241" name="enemyPhysicalDamage"/>
 			<Placeholder number="2241" name="enemyColdDamage"/>
 			<Placeholder number="15" name="multiplierWitheredStackCountSelf"/>
-			<Placeholder number="84" name="enemyLevel"/>
+			<Placeholder number="3" name="enemyColdPen"/>
 			<Placeholder number="30" name="enemyCritDamage"/>
 			<Placeholder number="50" name="enemyLightningResist"/>
-			<Placeholder number="3" name="enemyColdPen"/>
+			<Placeholder number="2241" name="enemyLightningDamage"/>
 			<Placeholder number="2241" name="enemyFireDamage"/>
 			<Placeholder number="3" name="enemyLightningPen"/>
 			<Placeholder number="10143" name="enemyEvasion"/>
@@ -3444,23 +3531,23 @@ Implicits: 0
 			<Placeholder number="1" name="ScorchStacks"/>
 			<Placeholder number="5" name="enemyCritChance"/>
 			<Placeholder number="70" name="enemyDamageRollRange"/>
-			<Placeholder number="15" name="meleeDistance"/>
+			<Placeholder number="1" name="ShockStacks"/>
 		</ConfigSet>
 		<ConfigSet id="8" title="Aspirational (Bossing)">
 			<Input number="17" name="multiplierNonVaalSummonedMinion"/>
 			<Input number="65" name="conditionShockEffect"/>
 			<Input string="TheBrineKing" name="pantheonMajorGod"/>
-			<Input boolean="true" name="useEnduranceCharges"/>
+			<Input string="Yugul" name="pantheonMinorGod"/>
 			<Input boolean="true" name="conditionEnemyFireExposure"/>
-			<Input boolean="true" name="conditionShockedEnemyRecently"/>
+			<Input number="361087" name="minionPactLife"/>
 			<Input string="//SHAPER OF FLAMES ASCENDANCY
 40% Of Physical Damage Taken As Fire Damage" name="customMods"/>
+			<Input boolean="true" name="useEnduranceCharges"/>
 			<Input boolean="true" name="conditionEnemyShocked"/>
-			<Input number="361087" name="minionPactLife"/>
 			<Input boolean="true" name="buffOnslaught"/>
 			<Input boolean="true" name="summonLightningGolemEnableWrath"/>
 			<Input boolean="true" name="useFrenzyCharges"/>
-			<Input string="Yugul" name="pantheonMinorGod"/>
+			<Input boolean="true" name="conditionShockedEnemyRecently"/>
 			<Input boolean="true" name="conditionEnemyIgnited"/>
 			<Placeholder number="3" name="enemyFirePen"/>
 			<Placeholder number="1" name="multiplierHallowingFlameStacksRemovedByAlly"/>
@@ -3471,17 +3558,17 @@ Implicits: 0
 			<Placeholder number="50" name="enemyColdResist"/>
 			<Placeholder number="61989" name="enemyArmour"/>
 			<Placeholder number="5" name="configSpectralTigerCount"/>
-			<Placeholder number="3" name="enemyColdPen"/>
-			<Placeholder number="1" name="ShockStacks"/>
+			<Placeholder number="2241" name="enemyLightningDamage"/>
+			<Placeholder number="15" name="meleeDistance"/>
 			<Placeholder number="896" name="enemyChaosDamage"/>
 			<Placeholder number="40" name="projectileDistance"/>
 			<Placeholder number="2241" name="enemyPhysicalDamage"/>
 			<Placeholder number="2241" name="enemyColdDamage"/>
 			<Placeholder number="15" name="multiplierWitheredStackCountSelf"/>
-			<Placeholder number="84" name="enemyLevel"/>
+			<Placeholder number="3" name="enemyColdPen"/>
 			<Placeholder number="30" name="enemyCritDamage"/>
 			<Placeholder number="50" name="enemyLightningResist"/>
-			<Placeholder number="2241" name="enemyLightningDamage"/>
+			<Placeholder number="84" name="enemyLevel"/>
 			<Placeholder number="2241" name="enemyFireDamage"/>
 			<Placeholder number="3" name="enemyLightningPen"/>
 			<Placeholder number="10143" name="enemyEvasion"/>
@@ -3489,18 +3576,18 @@ Implicits: 0
 			<Placeholder number="1" name="ScorchStacks"/>
 			<Placeholder number="5" name="enemyCritChance"/>
 			<Placeholder number="70" name="enemyDamageRollRange"/>
-			<Placeholder number="15" name="meleeDistance"/>
+			<Placeholder number="1" name="ShockStacks"/>
 		</ConfigSet>
 	</Config>
-	<TreeView zoomLevel="7" zoomY="1032.1026107704" zoomX="-68.939962051037" showStatDifferences="true" searchStr=""/>
+	<TreeView zoomLevel="4" zoomY="312.39631777072" zoomX="39.15160303688" showStatDifferences="true" searchStr="arcane surge"/>
 	<Import lastLeague="Mirage" lastAccountHash="5b9905cc4b87746a3c71b4cba41f6802df28f0a2" lastCharacterHash="73cce0c770c9450ebe2758dae5218a640857e3e5" exportParty="false" lastRealm="PC"/>
 	<Notes>
 		
 	</Notes>
-	<Tree activeSpec="9">
-		<Spec masteryEffects="{12503,19422},{45558,30612},{2828,1251},{857,31556},{34927,24180},{39836,56471},{38921,4500},{11505,55308},{26393,43400},{16141,62252}" secondaryAscendClassId="nil" nodes="7388,4184,39841,64583,54447,61804,36634,21984,27656,34423,33310,63447,45558,2828,22618,36107,48118,61419,22748,37569,51213,18769,25789,13961,34098,60440,26557,55332,29712,54452,33753,6967,60989,11924,57264,24426,23334,4397,66832,12246,13170,5916,18182,65568,27323,34661,857,27038,34506,24872,4367,60398,7444,52502,9408,66841,53456,25970,16141,61653,49605,12503,7960,32763,19501,11420,65888,65826,26393,65578,39836,38246,22088,4854,6910,11455,5296,13559,61834,66835,36858,21033,44184,43061,23215,65890,65570,15852,19919,20987,58998,29049,38921,54279,31462,55743,63425,15117,35233,37114,23659,12738,36678,15167,4713,34927,46340,63039,40366,50029,49900,54954,56461,11505,61259,33864,31875,16023,1461,6797,46277,6770,65898,56295,42760,36542,6764,53123,62697,65824,65834" classId="3" title="Low Budget (Clearing)" ascendClassId="2" treeVersion="3_28" clusterHashFormatVersion="2">
+	<Tree activeSpec="10">
+		<Spec masteryEffects="{12503,19422},{45558,30612},{2828,1251},{857,31556},{34927,24180},{39836,56471},{38921,4500},{11505,55308},{26393,43400},{16141,62252}" secondaryAscendClassId="nil" nodes="7388,4184,39841,64583,54447,20987,36634,21984,27656,34423,33310,63447,45558,2828,22618,19919,48118,61419,22748,37569,55743,18769,25789,13961,34098,60440,26557,55332,29712,54452,33753,6967,60989,11924,57264,24426,23334,4397,66832,12246,13170,5916,18182,65824,27323,34661,857,58998,34506,24872,4367,60398,7444,52502,9408,66841,53456,25970,16141,61653,49605,12503,7960,32763,19501,11420,6797,65826,26393,65834,31875,38246,22088,4854,6910,11455,54954,13559,61834,66835,36858,21033,44184,43061,65888,56295,65890,15852,15167,15117,65570,51213,38921,33864,23659,54279,63425,61804,27038,37114,39836,36678,36107,23215,4713,34927,11505,63039,31462,50029,40366,35233,5296,56461,61259,12738,46340,16023,1461,49900,46277,6770,65898,42760,36542,6764,53123,62697,29049,65568,65578" classId="3" title="Low Budget (Clearing)" ascendClassId="2" treeVersion="3_28" clusterHashFormatVersion="2">
 			<URL>
-				https://www.pathofexile.com/passive-skill-tree/AAAABgMCdRzcEFibofxH8WyPGlXgbAiGd4Ie99ex9gsMWFqNC7v27-tY3JLByA1JUWS9NomFMuwYZ73YJHQQ1LSD2Rs37j0ulN-wX2pbJhEtL9YzchccRwZqu4dlA1lpnobKYSgRD-vuHRTNFiTA0NBlcj8N8NXBxTDXHxh_-0wtLJxnGZuclWZWSBL2Gv4svxSwNPfxio_6UimsmKg1Wq897E3PUfvmdnF5mAnUB3rm2b_3wTsNiaGQ-lxrMcKPRjs_EmmIb7UE9j-drsNtwuzWqtyNLPHvS4RIfIMFtRqNtMUactvnpwiOvhpsz4P06QwFEAAgBRkBYAEiACoFEwFiACIBagEgASoKd5Sx9gTjCwx7RANZ8yw_DUveMNepiGcZ3JebnBGUmAledIhv2Aws8Q==
+				https://www.pathofexile.com/passive-skill-tree/AAAABgMCdRzcEFibofxHUfuPGlXgbAiGd4Ie99ex9gsMWFpNz7v27-tY3JLB2b9JUWS9NomFMuwYZ73YJHQQ1LSD2Rs37j0ulN-wX2pbJhEtL9YzchccRwZqu4dlA1nmdobKYSgRD-vuHRTNFiTA0NBlcj8N8NXBxTDXHxh_-0wtLJwajWcZfIOVZlZIEvYa_iy_1qo09_GKj_pSKayYqDXb5z3sOz87DcgNmAmESFxr1Af3wfFsaZ6Q-pucj0aNC1qvEmmIbyzx9j965sNtna6JoRSw3I3vSzHCtQQFtcLstMUacqcIjr4abM-D9OlxeQwFEAEgBRkBIgEqBRMBYAFiACIBagAgACoKd5Sx9gTjCwx7RANZ8yw_DUveMNepiGcZEZSYCdyXm5xedIhv2Aws8Q==
 			</URL>
 			<Sockets>
 				<Socket itemId="55" nodeId="61419"/>
@@ -3508,12 +3595,12 @@ Implicits: 0
 				<Socket itemId="55" nodeId="61834"/>
 				<Socket itemId="2" nodeId="64583"/>
 				<Socket itemId="7" nodeId="13170"/>
-				<Socket itemId="58" nodeId="32763"/>
+				<Socket itemId="13" nodeId="22748"/>
 				<Socket itemId="5" nodeId="9408"/>
 				<Socket itemId="57" nodeId="36634"/>
 				<Socket itemId="11" nodeId="29712"/>
 				<Socket itemId="58" nodeId="21984"/>
-				<Socket itemId="13" nodeId="22748"/>
+				<Socket itemId="58" nodeId="32763"/>
 				<Socket itemId="8" nodeId="6910"/>
 				<Socket itemId="60" nodeId="33753"/>
 			</Sockets>
@@ -3542,9 +3629,9 @@ Implicits: 0
 				</Override>
 			</Overrides>
 		</Spec>
-		<Spec masteryEffects="{12503,19422},{45558,30612},{2828,11521},{857,31556},{26393,43400},{39836,56471},{38921,4500},{11505,55308},{34927,24180},{16141,62252}" secondaryAscendClassId="nil" nodes="7388,4184,39841,64583,54447,15167,36634,21984,27656,34423,33310,63447,45558,2828,22618,19919,48118,61419,22748,37569,51213,18769,25789,13961,34098,60440,26557,55332,29712,54452,33753,56461,60989,40366,57264,24426,23334,4397,66832,36678,13170,5916,18182,65568,27323,34661,857,15117,34506,24872,4367,60398,7444,52502,9408,66841,53456,25970,16141,6764,53123,12503,7960,32763,49900,11420,6797,65570,26393,65578,39836,38246,22088,4854,6910,11455,5296,13559,61834,66835,36858,35233,44184,43061,65834,65888,65824,15852,61804,58998,42760,55743,38921,19501,31462,54954,63425,20987,27038,37114,31875,12738,12246,36107,4713,34927,21033,63039,23659,50029,11924,46340,6967,36542,65890,33864,49605,16023,1461,62697,46277,6770,65898,61259,65826,11505,29049,23215,56295,61653,54279" classId="3" title="Low Budget (Bossing)" ascendClassId="2" treeVersion="3_28" clusterHashFormatVersion="2">
+		<Spec masteryEffects="{12503,19422},{45558,30612},{2828,11521},{857,31556},{26393,43400},{39836,56471},{38921,4500},{11505,55308},{34927,24180},{16141,62252}" secondaryAscendClassId="nil" nodes="7388,4184,39841,64583,54447,61804,36634,21984,27656,34423,33310,63447,45558,2828,22618,36107,48118,61419,22748,37569,55743,18769,25789,13961,34098,60440,26557,55332,29712,54452,33753,56461,60989,40366,57264,24426,23334,4397,66832,36678,13170,5916,18182,65824,27323,34661,857,58998,34506,24872,4367,60398,7444,52502,9408,66841,53456,25970,16141,6764,53123,12503,7960,32763,49900,11420,65888,65826,26393,65834,39836,38246,22088,4854,6910,11455,54954,13559,61834,66835,36858,21033,44184,43061,65578,65568,33864,15852,19919,20987,27038,61259,38921,5296,31462,36542,6797,63425,15117,49605,37114,46340,12246,15167,4713,34927,51213,63039,19501,50029,31875,11924,35233,23659,65890,12738,6967,16023,1461,62697,46277,6770,65898,65570,11505,29049,23215,56295,61653,54279,42760" classId="3" title="Low Budget (Bossing)" ascendClassId="2" treeVersion="3_28" clusterHashFormatVersion="2">
 			<URL>
-				https://www.pathofexile.com/passive-skill-tree/AAAABgMCdRzcEFibofxHOz-PGlXgbAiGd4Ie99ex9gsMWFpNz7v27-tY3JLByA1JUWS9NomFMuwYZ73YJHQQ1LSD2dyN7j2drt-wX2pbJhEtj0YzchccRwZqu4dlA1k7DYbKYSgRD-vuHRTNFiTA0NBlcj8NGmzPgzDXHxh_-8LsLJwajWcZm5yVZlZIEvYa_iy_FLA09_GKj_qJoayYqDU97PFs5nanCNm_mAlMLXrm1qr3wVH7aZ6Q-nyDMcIv1o0LEmmIb1Ip9j9ca8NtLpS1BBs3jr6ESMHFBbX06bTFGnLvSyzxcXlar9vn8NXUBwwFEAAgBRkAIgAqBRMBKgFgASABYgFqASIKd5Sx9i0BCwx7RANZ8yw_DUveMNepiGcZ3JebnBGUmAledIhv2Aws8Q==
+				https://www.pathofexile.com/passive-skill-tree/AAAABgMCdRzcEFibofxH8WyPGlXgbAiGd4Ie99ex9gsMWFqNC7v27-tY3JLB2b9JUWS9NomFMuwYZ73YJHQQ1LSD2dyN7j2drt-wX2pbJhEtj0YzchccRwZqu4dlA1nmdobKYSgRD-vuHRTNFiTA0NBlcj8NGmzPgzDXHxh_-8LsLJxnGZuclWZWSBL2Gv4sv9aqNPfxio_6UimsmKg1hEg97E3PUftpnu9LmAkUsHrmjr4ajffBOw3BxZD6tQQv1js_EmmIb8gN9j9MLcNtfIMulImhXGsxwhs3BbX06bTFGnIs8XF5Wq_b5_DV1AenCAwFEAEgBRkBYAEiASoFEwAqACABYgFqACIKd5Sx9i0BCwx7RANZ8yw_DUveMNepiGcZ3JebnBGUmAledIhv2Aws8Q==
 			</URL>
 			<Sockets>
 				<Socket itemId="55" nodeId="61419"/>
@@ -3580,8 +3667,8 @@ Implicits: 0
 				<Override nodeId="36858" dn="Tattoo of the Rongokurai Turtle" activeEffectImage="Art/2DArt/UIImages/InGame/AncestralTrial/PassiveTreeTattoos/RongokuraiTribePassiveBG.png" icon="Art/2DArt/SkillIcons/passives/dmgreduction.png">
 					You take 5% reduced Extra Damage from Critical Strikes
 				</Override>
-				<Override nodeId="19501" dn="Tattoo of the Rongokurai Turtle" activeEffectImage="Art/2DArt/UIImages/InGame/AncestralTrial/PassiveTreeTattoos/RongokuraiTribePassiveBG.png" icon="Art/2DArt/SkillIcons/passives/dmgreduction.png">
-					You take 5% reduced Extra Damage from Critical Strikes
+				<Override nodeId="60440" dn="Tattoo of the Hinekora Warmonger" activeEffectImage="Art/2DArt/UIImages/InGame/AncestralTrial/PassiveTreeTattoos/HinekoraTribePassiveBG.png" icon="Art/2DArt/SkillIcons/passives/minionlife.png">
+					Minions have 5% increased maximum Life
 				</Override>
 				<Override nodeId="18182" dn="Tattoo of the Hinekora Warmonger" activeEffectImage="Art/2DArt/UIImages/InGame/AncestralTrial/PassiveTreeTattoos/HinekoraTribePassiveBG.png" icon="Art/2DArt/SkillIcons/passives/minionlife.png">
 					Minions have 5% increased maximum Life
@@ -3589,14 +3676,14 @@ Implicits: 0
 				<Override nodeId="55332" dn="Tattoo of the Rongokurai Turtle" activeEffectImage="Art/2DArt/UIImages/InGame/AncestralTrial/PassiveTreeTattoos/RongokuraiTribePassiveBG.png" icon="Art/2DArt/SkillIcons/passives/dmgreduction.png">
 					You take 5% reduced Extra Damage from Critical Strikes
 				</Override>
-				<Override nodeId="36678" dn="Tattoo of the Rongokurai Turtle" activeEffectImage="Art/2DArt/UIImages/InGame/AncestralTrial/PassiveTreeTattoos/RongokuraiTribePassiveBG.png" icon="Art/2DArt/SkillIcons/passives/dmgreduction.png">
-					You take 5% reduced Extra Damage from Critical Strikes
+				<Override nodeId="49900" dn="Tattoo of the Tawhoa Herbalist" activeEffectImage="Art/2DArt/UIImages/InGame/AncestralTrial/PassiveTreeTattoos/TawhoaTribePassiveBG.png" icon="Art/2DArt/SkillIcons/passives/flaskdex.png">
+					4% increased Flask Effect Duration
 				</Override>
 				<Override nodeId="48778" dn="Tattoo of the Hinekora Deathwarden" activeEffectImage="Art/2DArt/UIImages/InGame/AncestralTrial/PassiveTreeTattoos/HinekoraTribePassiveBG.png" icon="Art/2DArt/SkillIcons/passives/CursemitigationclusterNode.png">
 					6% reduced Effect of Curses on you
 				</Override>
-				<Override nodeId="49900" dn="Tattoo of the Tawhoa Herbalist" activeEffectImage="Art/2DArt/UIImages/InGame/AncestralTrial/PassiveTreeTattoos/TawhoaTribePassiveBG.png" icon="Art/2DArt/SkillIcons/passives/flaskdex.png">
-					4% increased Flask Effect Duration
+				<Override nodeId="19501" dn="Tattoo of the Rongokurai Turtle" activeEffectImage="Art/2DArt/UIImages/InGame/AncestralTrial/PassiveTreeTattoos/RongokuraiTribePassiveBG.png" icon="Art/2DArt/SkillIcons/passives/dmgreduction.png">
+					You take 5% reduced Extra Damage from Critical Strikes
 				</Override>
 				<Override nodeId="27656" dn="Tattoo of the Hinekora Warmonger" activeEffectImage="Art/2DArt/UIImages/InGame/AncestralTrial/PassiveTreeTattoos/HinekoraTribePassiveBG.png" icon="Art/2DArt/SkillIcons/passives/minionlife.png">
 					Minions have 5% increased maximum Life
@@ -3615,14 +3702,14 @@ Implicits: 0
 					Auras from your Skills which affect Allies also affect Enemies
 					Limited to 1 Runegraft of Treachery
 				</Override>
-				<Override nodeId="15117" dn="Tattoo of the Rongokurai Turtle" activeEffectImage="Art/2DArt/UIImages/InGame/AncestralTrial/PassiveTreeTattoos/RongokuraiTribePassiveBG.png" icon="Art/2DArt/SkillIcons/passives/dmgreduction.png">
+				<Override nodeId="42760" dn="Tattoo of the Rongokurai Turtle" activeEffectImage="Art/2DArt/UIImages/InGame/AncestralTrial/PassiveTreeTattoos/RongokuraiTribePassiveBG.png" icon="Art/2DArt/SkillIcons/passives/dmgreduction.png">
 					You take 5% reduced Extra Damage from Critical Strikes
 				</Override>
 				<Override nodeId="1461" dn="Tattoo of the Tawhoa Herbalist" activeEffectImage="Art/2DArt/UIImages/InGame/AncestralTrial/PassiveTreeTattoos/TawhoaTribePassiveBG.png" icon="Art/2DArt/SkillIcons/passives/flaskdex.png">
 					4% increased Flask Effect Duration
 				</Override>
-				<Override nodeId="40366" dn="Tattoo of the Rongokurai Turtle" activeEffectImage="Art/2DArt/UIImages/InGame/AncestralTrial/PassiveTreeTattoos/RongokuraiTribePassiveBG.png" icon="Art/2DArt/SkillIcons/passives/dmgreduction.png">
-					You take 5% reduced Extra Damage from Critical Strikes
+				<Override nodeId="33310" dn="Tattoo of the Hinekora Warmonger" activeEffectImage="Art/2DArt/UIImages/InGame/AncestralTrial/PassiveTreeTattoos/HinekoraTribePassiveBG.png" icon="Art/2DArt/SkillIcons/passives/minionlife.png">
+					Minions have 5% increased maximum Life
 				</Override>
 				<Override nodeId="46277" dn="Tattoo of the Tawhoa Herbalist" activeEffectImage="Art/2DArt/UIImages/InGame/AncestralTrial/PassiveTreeTattoos/TawhoaTribePassiveBG.png" icon="Art/2DArt/SkillIcons/passives/flaskdex.png">
 					4% increased Flask Effect Duration
@@ -3630,13 +3717,7 @@ Implicits: 0
 				<Override nodeId="27659" dn="Tattoo of the Tasalio Scout" activeEffectImage="Art/2DArt/UIImages/InGame/AncestralTrial/PassiveTreeTattoos/TasalioTribePassiveBG.png" icon="Art/2DArt/SkillIcons/passives/MarkNode.png">
 					4% increased Effect of your Marks
 				</Override>
-				<Override nodeId="42760" dn="Tattoo of the Rongokurai Turtle" activeEffectImage="Art/2DArt/UIImages/InGame/AncestralTrial/PassiveTreeTattoos/RongokuraiTribePassiveBG.png" icon="Art/2DArt/SkillIcons/passives/dmgreduction.png">
-					You take 5% reduced Extra Damage from Critical Strikes
-				</Override>
-				<Override nodeId="33310" dn="Tattoo of the Hinekora Warmonger" activeEffectImage="Art/2DArt/UIImages/InGame/AncestralTrial/PassiveTreeTattoos/HinekoraTribePassiveBG.png" icon="Art/2DArt/SkillIcons/passives/minionlife.png">
-					Minions have 5% increased maximum Life
-				</Override>
-				<Override nodeId="63447" dn="Tattoo of the Rongokurai Turtle" activeEffectImage="Art/2DArt/UIImages/InGame/AncestralTrial/PassiveTreeTattoos/RongokuraiTribePassiveBG.png" icon="Art/2DArt/SkillIcons/passives/dmgreduction.png">
+				<Override nodeId="6764" dn="Tattoo of the Rongokurai Turtle" activeEffectImage="Art/2DArt/UIImages/InGame/AncestralTrial/PassiveTreeTattoos/RongokuraiTribePassiveBG.png" icon="Art/2DArt/SkillIcons/passives/dmgreduction.png">
 					You take 5% reduced Extra Damage from Critical Strikes
 				</Override>
 				<Override nodeId="39836" dn="Runegraft of the Fortress" activeEffectImage="Art/2DArt/UIImages/InGame/Village/RuneCraftingPassiveBG.png" icon="Art/2DArt/SkillIcons/passives/AtlasTrees/RuneGraftingIcon1.png">
@@ -3644,16 +3725,22 @@ Implicits: 0
 					40% increased Global Defences
 					Limited to 1 Runegraft of the Fortress
 				</Override>
-				<Override nodeId="6764" dn="Tattoo of the Rongokurai Turtle" activeEffectImage="Art/2DArt/UIImages/InGame/AncestralTrial/PassiveTreeTattoos/RongokuraiTribePassiveBG.png" icon="Art/2DArt/SkillIcons/passives/dmgreduction.png">
+				<Override nodeId="63447" dn="Tattoo of the Rongokurai Turtle" activeEffectImage="Art/2DArt/UIImages/InGame/AncestralTrial/PassiveTreeTattoos/RongokuraiTribePassiveBG.png" icon="Art/2DArt/SkillIcons/passives/dmgreduction.png">
+					You take 5% reduced Extra Damage from Critical Strikes
+				</Override>
+				<Override nodeId="40366" dn="Tattoo of the Rongokurai Turtle" activeEffectImage="Art/2DArt/UIImages/InGame/AncestralTrial/PassiveTreeTattoos/RongokuraiTribePassiveBG.png" icon="Art/2DArt/SkillIcons/passives/dmgreduction.png">
+					You take 5% reduced Extra Damage from Critical Strikes
+				</Override>
+				<Override nodeId="15117" dn="Tattoo of the Rongokurai Turtle" activeEffectImage="Art/2DArt/UIImages/InGame/AncestralTrial/PassiveTreeTattoos/RongokuraiTribePassiveBG.png" icon="Art/2DArt/SkillIcons/passives/dmgreduction.png">
 					You take 5% reduced Extra Damage from Critical Strikes
 				</Override>
 				<Override nodeId="4367" dn="Tattoo of the Rongokurai Turtle" activeEffectImage="Art/2DArt/UIImages/InGame/AncestralTrial/PassiveTreeTattoos/RongokuraiTribePassiveBG.png" icon="Art/2DArt/SkillIcons/passives/dmgreduction.png">
 					You take 5% reduced Extra Damage from Critical Strikes
 				</Override>
-				<Override nodeId="56295" dn="Tattoo of the Hinekora Warmonger" activeEffectImage="Art/2DArt/UIImages/InGame/AncestralTrial/PassiveTreeTattoos/HinekoraTribePassiveBG.png" icon="Art/2DArt/SkillIcons/passives/minionlife.png">
-					Minions have 5% increased maximum Life
+				<Override nodeId="36678" dn="Tattoo of the Rongokurai Turtle" activeEffectImage="Art/2DArt/UIImages/InGame/AncestralTrial/PassiveTreeTattoos/RongokuraiTribePassiveBG.png" icon="Art/2DArt/SkillIcons/passives/dmgreduction.png">
+					You take 5% reduced Extra Damage from Critical Strikes
 				</Override>
-				<Override nodeId="60440" dn="Tattoo of the Hinekora Warmonger" activeEffectImage="Art/2DArt/UIImages/InGame/AncestralTrial/PassiveTreeTattoos/HinekoraTribePassiveBG.png" icon="Art/2DArt/SkillIcons/passives/minionlife.png">
+				<Override nodeId="56295" dn="Tattoo of the Hinekora Warmonger" activeEffectImage="Art/2DArt/UIImages/InGame/AncestralTrial/PassiveTreeTattoos/HinekoraTribePassiveBG.png" icon="Art/2DArt/SkillIcons/passives/minionlife.png">
 					Minions have 5% increased maximum Life
 				</Override>
 				<Override nodeId="37671" dn="Tattoo of the Hinekora Deathwarden" activeEffectImage="Art/2DArt/UIImages/InGame/AncestralTrial/PassiveTreeTattoos/HinekoraTribePassiveBG.png" icon="Art/2DArt/SkillIcons/passives/CursemitigationclusterNode.png">
@@ -3661,9 +3748,9 @@ Implicits: 0
 				</Override>
 			</Overrides>
 		</Spec>
-		<Spec masteryEffects="{12503,19422},{45558,30612},{63268,24180},{857,31556},{26393,43400},{39836,56471},{38921,4500},{11505,55308},{16141,62252},{63482,50993}" secondaryAscendClassId="0" nodes="7388,4184,39841,40291,64583,54447,20987,36634,21984,27656,33310,63447,45558,22618,36107,61419,22748,37569,51213,5591,34478,18769,25789,13961,34098,60440,26557,55332,29712,54452,33753,56461,60989,40366,57264,24426,23334,4397,885,66832,12246,13170,5916,18182,65824,27323,34661,63268,857,15117,34506,24872,4367,60398,7444,52502,9408,66841,53456,16141,6764,49605,12503,7960,15852,49900,11420,65888,65570,26393,65834,39836,38246,22088,4854,6910,11455,54954,61834,66835,36858,21033,44184,43061,65578,65568,19919,15167,58998,42760,65826,38921,23690,23659,62697,63425,61653,23215,37114,27038,55743,61259,36678,4713,31875,12738,63039,46340,50029,6967,11505,35233,19501,65890,33864,5296,16023,1461,6797,46277,6770,65898,54279,32763,29049,56295,63482,53123,36542,24324" classId="3" title="150D Budget (Clearing)" ascendClassId="2" treeVersion="3_28" clusterHashFormatVersion="2">
+		<Spec masteryEffects="{12503,19422},{45558,30612},{63268,24180},{857,31556},{26393,43400},{39836,56471},{38921,4500},{11505,55308},{16141,62252},{63482,50993}" secondaryAscendClassId="0" nodes="7388,4184,39841,40291,64583,54447,20987,36634,21984,27656,33310,63447,45558,22618,36107,61419,22748,37569,55743,5591,34478,18769,25789,13961,34098,60440,26557,55332,29712,54452,33753,56461,60989,40366,57264,24426,23334,4397,885,66832,12246,13170,5916,18182,65568,27323,34661,63268,857,58998,34506,24872,4367,60398,7444,52502,9408,66841,53456,16141,6764,49605,12503,7960,32763,49900,11420,65888,65570,26393,65578,39836,38246,22088,4854,6910,11455,54954,61834,66835,36858,21033,44184,43061,65834,65824,19919,15167,27038,51213,65826,38921,23690,23659,19501,63425,37114,15117,31875,23215,42760,36678,61653,4713,12738,46340,63039,6967,50029,11505,35233,5296,62697,65890,33864,61259,16023,1461,6797,46277,6770,65898,29049,56295,63482,53123,36542,24324,15852,54279" classId="3" title="150D Budget (Clearing)" ascendClassId="2" treeVersion="3_28" clusterHashFormatVersion="2">
 			<URL>
-				https://www.pathofexile.com/passive-skill-tree/AAAABgMCdBzcEFiboZ1j_EdR-48aVeBsCIIe99ex9lhajQvv61jcksHIDRXXhq5JUWS9NomFMuwYZ73YJHQQ1LSD2dyN7j2drt-wX2pbJhEtA3Uv1jNyFxxHBmq7h2X3JANZOw2GymEoEQ_r7h0UzRYkwNDQPw0abMHFMNcfGD3swuwsnGcZm5yVZlZIEvYa_iy_1qrxio_6UimsmKg1Tc87P-Z2pwiYCVyKXGv06ffB8NVar5D6aZ7Zv-9Lj0YSaXyDMcL2P7UEw20bNyzxiaFMLYRIFLAFtRqNtMUactQHf_txedvn9_rPg46-XwQMBRABIAUZAWAAIgEqBRMAKgAgASIBYgFqCneUsfZedPcke0QDWfMsPw1L3jDXqYhnGdyXm5wRlJgJ2Aws8ccx9_o=
+				https://www.pathofexile.com/passive-skill-tree/AAAABgMCdBzcEFiboZ1j_EdR-48aVeBsCIIe99ex9lhajQvv61jcksHZvxXXhq5JUWS9NomFMuwYZ73YJHQQ1LSD2dyN7j2drt-wX2pbJhEtA3Uv1jNyFxxHBmq7h2X3JANZ5naGymEoEQ_r7h0UzRYkwNDQPw0abMHFMNcfGH_7wuwsnGcZm5yVZlZIEvYa_iy_1qrxio_6UimsmKg1Tc87P2meyA2YCVyKXGtMLffBkPo7DXyDWq-nCI9G8NUSaTHCtQT2Pxs3w20s8YmhFLD06YRI70sFtRqNtMUacnF52-f3-s-Djr5fBD3s1AcMBRAAIAUZAWAAIgAqBRMBKgEgASIBYgFqCneUsfZedPcke0QDWfMsPw1L3jDXqYhnGdyXm5wRlJgJ2Aws8ccx9_o=
 			</URL>
 			<Sockets>
 				<Socket itemId="3" nodeId="61419"/>
@@ -3699,8 +3786,8 @@ Implicits: 0
 				<Override nodeId="36858" dn="Tattoo of the Rongokurai Turtle" activeEffectImage="Art/2DArt/UIImages/InGame/AncestralTrial/PassiveTreeTattoos/RongokuraiTribePassiveBG.png" icon="Art/2DArt/SkillIcons/passives/dmgreduction.png">
 					You take 5% reduced Extra Damage from Critical Strikes
 				</Override>
-				<Override nodeId="19501" dn="Tattoo of the Rongokurai Turtle" activeEffectImage="Art/2DArt/UIImages/InGame/AncestralTrial/PassiveTreeTattoos/RongokuraiTribePassiveBG.png" icon="Art/2DArt/SkillIcons/passives/dmgreduction.png">
-					You take 5% reduced Extra Damage from Critical Strikes
+				<Override nodeId="49900" dn="Tattoo of the Tawhoa Herbalist" activeEffectImage="Art/2DArt/UIImages/InGame/AncestralTrial/PassiveTreeTattoos/TawhoaTribePassiveBG.png" icon="Art/2DArt/SkillIcons/passives/flaskdex.png">
+					4% increased Flask Effect Duration
 				</Override>
 				<Override nodeId="18182" dn="Tattoo of the Rongokurai Turtle" activeEffectImage="Art/2DArt/UIImages/InGame/AncestralTrial/PassiveTreeTattoos/RongokuraiTribePassiveBG.png" icon="Art/2DArt/SkillIcons/passives/dmgreduction.png">
 					You take 5% reduced Extra Damage from Critical Strikes
@@ -3708,13 +3795,13 @@ Implicits: 0
 				<Override nodeId="55332" dn="Tattoo of the Rongokurai Turtle" activeEffectImage="Art/2DArt/UIImages/InGame/AncestralTrial/PassiveTreeTattoos/RongokuraiTribePassiveBG.png" icon="Art/2DArt/SkillIcons/passives/dmgreduction.png">
 					You take 5% reduced Extra Damage from Critical Strikes
 				</Override>
-				<Override nodeId="36678" dn="Tattoo of the Rongokurai Turtle" activeEffectImage="Art/2DArt/UIImages/InGame/AncestralTrial/PassiveTreeTattoos/RongokuraiTribePassiveBG.png" icon="Art/2DArt/SkillIcons/passives/dmgreduction.png">
+				<Override nodeId="60440" dn="Tattoo of the Rongokurai Turtle" activeEffectImage="Art/2DArt/UIImages/InGame/AncestralTrial/PassiveTreeTattoos/RongokuraiTribePassiveBG.png" icon="Art/2DArt/SkillIcons/passives/dmgreduction.png">
 					You take 5% reduced Extra Damage from Critical Strikes
 				</Override>
 				<Override nodeId="48778" dn="Tattoo of the Hinekora Deathwarden" activeEffectImage="Art/2DArt/UIImages/InGame/AncestralTrial/PassiveTreeTattoos/HinekoraTribePassiveBG.png" icon="Art/2DArt/SkillIcons/passives/CursemitigationclusterNode.png">
 					6% reduced Effect of Curses on you
 				</Override>
-				<Override nodeId="60440" dn="Tattoo of the Rongokurai Turtle" activeEffectImage="Art/2DArt/UIImages/InGame/AncestralTrial/PassiveTreeTattoos/RongokuraiTribePassiveBG.png" icon="Art/2DArt/SkillIcons/passives/dmgreduction.png">
+				<Override nodeId="19501" dn="Tattoo of the Rongokurai Turtle" activeEffectImage="Art/2DArt/UIImages/InGame/AncestralTrial/PassiveTreeTattoos/RongokuraiTribePassiveBG.png" icon="Art/2DArt/SkillIcons/passives/dmgreduction.png">
 					You take 5% reduced Extra Damage from Critical Strikes
 				</Override>
 				<Override nodeId="27656" dn="Tattoo of the Hinekora Warmonger" activeEffectImage="Art/2DArt/UIImages/InGame/AncestralTrial/PassiveTreeTattoos/HinekoraTribePassiveBG.png" icon="Art/2DArt/SkillIcons/passives/minionlife.png">
@@ -3734,16 +3821,14 @@ Implicits: 0
 					Auras from your Skills which affect Allies also affect Enemies
 					Limited to 1 Runegraft of Treachery
 				</Override>
-				<Override nodeId="42760" dn="Tattoo of the Rongokurai Turtle" activeEffectImage="Art/2DArt/UIImages/InGame/AncestralTrial/PassiveTreeTattoos/RongokuraiTribePassiveBG.png" icon="Art/2DArt/SkillIcons/passives/dmgreduction.png">
+				<Override nodeId="6764" dn="Tattoo of the Rongokurai Turtle" activeEffectImage="Art/2DArt/UIImages/InGame/AncestralTrial/PassiveTreeTattoos/RongokuraiTribePassiveBG.png" icon="Art/2DArt/SkillIcons/passives/dmgreduction.png">
 					You take 5% reduced Extra Damage from Critical Strikes
 				</Override>
 				<Override nodeId="1461" dn="Tattoo of the Tawhoa Herbalist" activeEffectImage="Art/2DArt/UIImages/InGame/AncestralTrial/PassiveTreeTattoos/TawhoaTribePassiveBG.png" icon="Art/2DArt/SkillIcons/passives/flaskdex.png">
 					4% increased Flask Effect Duration
 				</Override>
-				<Override nodeId="39836" dn="Runegraft of the Fortress" activeEffectImage="Art/2DArt/UIImages/InGame/Village/RuneCraftingPassiveBG.png" icon="Art/2DArt/SkillIcons/passives/AtlasTrees/RuneGraftingIcon1.png">
-					10% reduced Attributes
-					40% increased Global Defences
-					Limited to 1 Runegraft of the Fortress
+				<Override nodeId="40366" dn="Tattoo of the Rongokurai Turtle" activeEffectImage="Art/2DArt/UIImages/InGame/AncestralTrial/PassiveTreeTattoos/RongokuraiTribePassiveBG.png" icon="Art/2DArt/SkillIcons/passives/dmgreduction.png">
+					You take 5% reduced Extra Damage from Critical Strikes
 				</Override>
 				<Override nodeId="46277" dn="Tattoo of the Tawhoa Herbalist" activeEffectImage="Art/2DArt/UIImages/InGame/AncestralTrial/PassiveTreeTattoos/TawhoaTribePassiveBG.png" icon="Art/2DArt/SkillIcons/passives/flaskdex.png">
 					4% increased Flask Effect Duration
@@ -3751,38 +3836,40 @@ Implicits: 0
 				<Override nodeId="27659" dn="Tattoo of the Tasalio Scout" activeEffectImage="Art/2DArt/UIImages/InGame/AncestralTrial/PassiveTreeTattoos/TasalioTribePassiveBG.png" icon="Art/2DArt/SkillIcons/passives/MarkNode.png">
 					4% increased Effect of your Marks
 				</Override>
-				<Override nodeId="6764" dn="Tattoo of the Rongokurai Turtle" activeEffectImage="Art/2DArt/UIImages/InGame/AncestralTrial/PassiveTreeTattoos/RongokuraiTribePassiveBG.png" icon="Art/2DArt/SkillIcons/passives/dmgreduction.png">
-					You take 5% reduced Extra Damage from Critical Strikes
-				</Override>
-				<Override nodeId="40366" dn="Tattoo of the Rongokurai Turtle" activeEffectImage="Art/2DArt/UIImages/InGame/AncestralTrial/PassiveTreeTattoos/RongokuraiTribePassiveBG.png" icon="Art/2DArt/SkillIcons/passives/dmgreduction.png">
-					You take 5% reduced Extra Damage from Critical Strikes
-				</Override>
-				<Override nodeId="63447" dn="Tattoo of the Rongokurai Turtle" activeEffectImage="Art/2DArt/UIImages/InGame/AncestralTrial/PassiveTreeTattoos/RongokuraiTribePassiveBG.png" icon="Art/2DArt/SkillIcons/passives/dmgreduction.png">
+				<Override nodeId="15117" dn="Tattoo of the Rongokurai Turtle" activeEffectImage="Art/2DArt/UIImages/InGame/AncestralTrial/PassiveTreeTattoos/RongokuraiTribePassiveBG.png" icon="Art/2DArt/SkillIcons/passives/dmgreduction.png">
 					You take 5% reduced Extra Damage from Critical Strikes
 				</Override>
 				<Override nodeId="33310" dn="Tattoo of the Rongokurai Turtle" activeEffectImage="Art/2DArt/UIImages/InGame/AncestralTrial/PassiveTreeTattoos/RongokuraiTribePassiveBG.png" icon="Art/2DArt/SkillIcons/passives/dmgreduction.png">
 					You take 5% reduced Extra Damage from Critical Strikes
 				</Override>
-				<Override nodeId="15117" dn="Tattoo of the Rongokurai Turtle" activeEffectImage="Art/2DArt/UIImages/InGame/AncestralTrial/PassiveTreeTattoos/RongokuraiTribePassiveBG.png" icon="Art/2DArt/SkillIcons/passives/dmgreduction.png">
+				<Override nodeId="63447" dn="Tattoo of the Rongokurai Turtle" activeEffectImage="Art/2DArt/UIImages/InGame/AncestralTrial/PassiveTreeTattoos/RongokuraiTribePassiveBG.png" icon="Art/2DArt/SkillIcons/passives/dmgreduction.png">
+					You take 5% reduced Extra Damage from Critical Strikes
+				</Override>
+				<Override nodeId="39836" dn="Runegraft of the Fortress" activeEffectImage="Art/2DArt/UIImages/InGame/Village/RuneCraftingPassiveBG.png" icon="Art/2DArt/SkillIcons/passives/AtlasTrees/RuneGraftingIcon1.png">
+					10% reduced Attributes
+					40% increased Global Defences
+					Limited to 1 Runegraft of the Fortress
+				</Override>
+				<Override nodeId="42760" dn="Tattoo of the Rongokurai Turtle" activeEffectImage="Art/2DArt/UIImages/InGame/AncestralTrial/PassiveTreeTattoos/RongokuraiTribePassiveBG.png" icon="Art/2DArt/SkillIcons/passives/dmgreduction.png">
 					You take 5% reduced Extra Damage from Critical Strikes
 				</Override>
 				<Override nodeId="4367" dn="Tattoo of the Rongokurai Turtle" activeEffectImage="Art/2DArt/UIImages/InGame/AncestralTrial/PassiveTreeTattoos/RongokuraiTribePassiveBG.png" icon="Art/2DArt/SkillIcons/passives/dmgreduction.png">
 					You take 5% reduced Extra Damage from Critical Strikes
 				</Override>
-				<Override nodeId="56295" dn="Tattoo of the Rongokurai Turtle" activeEffectImage="Art/2DArt/UIImages/InGame/AncestralTrial/PassiveTreeTattoos/RongokuraiTribePassiveBG.png" icon="Art/2DArt/SkillIcons/passives/dmgreduction.png">
+				<Override nodeId="36678" dn="Tattoo of the Rongokurai Turtle" activeEffectImage="Art/2DArt/UIImages/InGame/AncestralTrial/PassiveTreeTattoos/RongokuraiTribePassiveBG.png" icon="Art/2DArt/SkillIcons/passives/dmgreduction.png">
 					You take 5% reduced Extra Damage from Critical Strikes
 				</Override>
-				<Override nodeId="49900" dn="Tattoo of the Tawhoa Herbalist" activeEffectImage="Art/2DArt/UIImages/InGame/AncestralTrial/PassiveTreeTattoos/TawhoaTribePassiveBG.png" icon="Art/2DArt/SkillIcons/passives/flaskdex.png">
-					4% increased Flask Effect Duration
+				<Override nodeId="56295" dn="Tattoo of the Rongokurai Turtle" activeEffectImage="Art/2DArt/UIImages/InGame/AncestralTrial/PassiveTreeTattoos/RongokuraiTribePassiveBG.png" icon="Art/2DArt/SkillIcons/passives/dmgreduction.png">
+					You take 5% reduced Extra Damage from Critical Strikes
 				</Override>
 				<Override nodeId="37671" dn="Tattoo of the Hinekora Deathwarden" activeEffectImage="Art/2DArt/UIImages/InGame/AncestralTrial/PassiveTreeTattoos/HinekoraTribePassiveBG.png" icon="Art/2DArt/SkillIcons/passives/CursemitigationclusterNode.png">
 					6% reduced Effect of Curses on you
 				</Override>
 			</Overrides>
 		</Spec>
-		<Spec masteryEffects="{12503,19422},{45558,30612},{857,31556},{34927,36313},{39836,56471},{38921,4500},{11505,55308},{26393,43400},{16141,62252},{63482,50993}" secondaryAscendClassId="nil" nodes="7388,4184,39841,64583,54447,61804,36634,21984,27656,33310,63447,45558,22618,19919,61419,22748,37569,55743,5591,34478,18769,25789,13961,34098,60440,26557,55332,29712,54452,33753,6967,60989,11924,57264,24426,23334,4397,66832,12246,13170,5916,18182,65568,27323,34661,857,58998,34506,24872,4367,60398,7444,52502,9408,66841,53456,16141,6764,63482,12503,7960,15852,49900,11420,65888,65826,46340,65578,31875,38246,22088,4854,6910,11455,54954,13559,61834,66835,36858,65834,35233,44184,43061,6797,65890,36107,20987,27038,65570,51213,54279,56295,38921,23690,23659,15167,15117,63425,42760,5296,37114,31462,36678,39836,4713,34927,26393,63039,40366,50029,12738,29049,56461,11505,61259,33864,21033,16023,1461,36542,46277,6770,65898,19501,61653,53123,32763,62697,49605,23215,65824" classId="3" title="150D Budget (Bossing)" ascendClassId="2" treeVersion="3_28" clusterHashFormatVersion="2">
+		<Spec masteryEffects="{12503,19422},{45558,30612},{857,31556},{26393,43400},{39836,56471},{38921,4500},{11505,55308},{16141,62252},{34927,36313},{63482,50993}" secondaryAscendClassId="nil" nodes="7388,4184,39841,64583,54447,20987,36634,21984,27656,33310,63447,45558,22618,19919,61419,22748,37569,55743,5591,34478,18769,25789,13961,34098,60440,26557,55332,29712,54452,33753,6967,60989,11924,57264,24426,23334,4397,66832,12246,13170,5916,18182,65824,27323,34661,857,27038,34506,24872,4367,60398,7444,52502,9408,66841,53456,16141,6764,63482,12503,7960,15852,49900,11420,65888,65570,46340,65834,31875,38246,22088,4854,6910,11455,54954,13559,61834,66835,36858,65578,35233,44184,43061,6797,65890,36107,15167,15117,65826,51213,11505,54279,38921,23690,31462,61804,58998,63425,29049,37114,42760,36678,56295,23659,4713,34927,5296,63039,40366,50029,39836,56461,36542,21033,61259,12738,26393,16023,1461,33864,46277,6770,65898,19501,61653,53123,32763,62697,49605,23215,65568" classId="3" title="150D Budget (Bossing)" ascendClassId="2" treeVersion="3_28" clusterHashFormatVersion="2">
 			<URL>
-				https://www.pathofexile.com/passive-skill-tree/AAAABgMCdRzcEFibofxH8WyPGlXgbAiCHvfXsfZYWk3P7-tY3JLB2b8V14auSVFkvTaJhTLsGGe92CR0ENS0g9kbN-49LpTfsF9qWyYRLS_WM3IXHEcGaruHZQNZ5naGymEoEQ_r7h0UzRYkwNDQPw0abPf6MNcfGD3swuwsnLUEfIOVZlZIEvYa_iy_1qo09_GKj_qJoayYqDUajY0LUftpnsgN1Afb55gJXIpcazs_Ow33wacIFLCQ-nrmj0abnBJpiG9nGfY_na7DbTHCcXncjSzx70uESFIpBbWOvrTFGnJMLfDVz4N_-_TpwcVarwwFEAAgBRkBYAEiACoFEwEqAWIAIgFqASAKd5Sx9ntEA1nzLD8NxzH3-kveMNcRlJgJ3JebnI3ZiG-piGcZ2Aws8Q==
+				https://www.pathofexile.com/passive-skill-tree/AAAABgMCdRzcEFibofxHUfuPGlXgbAiCHvfXsfZYWk3P7-tY3JLB2b8V14auSVFkvTaJhTLsGGe92CR0ENS0g9kbN-49LpTfsF9qWyYRLS_WM3IXHEcGaruHZQNZaZ6GymEoEQ_r7h0UzRYkwNDQPw0abPf6MNcfGD3swuwsnLUEfIOVZlZIEvYa_iy_1qo09_GKj_qJoayYqDUajY0LOz87DcgNLPHUB5gJXIp65vFs5nb3wXF5kPqnCI9G2-dcaxJpiG8UsPY_na7DbZuc3I2OvlIp70sxwmcZBbWESLTFGnJMLfDVz4N_-_TpwcVarwwFEAEgBRkBYAAiASoFEwAqAWIBIgFqACAKd5Sx9ntEA1nzLD8NxzH3-kveMNfYDCzxEZSYCY3ZiG_cl5ucqYhnGQ==
 			</URL>
 			<Sockets>
 				<Socket itemId="3" nodeId="61419"/>
@@ -3850,14 +3937,16 @@ Implicits: 0
 					Auras from your Skills which affect Allies also affect Enemies
 					Limited to 1 Runegraft of Treachery
 				</Override>
-				<Override nodeId="42760" dn="Tattoo of the Rongokurai Turtle" activeEffectImage="Art/2DArt/UIImages/InGame/AncestralTrial/PassiveTreeTattoos/RongokuraiTribePassiveBG.png" icon="Art/2DArt/SkillIcons/passives/dmgreduction.png">
+				<Override nodeId="6764" dn="Tattoo of the Rongokurai Turtle" activeEffectImage="Art/2DArt/UIImages/InGame/AncestralTrial/PassiveTreeTattoos/RongokuraiTribePassiveBG.png" icon="Art/2DArt/SkillIcons/passives/dmgreduction.png">
 					You take 5% reduced Extra Damage from Critical Strikes
 				</Override>
 				<Override nodeId="1461" dn="Tattoo of the Tawhoa Herbalist" activeEffectImage="Art/2DArt/UIImages/InGame/AncestralTrial/PassiveTreeTattoos/TawhoaTribePassiveBG.png" icon="Art/2DArt/SkillIcons/passives/flaskdex.png">
 					4% increased Flask Effect Duration
 				</Override>
-				<Override nodeId="33310" dn="Tattoo of the Rongokurai Turtle" activeEffectImage="Art/2DArt/UIImages/InGame/AncestralTrial/PassiveTreeTattoos/RongokuraiTribePassiveBG.png" icon="Art/2DArt/SkillIcons/passives/dmgreduction.png">
-					You take 5% reduced Extra Damage from Critical Strikes
+				<Override nodeId="39836" dn="Runegraft of the Fortress" activeEffectImage="Art/2DArt/UIImages/InGame/Village/RuneCraftingPassiveBG.png" icon="Art/2DArt/SkillIcons/passives/AtlasTrees/RuneGraftingIcon1.png">
+					10% reduced Attributes
+					40% increased Global Defences
+					Limited to 1 Runegraft of the Fortress
 				</Override>
 				<Override nodeId="46277" dn="Tattoo of the Tawhoa Herbalist" activeEffectImage="Art/2DArt/UIImages/InGame/AncestralTrial/PassiveTreeTattoos/TawhoaTribePassiveBG.png" icon="Art/2DArt/SkillIcons/passives/flaskdex.png">
 					4% increased Flask Effect Duration
@@ -3865,21 +3954,19 @@ Implicits: 0
 				<Override nodeId="63447" dn="Tattoo of the Rongokurai Turtle" activeEffectImage="Art/2DArt/UIImages/InGame/AncestralTrial/PassiveTreeTattoos/RongokuraiTribePassiveBG.png" icon="Art/2DArt/SkillIcons/passives/dmgreduction.png">
 					You take 5% reduced Extra Damage from Critical Strikes
 				</Override>
-				<Override nodeId="6764" dn="Tattoo of the Rongokurai Turtle" activeEffectImage="Art/2DArt/UIImages/InGame/AncestralTrial/PassiveTreeTattoos/RongokuraiTribePassiveBG.png" icon="Art/2DArt/SkillIcons/passives/dmgreduction.png">
+				<Override nodeId="15117" dn="Tattoo of the Rongokurai Turtle" activeEffectImage="Art/2DArt/UIImages/InGame/AncestralTrial/PassiveTreeTattoos/RongokuraiTribePassiveBG.png" icon="Art/2DArt/SkillIcons/passives/dmgreduction.png">
 					You take 5% reduced Extra Damage from Critical Strikes
-				</Override>
-				<Override nodeId="39836" dn="Runegraft of the Fortress" activeEffectImage="Art/2DArt/UIImages/InGame/Village/RuneCraftingPassiveBG.png" icon="Art/2DArt/SkillIcons/passives/AtlasTrees/RuneGraftingIcon1.png">
-					10% reduced Attributes
-					40% increased Global Defences
-					Limited to 1 Runegraft of the Fortress
-				</Override>
-				<Override nodeId="27659" dn="Tattoo of the Tasalio Scout" activeEffectImage="Art/2DArt/UIImages/InGame/AncestralTrial/PassiveTreeTattoos/TasalioTribePassiveBG.png" icon="Art/2DArt/SkillIcons/passives/MarkNode.png">
-					4% increased Effect of your Marks
 				</Override>
 				<Override nodeId="40366" dn="Tattoo of the Rongokurai Turtle" activeEffectImage="Art/2DArt/UIImages/InGame/AncestralTrial/PassiveTreeTattoos/RongokuraiTribePassiveBG.png" icon="Art/2DArt/SkillIcons/passives/dmgreduction.png">
 					You take 5% reduced Extra Damage from Critical Strikes
 				</Override>
-				<Override nodeId="15117" dn="Tattoo of the Rongokurai Turtle" activeEffectImage="Art/2DArt/UIImages/InGame/AncestralTrial/PassiveTreeTattoos/RongokuraiTribePassiveBG.png" icon="Art/2DArt/SkillIcons/passives/dmgreduction.png">
+				<Override nodeId="27659" dn="Tattoo of the Tasalio Scout" activeEffectImage="Art/2DArt/UIImages/InGame/AncestralTrial/PassiveTreeTattoos/TasalioTribePassiveBG.png" icon="Art/2DArt/SkillIcons/passives/MarkNode.png">
+					4% increased Effect of your Marks
+				</Override>
+				<Override nodeId="33310" dn="Tattoo of the Rongokurai Turtle" activeEffectImage="Art/2DArt/UIImages/InGame/AncestralTrial/PassiveTreeTattoos/RongokuraiTribePassiveBG.png" icon="Art/2DArt/SkillIcons/passives/dmgreduction.png">
+					You take 5% reduced Extra Damage from Critical Strikes
+				</Override>
+				<Override nodeId="42760" dn="Tattoo of the Rongokurai Turtle" activeEffectImage="Art/2DArt/UIImages/InGame/AncestralTrial/PassiveTreeTattoos/RongokuraiTribePassiveBG.png" icon="Art/2DArt/SkillIcons/passives/dmgreduction.png">
 					You take 5% reduced Extra Damage from Critical Strikes
 				</Override>
 				<Override nodeId="4367" dn="Tattoo of the Rongokurai Turtle" activeEffectImage="Art/2DArt/UIImages/InGame/AncestralTrial/PassiveTreeTattoos/RongokuraiTribePassiveBG.png" icon="Art/2DArt/SkillIcons/passives/dmgreduction.png">
@@ -3896,9 +3983,9 @@ Implicits: 0
 				</Override>
 			</Overrides>
 		</Spec>
-		<Spec masteryEffects="{12503,19422},{45558,30612},{857,31556},{26393,43400},{39836,56471},{38921,4500},{11505,55308},{16141,62252},{63482,50993}" secondaryAscendClassId="nil" nodes="7388,4184,39841,64583,54447,20987,36634,21984,27656,33310,63447,45558,22618,19919,61419,37569,55743,5591,34478,18769,25789,13961,34098,60440,26557,55332,29712,54452,33753,6967,60989,40366,57264,24426,23334,65552,4397,66576,66832,12246,13170,5916,18182,65568,27323,34661,857,15117,34506,24872,4367,60398,47873,65817,52502,9408,66841,53456,16141,42760,65872,53123,12503,66896,15852,49900,11420,65888,258,65570,46340,65578,31875,22088,4854,6910,11455,65555,66579,36858,21033,44184,43061,65875,65834,66899,15167,27038,54279,26393,5296,63482,38921,23690,23659,58998,63425,36542,23215,7444,7960,56461,35233,36678,4713,65808,61653,63039,39836,50029,54954,11505,19501,33864,65890,12738,61834,16023,1461,62697,46277,6770,65898,29049,6764,49605,65826,6797,32763,65824,56295" classId="3" title="High Budget Megalomaniacs (Clearing)" ascendClassId="2" treeVersion="3_28" clusterHashFormatVersion="2">
+		<Spec masteryEffects="{12503,19422},{45558,30612},{857,31556},{26393,43400},{39836,56471},{38921,4500},{11505,55308},{16141,62252},{63482,50993}" secondaryAscendClassId="nil" nodes="7388,4184,39841,66899,54447,20987,36634,21984,27656,33310,63447,45558,22618,19919,61419,37569,55743,5591,34478,18769,25789,13961,34098,60440,26557,55332,29712,54452,33753,56461,60989,40366,57264,24426,23334,65552,4397,66576,66832,36678,13170,5916,18182,65824,27323,34661,857,15117,34506,24872,4367,60398,47873,65817,52502,9408,66841,53456,16141,61653,65872,53123,12503,66896,32763,49900,11420,65888,258,65826,46340,65834,39836,22088,4854,6910,11455,65555,66579,36858,21033,44184,43061,65875,65578,64583,15167,58998,6764,31875,26393,29049,38921,23690,23659,27038,63425,36542,62697,6967,23215,7960,35233,12246,4713,65808,19501,63039,63482,50029,33864,11505,5296,61834,65890,12738,54954,16023,1461,54279,46277,6770,65898,49605,56295,65570,6797,15852,7444,65568,42760" classId="3" title="High Budget Megalomaniacs (Clearing)" ascendClassId="2" treeVersion="3_28" clusterHashFormatVersion="2">
 			<URL>
-				https://www.pathofexile.com/passive-skill-tree/AAAABgMCbBzcEFibofxHUfuPGlXgbAiCHvfXsfZYWk3P7-uSwdm_FdeGrklRZL02iYUy7BhnvdgkdBDUtIPZGzfuPZ2u37BfalsmES0v1jNyFxxHBmq7h2UDWTsNhsphKBEP6-67Ac0WJMDQ0D8NpwjPgzDXPezC7CycAQK1BHyDVkgS9hr-LL-P-lIprJioNTs_aZ7UB2cZFLD3-pgJXIpca-Z298GOvlqvHRQfGNyNiaGPRhJp8NX2P5ucw23WqizxTC2ESDHC8YoFtfTptMUacnF5GmzBxRqNf_vb5xUAEAQQBRAAIAEZBRkBUAVQAWAAIgAqABMEEwFTASoFUwEQAWIBagEiASAJd5Sx9ntEA1nzLD8NS94w16mIZxnHMff6EZSYCdyXm5zYDCzx
+				https://www.pathofexile.com/passive-skill-tree/AAAABgMCbBzcEFiboVH7jxpV4GwIgh7317H2WFpNz-_rksHZvxXXhq5JUWS9NomFMuwYZ73YJHQQ1LSD2dyN7j2drt-wX2pbJhEtj0YzchccRwZqu4dlA1k7DYbKYSgRD-vuuwHNFiTA0NA_DfDVz4Mw13_7wuwsnAECtQSbnFZIEvYa_iy_j_pSKayYqDX8Rzs_5nYabHyDZxlxeZgJXIpca2me98GOvvTpGzdarx8YiaEv1hJpTC32P_f6w22ESCzxFLDxijHC1qoFtdQHtMUacsHF2-cajT3sHRSnCBUFUwAQBBAFEAEgARkFGQFQBVABYAEiASoAEwQTAVMAKgEQAWIBagAiACAJd5Sx9ntEA1nzLD8NS94w19yXm5ypiGcZEZSYCccx9_rYDCzx
 			</URL>
 			<Sockets>
 				<Socket itemId="3" nodeId="61419"/>
@@ -3934,8 +4021,8 @@ Implicits: 0
 				<Override nodeId="48778" dn="Tattoo of the Hinekora Deathwarden" activeEffectImage="Art/2DArt/UIImages/InGame/AncestralTrial/PassiveTreeTattoos/HinekoraTribePassiveBG.png" icon="Art/2DArt/SkillIcons/passives/CursemitigationclusterNode.png">
 					6% reduced Effect of Curses on you
 				</Override>
-				<Override nodeId="19501" dn="Tattoo of the Rongokurai Turtle" activeEffectImage="Art/2DArt/UIImages/InGame/AncestralTrial/PassiveTreeTattoos/RongokuraiTribePassiveBG.png" icon="Art/2DArt/SkillIcons/passives/dmgreduction.png">
-					You take 5% reduced Extra Damage from Critical Strikes
+				<Override nodeId="49900" dn="Tattoo of the Tawhoa Herbalist" activeEffectImage="Art/2DArt/UIImages/InGame/AncestralTrial/PassiveTreeTattoos/TawhoaTribePassiveBG.png" icon="Art/2DArt/SkillIcons/passives/flaskdex.png">
+					4% increased Flask Effect Duration
 				</Override>
 				<Override nodeId="18182" dn="Tattoo of the Rongokurai Turtle" activeEffectImage="Art/2DArt/UIImages/InGame/AncestralTrial/PassiveTreeTattoos/RongokuraiTribePassiveBG.png" icon="Art/2DArt/SkillIcons/passives/dmgreduction.png">
 					You take 5% reduced Extra Damage from Critical Strikes
@@ -3943,13 +4030,13 @@ Implicits: 0
 				<Override nodeId="55332" dn="Tattoo of the Rongokurai Turtle" activeEffectImage="Art/2DArt/UIImages/InGame/AncestralTrial/PassiveTreeTattoos/RongokuraiTribePassiveBG.png" icon="Art/2DArt/SkillIcons/passives/dmgreduction.png">
 					You take 5% reduced Extra Damage from Critical Strikes
 				</Override>
-				<Override nodeId="36678" dn="Tattoo of the Rongokurai Turtle" activeEffectImage="Art/2DArt/UIImages/InGame/AncestralTrial/PassiveTreeTattoos/RongokuraiTribePassiveBG.png" icon="Art/2DArt/SkillIcons/passives/dmgreduction.png">
+				<Override nodeId="60440" dn="Tattoo of the Rongokurai Turtle" activeEffectImage="Art/2DArt/UIImages/InGame/AncestralTrial/PassiveTreeTattoos/RongokuraiTribePassiveBG.png" icon="Art/2DArt/SkillIcons/passives/dmgreduction.png">
 					You take 5% reduced Extra Damage from Critical Strikes
 				</Override>
 				<Override nodeId="36858" dn="Tattoo of the Rongokurai Turtle" activeEffectImage="Art/2DArt/UIImages/InGame/AncestralTrial/PassiveTreeTattoos/RongokuraiTribePassiveBG.png" icon="Art/2DArt/SkillIcons/passives/dmgreduction.png">
 					You take 5% reduced Extra Damage from Critical Strikes
 				</Override>
-				<Override nodeId="60440" dn="Tattoo of the Rongokurai Turtle" activeEffectImage="Art/2DArt/UIImages/InGame/AncestralTrial/PassiveTreeTattoos/RongokuraiTribePassiveBG.png" icon="Art/2DArt/SkillIcons/passives/dmgreduction.png">
+				<Override nodeId="19501" dn="Tattoo of the Rongokurai Turtle" activeEffectImage="Art/2DArt/UIImages/InGame/AncestralTrial/PassiveTreeTattoos/RongokuraiTribePassiveBG.png" icon="Art/2DArt/SkillIcons/passives/dmgreduction.png">
 					You take 5% reduced Extra Damage from Critical Strikes
 				</Override>
 				<Override nodeId="27656" dn="Tattoo of the Hinekora Warmonger" activeEffectImage="Art/2DArt/UIImages/InGame/AncestralTrial/PassiveTreeTattoos/HinekoraTribePassiveBG.png" icon="Art/2DArt/SkillIcons/passives/minionlife.png">
@@ -3969,14 +4056,16 @@ Implicits: 0
 					Auras from your Skills which affect Allies also affect Enemies
 					Limited to 1 Runegraft of Treachery
 				</Override>
-				<Override nodeId="6764" dn="Tattoo of the Rongokurai Turtle" activeEffectImage="Art/2DArt/UIImages/InGame/AncestralTrial/PassiveTreeTattoos/RongokuraiTribePassiveBG.png" icon="Art/2DArt/SkillIcons/passives/dmgreduction.png">
+				<Override nodeId="15117" dn="Tattoo of the Rongokurai Turtle" activeEffectImage="Art/2DArt/UIImages/InGame/AncestralTrial/PassiveTreeTattoos/RongokuraiTribePassiveBG.png" icon="Art/2DArt/SkillIcons/passives/dmgreduction.png">
 					You take 5% reduced Extra Damage from Critical Strikes
 				</Override>
 				<Override nodeId="1461" dn="Tattoo of the Tawhoa Herbalist" activeEffectImage="Art/2DArt/UIImages/InGame/AncestralTrial/PassiveTreeTattoos/TawhoaTribePassiveBG.png" icon="Art/2DArt/SkillIcons/passives/flaskdex.png">
 					4% increased Flask Effect Duration
 				</Override>
-				<Override nodeId="40366" dn="Tattoo of the Rongokurai Turtle" activeEffectImage="Art/2DArt/UIImages/InGame/AncestralTrial/PassiveTreeTattoos/RongokuraiTribePassiveBG.png" icon="Art/2DArt/SkillIcons/passives/dmgreduction.png">
-					You take 5% reduced Extra Damage from Critical Strikes
+				<Override nodeId="39836" dn="Runegraft of the Fortress" activeEffectImage="Art/2DArt/UIImages/InGame/Village/RuneCraftingPassiveBG.png" icon="Art/2DArt/SkillIcons/passives/AtlasTrees/RuneGraftingIcon1.png">
+					10% reduced Attributes
+					40% increased Global Defences
+					Limited to 1 Runegraft of the Fortress
 				</Override>
 				<Override nodeId="46277" dn="Tattoo of the Tawhoa Herbalist" activeEffectImage="Art/2DArt/UIImages/InGame/AncestralTrial/PassiveTreeTattoos/TawhoaTribePassiveBG.png" icon="Art/2DArt/SkillIcons/passives/flaskdex.png">
 					4% increased Flask Effect Duration
@@ -3984,40 +4073,38 @@ Implicits: 0
 				<Override nodeId="27659" dn="Tattoo of the Tasalio Scout" activeEffectImage="Art/2DArt/UIImages/InGame/AncestralTrial/PassiveTreeTattoos/TasalioTribePassiveBG.png" icon="Art/2DArt/SkillIcons/passives/MarkNode.png">
 					4% increased Effect of your Marks
 				</Override>
-				<Override nodeId="15117" dn="Tattoo of the Rongokurai Turtle" activeEffectImage="Art/2DArt/UIImages/InGame/AncestralTrial/PassiveTreeTattoos/RongokuraiTribePassiveBG.png" icon="Art/2DArt/SkillIcons/passives/dmgreduction.png">
-					You take 5% reduced Extra Damage from Critical Strikes
-				</Override>
-				<Override nodeId="39836" dn="Runegraft of the Fortress" activeEffectImage="Art/2DArt/UIImages/InGame/Village/RuneCraftingPassiveBG.png" icon="Art/2DArt/SkillIcons/passives/AtlasTrees/RuneGraftingIcon1.png">
-					10% reduced Attributes
-					40% increased Global Defences
-					Limited to 1 Runegraft of the Fortress
-				</Override>
-				<Override nodeId="63447" dn="Tattoo of the Rongokurai Turtle" activeEffectImage="Art/2DArt/UIImages/InGame/AncestralTrial/PassiveTreeTattoos/RongokuraiTribePassiveBG.png" icon="Art/2DArt/SkillIcons/passives/dmgreduction.png">
+				<Override nodeId="42760" dn="Tattoo of the Rongokurai Turtle" activeEffectImage="Art/2DArt/UIImages/InGame/AncestralTrial/PassiveTreeTattoos/RongokuraiTribePassiveBG.png" icon="Art/2DArt/SkillIcons/passives/dmgreduction.png">
 					You take 5% reduced Extra Damage from Critical Strikes
 				</Override>
 				<Override nodeId="33310" dn="Tattoo of the Rongokurai Turtle" activeEffectImage="Art/2DArt/UIImages/InGame/AncestralTrial/PassiveTreeTattoos/RongokuraiTribePassiveBG.png" icon="Art/2DArt/SkillIcons/passives/dmgreduction.png">
 					You take 5% reduced Extra Damage from Critical Strikes
 				</Override>
-				<Override nodeId="42760" dn="Tattoo of the Rongokurai Turtle" activeEffectImage="Art/2DArt/UIImages/InGame/AncestralTrial/PassiveTreeTattoos/RongokuraiTribePassiveBG.png" icon="Art/2DArt/SkillIcons/passives/dmgreduction.png">
+				<Override nodeId="63447" dn="Tattoo of the Rongokurai Turtle" activeEffectImage="Art/2DArt/UIImages/InGame/AncestralTrial/PassiveTreeTattoos/RongokuraiTribePassiveBG.png" icon="Art/2DArt/SkillIcons/passives/dmgreduction.png">
+					You take 5% reduced Extra Damage from Critical Strikes
+				</Override>
+				<Override nodeId="40366" dn="Tattoo of the Rongokurai Turtle" activeEffectImage="Art/2DArt/UIImages/InGame/AncestralTrial/PassiveTreeTattoos/RongokuraiTribePassiveBG.png" icon="Art/2DArt/SkillIcons/passives/dmgreduction.png">
+					You take 5% reduced Extra Damage from Critical Strikes
+				</Override>
+				<Override nodeId="6764" dn="Tattoo of the Rongokurai Turtle" activeEffectImage="Art/2DArt/UIImages/InGame/AncestralTrial/PassiveTreeTattoos/RongokuraiTribePassiveBG.png" icon="Art/2DArt/SkillIcons/passives/dmgreduction.png">
 					You take 5% reduced Extra Damage from Critical Strikes
 				</Override>
 				<Override nodeId="4367" dn="Tattoo of the Rongokurai Turtle" activeEffectImage="Art/2DArt/UIImages/InGame/AncestralTrial/PassiveTreeTattoos/RongokuraiTribePassiveBG.png" icon="Art/2DArt/SkillIcons/passives/dmgreduction.png">
 					You take 5% reduced Extra Damage from Critical Strikes
 				</Override>
-				<Override nodeId="56295" dn="Tattoo of the Rongokurai Turtle" activeEffectImage="Art/2DArt/UIImages/InGame/AncestralTrial/PassiveTreeTattoos/RongokuraiTribePassiveBG.png" icon="Art/2DArt/SkillIcons/passives/dmgreduction.png">
+				<Override nodeId="36678" dn="Tattoo of the Rongokurai Turtle" activeEffectImage="Art/2DArt/UIImages/InGame/AncestralTrial/PassiveTreeTattoos/RongokuraiTribePassiveBG.png" icon="Art/2DArt/SkillIcons/passives/dmgreduction.png">
 					You take 5% reduced Extra Damage from Critical Strikes
 				</Override>
-				<Override nodeId="49900" dn="Tattoo of the Tawhoa Herbalist" activeEffectImage="Art/2DArt/UIImages/InGame/AncestralTrial/PassiveTreeTattoos/TawhoaTribePassiveBG.png" icon="Art/2DArt/SkillIcons/passives/flaskdex.png">
-					4% increased Flask Effect Duration
+				<Override nodeId="56295" dn="Tattoo of the Rongokurai Turtle" activeEffectImage="Art/2DArt/UIImages/InGame/AncestralTrial/PassiveTreeTattoos/RongokuraiTribePassiveBG.png" icon="Art/2DArt/SkillIcons/passives/dmgreduction.png">
+					You take 5% reduced Extra Damage from Critical Strikes
 				</Override>
 				<Override nodeId="37671" dn="Tattoo of the Hinekora Deathwarden" activeEffectImage="Art/2DArt/UIImages/InGame/AncestralTrial/PassiveTreeTattoos/HinekoraTribePassiveBG.png" icon="Art/2DArt/SkillIcons/passives/CursemitigationclusterNode.png">
 					6% reduced Effect of Curses on you
 				</Override>
 			</Overrides>
 		</Spec>
-		<Spec masteryEffects="{12503,19422},{45558,30612},{857,31556},{26393,43400},{39836,56471},{38921,4500},{11505,55308},{16141,62252},{63482,50993}" secondaryAscendClassId="nil" nodes="7388,4184,39841,66899,54447,15167,36634,21984,27656,33310,63447,45558,22618,19919,61419,37569,55743,5591,34478,18769,25789,13961,34098,60440,26557,55332,29712,54452,33753,56461,60989,40366,57264,24426,23334,65808,4397,66576,66832,12246,13170,5916,18182,65568,27323,34661,857,58998,34506,24872,4367,60398,47873,65817,52502,9408,66841,53456,16141,42760,65872,53123,12503,66896,32763,49900,11420,65888,258,65570,46340,65834,39836,22088,4854,6910,11455,65555,66579,36858,21033,44184,43061,65824,65826,6764,20987,15117,29049,27038,54279,62697,38921,23690,23659,63482,63425,6967,7444,7960,65552,35233,36678,11505,4713,23215,54954,63039,19501,50029,36542,33864,5296,61834,65890,12738,26393,16023,1461,31875,46277,6770,65898,49605,6797,56295,64583,61653,15852,65578,65875" classId="3" title="High Budget Megalomaniacs (Bossing)" ascendClassId="2" treeVersion="3_28" clusterHashFormatVersion="2">
+		<Spec masteryEffects="{12503,19422},{45558,30612},{857,31556},{26393,43400},{39836,56471},{38921,4500},{11505,55308},{16141,62252},{63482,50993}" secondaryAscendClassId="nil" nodes="7388,4184,39841,64583,54447,15167,36634,21984,27656,33310,63447,45558,22618,19919,61419,37569,55743,5591,34478,18769,25789,13961,34098,60440,26557,55332,29712,54452,33753,56461,60989,40366,57264,24426,23334,65808,4397,66576,66832,12246,13170,5916,18182,65824,27323,34661,857,27038,34506,24872,4367,60398,47873,65817,52502,9408,66841,53456,16141,61653,65872,53123,12503,66896,32763,49900,11420,65888,258,65826,46340,65578,39836,22088,4854,6910,11455,65555,66579,36858,21033,44184,43061,65568,65570,56295,20987,15117,49605,58998,54279,6764,38921,23690,23659,31875,26393,63425,33864,29049,6967,36678,7960,35233,4713,19501,65552,63039,63482,50029,11505,36542,61834,54954,65890,12738,5296,16023,1461,62697,46277,6770,65898,15852,6797,42760,66899,23215,7444,65834,65875" classId="3" title="High Budget Megalomaniacs (Bossing)" ascendClassId="2" treeVersion="3_28" clusterHashFormatVersion="2">
 			<URL>
-				https://www.pathofexile.com/passive-skill-tree/AAAABgMCbBzcEFiboTs_jxpV4GwIgh7317H2WFpNz-_rksHZvxXXhq5JUWS9NomFMuwYZ73YJHQQ1LSD2dyN7j2drt-wX2pbJhEtL9YzchccRwZqu4dlA1nmdobKYSgRD-vuuwHNFiTA0NA_DacIz4Mw13_7wuwsnAECtQSbnFZIEvYa_iy_j_pSKayYqDUabFH7Ow1xeWme1Af06ZgJXIpca_f698EbNx0UHxiJoY9GLPESaVqv1qr2P0wtw22OvoRIFLDxijHCZxkFtXyDtMUacsHFGo3b5_xH8NU97BUFUwEQBBAFEAAgARkFGQFQBVABYAAiASoAEwQTASABIgAQAWIBagAqAVMJd5Sx9ntEA1nzLD8NS94w19yXm5wRlJgJxzH3-tgMLPGpiGcZ
+				https://www.pathofexile.com/passive-skill-tree/AAAABgMCbBzcEFibofxHOz-PGlXgbAiCHvfXsfZYWk3P7-uSwdm_FdeGrklRZL02iYUy7BhnvdgkdBDUtIPZ3I3uPZ2u37BfalsmES0v1jNyFxxHBmq7h2UDWWmehsphKBEP6-67Ac0WJMDQ0D8N8NXPgzDXf_vC7CycAQK1BJucVkgS9hr-LL-P-lIprJioNdvnUfs7DcHF5nbUBxpsmAlcilxrfINnGffBhEhxeRs3j0YfGImhEmlMLfY_9_rDbSzxjr7xitaqMcIUsAW19Om0xRpyPewajacIWq8dFBUBEAQQBRABIAEZBRkBUAVQAWABIgAqABMEEwAgACIAEAFiAWoFUwEqAVMJd5Sx9ntEA1nzLD8NS94w19yXm5wRlJgJqYhnGccx9_rYDCzx
 			</URL>
 			<Sockets>
 				<Socket itemId="3" nodeId="61419"/>
@@ -4050,10 +4137,10 @@ Implicits: 0
 				<Override nodeId="27415" dn="Tattoo of the Hinekora Deathwarden" activeEffectImage="Art/2DArt/UIImages/InGame/AncestralTrial/PassiveTreeTattoos/HinekoraTribePassiveBG.png" icon="Art/2DArt/SkillIcons/passives/CursemitigationclusterNode.png">
 					6% reduced Effect of Curses on you
 				</Override>
-				<Override nodeId="49900" dn="Tattoo of the Tawhoa Herbalist" activeEffectImage="Art/2DArt/UIImages/InGame/AncestralTrial/PassiveTreeTattoos/TawhoaTribePassiveBG.png" icon="Art/2DArt/SkillIcons/passives/flaskdex.png">
-					4% increased Flask Effect Duration
+				<Override nodeId="56295" dn="Tattoo of the Rongokurai Turtle" activeEffectImage="Art/2DArt/UIImages/InGame/AncestralTrial/PassiveTreeTattoos/RongokuraiTribePassiveBG.png" icon="Art/2DArt/SkillIcons/passives/dmgreduction.png">
+					You take 5% reduced Extra Damage from Critical Strikes
 				</Override>
-				<Override nodeId="19501" dn="Tattoo of the Rongokurai Turtle" activeEffectImage="Art/2DArt/UIImages/InGame/AncestralTrial/PassiveTreeTattoos/RongokuraiTribePassiveBG.png" icon="Art/2DArt/SkillIcons/passives/dmgreduction.png">
+				<Override nodeId="60440" dn="Tattoo of the Rongokurai Turtle" activeEffectImage="Art/2DArt/UIImages/InGame/AncestralTrial/PassiveTreeTattoos/RongokuraiTribePassiveBG.png" icon="Art/2DArt/SkillIcons/passives/dmgreduction.png">
 					You take 5% reduced Extra Damage from Critical Strikes
 				</Override>
 				<Override nodeId="18182" dn="Tattoo of the Rongokurai Turtle" activeEffectImage="Art/2DArt/UIImages/InGame/AncestralTrial/PassiveTreeTattoos/RongokuraiTribePassiveBG.png" icon="Art/2DArt/SkillIcons/passives/dmgreduction.png">
@@ -4062,14 +4149,14 @@ Implicits: 0
 				<Override nodeId="55332" dn="Tattoo of the Rongokurai Turtle" activeEffectImage="Art/2DArt/UIImages/InGame/AncestralTrial/PassiveTreeTattoos/RongokuraiTribePassiveBG.png" icon="Art/2DArt/SkillIcons/passives/dmgreduction.png">
 					You take 5% reduced Extra Damage from Critical Strikes
 				</Override>
-				<Override nodeId="56295" dn="Tattoo of the Rongokurai Turtle" activeEffectImage="Art/2DArt/UIImages/InGame/AncestralTrial/PassiveTreeTattoos/RongokuraiTribePassiveBG.png" icon="Art/2DArt/SkillIcons/passives/dmgreduction.png">
+				<Override nodeId="36678" dn="Tattoo of the Rongokurai Turtle" activeEffectImage="Art/2DArt/UIImages/InGame/AncestralTrial/PassiveTreeTattoos/RongokuraiTribePassiveBG.png" icon="Art/2DArt/SkillIcons/passives/dmgreduction.png">
 					You take 5% reduced Extra Damage from Critical Strikes
 				</Override>
 				<Override nodeId="36858" dn="Tattoo of the Rongokurai Turtle" activeEffectImage="Art/2DArt/UIImages/InGame/AncestralTrial/PassiveTreeTattoos/RongokuraiTribePassiveBG.png" icon="Art/2DArt/SkillIcons/passives/dmgreduction.png">
 					You take 5% reduced Extra Damage from Critical Strikes
 				</Override>
-				<Override nodeId="36678" dn="Tattoo of the Rongokurai Turtle" activeEffectImage="Art/2DArt/UIImages/InGame/AncestralTrial/PassiveTreeTattoos/RongokuraiTribePassiveBG.png" icon="Art/2DArt/SkillIcons/passives/dmgreduction.png">
-					You take 5% reduced Extra Damage from Critical Strikes
+				<Override nodeId="49900" dn="Tattoo of the Tawhoa Herbalist" activeEffectImage="Art/2DArt/UIImages/InGame/AncestralTrial/PassiveTreeTattoos/TawhoaTribePassiveBG.png" icon="Art/2DArt/SkillIcons/passives/flaskdex.png">
+					4% increased Flask Effect Duration
 				</Override>
 				<Override nodeId="27656" dn="Tattoo of the Hinekora Warmonger" activeEffectImage="Art/2DArt/UIImages/InGame/AncestralTrial/PassiveTreeTattoos/HinekoraTribePassiveBG.png" icon="Art/2DArt/SkillIcons/passives/minionlife.png">
 					Minions have 5% increased maximum Life
@@ -4088,13 +4175,13 @@ Implicits: 0
 					Auras from your Skills which affect Allies also affect Enemies
 					Limited to 1 Runegraft of Treachery
 				</Override>
-				<Override nodeId="42760" dn="Tattoo of the Rongokurai Turtle" activeEffectImage="Art/2DArt/UIImages/InGame/AncestralTrial/PassiveTreeTattoos/RongokuraiTribePassiveBG.png" icon="Art/2DArt/SkillIcons/passives/dmgreduction.png">
+				<Override nodeId="6764" dn="Tattoo of the Rongokurai Turtle" activeEffectImage="Art/2DArt/UIImages/InGame/AncestralTrial/PassiveTreeTattoos/RongokuraiTribePassiveBG.png" icon="Art/2DArt/SkillIcons/passives/dmgreduction.png">
 					You take 5% reduced Extra Damage from Critical Strikes
 				</Override>
 				<Override nodeId="1461" dn="Tattoo of the Tawhoa Herbalist" activeEffectImage="Art/2DArt/UIImages/InGame/AncestralTrial/PassiveTreeTattoos/TawhoaTribePassiveBG.png" icon="Art/2DArt/SkillIcons/passives/flaskdex.png">
 					4% increased Flask Effect Duration
 				</Override>
-				<Override nodeId="33310" dn="Tattoo of the Rongokurai Turtle" activeEffectImage="Art/2DArt/UIImages/InGame/AncestralTrial/PassiveTreeTattoos/RongokuraiTribePassiveBG.png" icon="Art/2DArt/SkillIcons/passives/dmgreduction.png">
+				<Override nodeId="40366" dn="Tattoo of the Rongokurai Turtle" activeEffectImage="Art/2DArt/UIImages/InGame/AncestralTrial/PassiveTreeTattoos/RongokuraiTribePassiveBG.png" icon="Art/2DArt/SkillIcons/passives/dmgreduction.png">
 					You take 5% reduced Extra Damage from Critical Strikes
 				</Override>
 				<Override nodeId="46277" dn="Tattoo of the Tawhoa Herbalist" activeEffectImage="Art/2DArt/UIImages/InGame/AncestralTrial/PassiveTreeTattoos/TawhoaTribePassiveBG.png" icon="Art/2DArt/SkillIcons/passives/flaskdex.png">
@@ -4103,27 +4190,27 @@ Implicits: 0
 				<Override nodeId="63447" dn="Tattoo of the Rongokurai Turtle" activeEffectImage="Art/2DArt/UIImages/InGame/AncestralTrial/PassiveTreeTattoos/RongokuraiTribePassiveBG.png" icon="Art/2DArt/SkillIcons/passives/dmgreduction.png">
 					You take 5% reduced Extra Damage from Critical Strikes
 				</Override>
-				<Override nodeId="6764" dn="Tattoo of the Rongokurai Turtle" activeEffectImage="Art/2DArt/UIImages/InGame/AncestralTrial/PassiveTreeTattoos/RongokuraiTribePassiveBG.png" icon="Art/2DArt/SkillIcons/passives/dmgreduction.png">
+				<Override nodeId="15117" dn="Tattoo of the Rongokurai Turtle" activeEffectImage="Art/2DArt/UIImages/InGame/AncestralTrial/PassiveTreeTattoos/RongokuraiTribePassiveBG.png" icon="Art/2DArt/SkillIcons/passives/dmgreduction.png">
 					You take 5% reduced Extra Damage from Critical Strikes
-				</Override>
-				<Override nodeId="40366" dn="Tattoo of the Rongokurai Turtle" activeEffectImage="Art/2DArt/UIImages/InGame/AncestralTrial/PassiveTreeTattoos/RongokuraiTribePassiveBG.png" icon="Art/2DArt/SkillIcons/passives/dmgreduction.png">
-					You take 5% reduced Extra Damage from Critical Strikes
-				</Override>
-				<Override nodeId="27659" dn="Tattoo of the Tasalio Scout" activeEffectImage="Art/2DArt/UIImages/InGame/AncestralTrial/PassiveTreeTattoos/TasalioTribePassiveBG.png" icon="Art/2DArt/SkillIcons/passives/MarkNode.png">
-					4% increased Effect of your Marks
 				</Override>
 				<Override nodeId="39836" dn="Runegraft of the Fortress" activeEffectImage="Art/2DArt/UIImages/InGame/Village/RuneCraftingPassiveBG.png" icon="Art/2DArt/SkillIcons/passives/AtlasTrees/RuneGraftingIcon1.png">
 					10% reduced Attributes
 					40% increased Global Defences
 					Limited to 1 Runegraft of the Fortress
 				</Override>
-				<Override nodeId="15117" dn="Tattoo of the Rongokurai Turtle" activeEffectImage="Art/2DArt/UIImages/InGame/AncestralTrial/PassiveTreeTattoos/RongokuraiTribePassiveBG.png" icon="Art/2DArt/SkillIcons/passives/dmgreduction.png">
+				<Override nodeId="27659" dn="Tattoo of the Tasalio Scout" activeEffectImage="Art/2DArt/UIImages/InGame/AncestralTrial/PassiveTreeTattoos/TasalioTribePassiveBG.png" icon="Art/2DArt/SkillIcons/passives/MarkNode.png">
+					4% increased Effect of your Marks
+				</Override>
+				<Override nodeId="33310" dn="Tattoo of the Rongokurai Turtle" activeEffectImage="Art/2DArt/UIImages/InGame/AncestralTrial/PassiveTreeTattoos/RongokuraiTribePassiveBG.png" icon="Art/2DArt/SkillIcons/passives/dmgreduction.png">
+					You take 5% reduced Extra Damage from Critical Strikes
+				</Override>
+				<Override nodeId="42760" dn="Tattoo of the Rongokurai Turtle" activeEffectImage="Art/2DArt/UIImages/InGame/AncestralTrial/PassiveTreeTattoos/RongokuraiTribePassiveBG.png" icon="Art/2DArt/SkillIcons/passives/dmgreduction.png">
 					You take 5% reduced Extra Damage from Critical Strikes
 				</Override>
 				<Override nodeId="4367" dn="Tattoo of the Rongokurai Turtle" activeEffectImage="Art/2DArt/UIImages/InGame/AncestralTrial/PassiveTreeTattoos/RongokuraiTribePassiveBG.png" icon="Art/2DArt/SkillIcons/passives/dmgreduction.png">
 					You take 5% reduced Extra Damage from Critical Strikes
 				</Override>
-				<Override nodeId="60440" dn="Tattoo of the Rongokurai Turtle" activeEffectImage="Art/2DArt/UIImages/InGame/AncestralTrial/PassiveTreeTattoos/RongokuraiTribePassiveBG.png" icon="Art/2DArt/SkillIcons/passives/dmgreduction.png">
+				<Override nodeId="19501" dn="Tattoo of the Rongokurai Turtle" activeEffectImage="Art/2DArt/UIImages/InGame/AncestralTrial/PassiveTreeTattoos/RongokuraiTribePassiveBG.png" icon="Art/2DArt/SkillIcons/passives/dmgreduction.png">
 					You take 5% reduced Extra Damage from Critical Strikes
 				</Override>
 				<Override nodeId="48778" dn="Tattoo of the Hinekora Deathwarden" activeEffectImage="Art/2DArt/UIImages/InGame/AncestralTrial/PassiveTreeTattoos/HinekoraTribePassiveBG.png" icon="Art/2DArt/SkillIcons/passives/CursemitigationclusterNode.png">
@@ -4134,9 +4221,9 @@ Implicits: 0
 				</Override>
 			</Overrides>
 		</Spec>
-		<Spec masteryEffects="{39836,56471},{45558,30612},{27307,29586},{26393,43400},{38921,4500},{857,31556},{16141,62252},{63482,50993}" secondaryAscendClassId="nil" nodes="7388,39841,66899,54447,15167,23027,36634,21984,27656,33310,63447,45558,26196,36107,49080,65698,61419,37569,65706,51213,18769,25789,13961,34098,60440,26557,55332,29712,54452,36542,6967,60989,40366,57264,24426,26712,65552,4397,66576,12246,13170,18182,65568,27323,44169,44202,857,58998,34506,24872,4367,60398,7444,60472,52502,9408,56295,16141,61653,65872,53123,66896,15852,19501,11420,65888,65570,26393,65578,31875,38246,22088,11455,65555,66579,66713,65689,46340,36678,36858,11730,21033,44184,43061,53456,20987,27038,53213,62697,19919,7960,12738,61834,38921,63425,23659,54279,65680,15117,37114,66704,22618,64210,26270,35233,42443,29353,52742,63039,63482,50029,49605,56461,65696,21330,65890,33864,39836,16023,5296,34171,55743,6770,65898,61259,27307,55190,35288,42760,64583,6764,65875" classId="3" title="Aspirational (Clearing)" ascendClassId="2" treeVersion="3_28" clusterHashFormatVersion="2">
+		<Spec masteryEffects="{39836,56471},{45558,30612},{27307,29586},{26393,43400},{38921,4500},{857,31556},{16141,62252},{63482,50993}" secondaryAscendClassId="nil" nodes="7388,39841,64583,54447,20987,23027,36634,21984,27656,33310,63447,45558,22618,36107,49080,65698,61419,37569,65706,55743,18769,25789,13961,34098,60440,26557,55332,29712,54452,36542,6967,60989,40366,57264,24426,26712,65552,4397,66576,42443,13170,18182,65568,27323,44169,44202,857,15117,34506,24872,4367,60398,7444,60472,52502,9408,56295,16141,61653,65872,53123,66896,15852,19501,11420,65888,65570,46340,65578,31875,38246,22088,11455,65555,66579,65689,66713,61259,29353,36858,56461,21033,44184,43061,42760,15167,27038,53213,63482,19919,55190,12738,61834,38921,63425,23659,49605,65680,12246,37114,66704,26393,11730,64210,7960,52742,53456,39836,63039,36678,50029,26270,35233,65696,21330,65890,33864,58998,16023,5296,51213,54279,6770,65898,62697,27307,34171,35288,6764,66899,26196,65875" classId="3" title="Aspirational (Clearing)" ascendClassId="2" treeVersion="3_28" clusterHashFormatVersion="2">
 			<URL>
-				https://www.pathofexile.com/passive-skill-tree/AAAABgMCbRzcm6E7P1nzjxpV4GwIgh7317H2ZlSNC7-47-uSwcgNSVFkvTaJhTLsGGe92CR0ENS0jr4bN-49na7fsF9qaFgRLS_WM3JHBmq7rImsqgNZ5naGymEoEQ_r7h0U7DjNFiTA2-c_DfDVz4M97EwtLJxnGXyDlWZWSCy_tQSPRo_6LdJSKayYqDXQ0FH7aZ7P3fTpTc8fGDHC8YqYCffBXGvUBzsNkPpYWvrSZp6JoaXLcqnOBvY_9_rDbcHF3I1TUoRIm5wUsIV72b8acu9LaqvXlonYpwj8RxpsFQVTAKIAqgAQBBAAIAFQBVABYAAiACoAEwQTBJkAmQCQBJAAoAFiAWoBUwh3lLH2e0QDWfMsPw2piGcZEZSYCccx9_rcl5ucc5Jqqw==
+				https://www.pathofexile.com/passive-skill-tree/AAAABgMCbRzcm6H8R1H7WfOPGlXgbAiCHvfXsfZYWo0Lv7jv65LB2b9JUWS9NomFMuwYZ73YJHQQ1LSOvhs37j2drt-wX2poWBEtpcszckcGarusiayqA1k7DYbKYSgRD-vuHRTsOM0WJMDb5z8N8NXPgz3sTC0snLUEfIOVZlZILL_vS3Kpj_rcjVIprJioNacIOz9pns_d9_pNz9eWMcLxipgJ98Fca8HFL9aQ-mcZLdL60h8YzgbQ0Juc9j-PRsNtZp6JoVNShEjmdhSwyA3UBxpy9Olqq4V7idgabGZUFQCiAKoAEAQQACABUAVQAWAAIgAqABMEEwCZBJkAkASQAKABYgFqBVMBUwh3lLH2e0QDWfMsPw3HMff6EZSYCamIZxncl5ucc5Jqqw==
 			</URL>
 			<Sockets>
 				<Socket itemId="12" nodeId="7960"/>
@@ -4151,9 +4238,9 @@ Implicits: 0
 				<Socket itemId="41" nodeId="44169"/>
 				<Socket itemId="13" nodeId="22748"/>
 				<Socket itemId="6" nodeId="55190"/>
-				<Socket itemId="38" nodeId="9408"/>
-				<Socket itemId="41" nodeId="33753"/>
 				<Socket itemId="6" nodeId="32763"/>
+				<Socket itemId="41" nodeId="33753"/>
+				<Socket itemId="38" nodeId="9408"/>
 				<Socket itemId="37" nodeId="6910"/>
 				<Socket itemId="3" nodeId="61419"/>
 			</Sockets>
@@ -4182,14 +4269,14 @@ Implicits: 0
 				<Override nodeId="44184" dn="Tattoo of the Rongokurai Turtle" activeEffectImage="Art/2DArt/UIImages/InGame/AncestralTrial/PassiveTreeTattoos/RongokuraiTribePassiveBG.png" icon="Art/2DArt/SkillIcons/passives/dmgreduction.png">
 					You take 5% reduced Extra Damage from Critical Strikes
 				</Override>
-				<Override nodeId="26270" dn="Tattoo of the Hinekora Warmonger" activeEffectImage="Art/2DArt/UIImages/InGame/AncestralTrial/PassiveTreeTattoos/HinekoraTribePassiveBG.png" icon="Art/2DArt/SkillIcons/passives/minionlife.png">
-					Minions have 5% increased maximum Life
+				<Override nodeId="56295" dn="Tattoo of the Rongokurai Turtle" activeEffectImage="Art/2DArt/UIImages/InGame/AncestralTrial/PassiveTreeTattoos/RongokuraiTribePassiveBG.png" icon="Art/2DArt/SkillIcons/passives/dmgreduction.png">
+					You take 5% reduced Extra Damage from Critical Strikes
 				</Override>
 				<Override nodeId="42760" dn="Tattoo of the Rongokurai Turtle" activeEffectImage="Art/2DArt/UIImages/InGame/AncestralTrial/PassiveTreeTattoos/RongokuraiTribePassiveBG.png" icon="Art/2DArt/SkillIcons/passives/dmgreduction.png">
 					You take 5% reduced Extra Damage from Critical Strikes
 				</Override>
-				<Override nodeId="34171" dn="Tattoo of the Ngamahu Firewalker" activeEffectImage="Art/2DArt/UIImages/InGame/AncestralTrial/PassiveTreeTattoos/NgamahuTribePassiveBG.png" icon="Art/2DArt/SkillIcons/passives/FireResistNode.png">
-					+6% to Fire Resistance
+				<Override nodeId="33310" dn="Tattoo of the Rongokurai Turtle" activeEffectImage="Art/2DArt/UIImages/InGame/AncestralTrial/PassiveTreeTattoos/RongokuraiTribePassiveBG.png" icon="Art/2DArt/SkillIcons/passives/dmgreduction.png">
+					You take 5% reduced Extra Damage from Critical Strikes
 				</Override>
 				<Override nodeId="27659" dn="Tattoo of the Tasalio Scout" activeEffectImage="Art/2DArt/UIImages/InGame/AncestralTrial/PassiveTreeTattoos/TasalioTribePassiveBG.png" icon="Art/2DArt/SkillIcons/passives/MarkNode.png">
 					4% increased Effect of your Marks
@@ -4220,16 +4307,16 @@ Implicits: 0
 				<Override nodeId="60440" dn="Tattoo of the Rongokurai Turtle" activeEffectImage="Art/2DArt/UIImages/InGame/AncestralTrial/PassiveTreeTattoos/RongokuraiTribePassiveBG.png" icon="Art/2DArt/SkillIcons/passives/dmgreduction.png">
 					You take 5% reduced Extra Damage from Critical Strikes
 				</Override>
-				<Override nodeId="53279" dn="Tattoo of the Hinekora Shaman" activeEffectImage="Art/2DArt/UIImages/InGame/AncestralTrial/PassiveTreeTattoos/HinekoraTribePassiveBG.png" icon="Art/2DArt/SkillIcons/passives/mana.png">
-					8% increased Mana Regeneration Rate
-				</Override>
-				<Override nodeId="56295" dn="Tattoo of the Rongokurai Turtle" activeEffectImage="Art/2DArt/UIImages/InGame/AncestralTrial/PassiveTreeTattoos/RongokuraiTribePassiveBG.png" icon="Art/2DArt/SkillIcons/passives/dmgreduction.png">
+				<Override nodeId="53456" dn="Tattoo of the Rongokurai Turtle" activeEffectImage="Art/2DArt/UIImages/InGame/AncestralTrial/PassiveTreeTattoos/RongokuraiTribePassiveBG.png" icon="Art/2DArt/SkillIcons/passives/dmgreduction.png">
 					You take 5% reduced Extra Damage from Critical Strikes
+				</Override>
+				<Override nodeId="26270" dn="Tattoo of the Hinekora Warmonger" activeEffectImage="Art/2DArt/UIImages/InGame/AncestralTrial/PassiveTreeTattoos/HinekoraTribePassiveBG.png" icon="Art/2DArt/SkillIcons/passives/minionlife.png">
+					Minions have 5% increased maximum Life
 				</Override>
 				<Override nodeId="63447" dn="Tattoo of the Rongokurai Turtle" activeEffectImage="Art/2DArt/UIImages/InGame/AncestralTrial/PassiveTreeTattoos/RongokuraiTribePassiveBG.png" icon="Art/2DArt/SkillIcons/passives/dmgreduction.png">
 					You take 5% reduced Extra Damage from Critical Strikes
 				</Override>
-				<Override nodeId="33310" dn="Tattoo of the Rongokurai Turtle" activeEffectImage="Art/2DArt/UIImages/InGame/AncestralTrial/PassiveTreeTattoos/RongokuraiTribePassiveBG.png" icon="Art/2DArt/SkillIcons/passives/dmgreduction.png">
+				<Override nodeId="40366" dn="Tattoo of the Rongokurai Turtle" activeEffectImage="Art/2DArt/UIImages/InGame/AncestralTrial/PassiveTreeTattoos/RongokuraiTribePassiveBG.png" icon="Art/2DArt/SkillIcons/passives/dmgreduction.png">
 					You take 5% reduced Extra Damage from Critical Strikes
 				</Override>
 				<Override nodeId="15117" dn="Tattoo of the Rongokurai Turtle" activeEffectImage="Art/2DArt/UIImages/InGame/AncestralTrial/PassiveTreeTattoos/RongokuraiTribePassiveBG.png" icon="Art/2DArt/SkillIcons/passives/dmgreduction.png">
@@ -4243,11 +4330,11 @@ Implicits: 0
 				<Override nodeId="6764" dn="Tattoo of the Rongokurai Turtle" activeEffectImage="Art/2DArt/UIImages/InGame/AncestralTrial/PassiveTreeTattoos/RongokuraiTribePassiveBG.png" icon="Art/2DArt/SkillIcons/passives/dmgreduction.png">
 					You take 5% reduced Extra Damage from Critical Strikes
 				</Override>
-				<Override nodeId="53456" dn="Tattoo of the Rongokurai Turtle" activeEffectImage="Art/2DArt/UIImages/InGame/AncestralTrial/PassiveTreeTattoos/RongokuraiTribePassiveBG.png" icon="Art/2DArt/SkillIcons/passives/dmgreduction.png">
-					You take 5% reduced Extra Damage from Critical Strikes
+				<Override nodeId="53279" dn="Tattoo of the Hinekora Shaman" activeEffectImage="Art/2DArt/UIImages/InGame/AncestralTrial/PassiveTreeTattoos/HinekoraTribePassiveBG.png" icon="Art/2DArt/SkillIcons/passives/mana.png">
+					8% increased Mana Regeneration Rate
 				</Override>
-				<Override nodeId="40366" dn="Tattoo of the Rongokurai Turtle" activeEffectImage="Art/2DArt/UIImages/InGame/AncestralTrial/PassiveTreeTattoos/RongokuraiTribePassiveBG.png" icon="Art/2DArt/SkillIcons/passives/dmgreduction.png">
-					You take 5% reduced Extra Damage from Critical Strikes
+				<Override nodeId="34171" dn="Tattoo of the Ngamahu Firewalker" activeEffectImage="Art/2DArt/UIImages/InGame/AncestralTrial/PassiveTreeTattoos/NgamahuTribePassiveBG.png" icon="Art/2DArt/SkillIcons/passives/FireResistNode.png">
+					+6% to Fire Resistance
 				</Override>
 				<Override nodeId="4367" dn="Tattoo of the Rongokurai Turtle" activeEffectImage="Art/2DArt/UIImages/InGame/AncestralTrial/PassiveTreeTattoos/RongokuraiTribePassiveBG.png" icon="Art/2DArt/SkillIcons/passives/dmgreduction.png">
 					You take 5% reduced Extra Damage from Critical Strikes
@@ -4263,9 +4350,9 @@ Implicits: 0
 				</Override>
 			</Overrides>
 		</Spec>
-		<Spec masteryEffects="{39836,56471},{45558,30612},{27307,29586},{26393,43400},{38921,4500},{857,31556},{16141,62252},{63482,50993}" secondaryAscendClassId="nil" nodes="7388,39841,66899,54447,15167,23027,36634,21984,27656,33310,63447,45558,26196,19919,49080,65698,61419,37569,65706,55743,18769,25789,29353,34098,60440,26557,55332,29712,54452,36542,56461,60989,40366,57264,24426,26712,65552,4397,66576,52742,13170,18182,65568,27323,44169,44202,857,27038,34506,24872,4367,60398,7444,60472,52502,9408,56295,16141,61653,65872,53123,66896,15852,19501,11420,65888,65570,46340,65578,31875,38246,22088,11455,65555,66579,65875,64583,51213,65890,36858,6967,35233,44184,43061,36107,55190,26393,53213,58998,39836,49605,12246,53456,38921,12738,23659,11730,65680,63425,7960,66704,20987,37114,54279,15117,64210,22618,36678,63039,26270,50029,42443,63482,65696,21330,61259,33864,21033,16023,13961,61834,5296,6770,65898,62697,34171,27307,35288,42760,6764,66713,65689" classId="3" title="Aspirational (Bossing)" ascendClassId="2" treeVersion="3_28" clusterHashFormatVersion="2">
+		<Spec masteryEffects="{39836,56471},{45558,30612},{27307,29586},{26393,43400},{38921,4500},{857,31556},{16141,62252},{63482,50993}" secondaryAscendClassId="nil" nodes="7388,39841,64583,54447,15167,23027,36634,21984,27656,33310,63447,45558,22618,19919,49080,65698,61419,37569,65706,51213,18769,25789,13961,34098,60440,26557,55332,29712,26270,36542,56461,60989,40366,57264,24426,26712,65552,4397,66576,12246,13170,18182,65568,27323,44169,44202,857,58998,34506,24872,4367,60398,7444,60472,52502,9408,56295,16141,61653,65872,53123,66896,15852,19501,11420,65888,65570,46340,65578,31875,38246,22088,11455,65555,66579,65875,66899,54279,65890,36858,29353,35233,44184,43061,36107,6764,20987,53213,15117,55743,6967,42760,12738,38921,21033,23659,54452,65680,63425,55190,66704,37114,63482,49605,64210,26393,42443,11730,63039,7960,50029,53456,39836,65696,21330,61259,33864,36678,16023,61834,5296,27038,6770,65898,62697,27307,34171,35288,26196,52742,65689,66713" classId="3" title="Aspirational (Bossing)" ascendClassId="2" treeVersion="3_28" clusterHashFormatVersion="2">
 			<URL>
-				https://www.pathofexile.com/passive-skill-tree/AAAABgMCbRzcm6E7P1nzjxpV4GwIgh7317H2ZlRNz7-47-uSwdm_SVFkvXKphTLsGGe92CR0ENS0jr7cje49na7fsF9qaFgRLc4GM3JHBmq7rImsqgNZaZ6GymEoEQ_r7h0U7DjNFiTA2-c_DfDVz4M97EwtLJy1BHyDlWZWSCy__EfIDY_6GzeJoayYqDWNC9eWZxnP3eZ2m5zBxS_W0NCYCTHCXGst0vfBHxhR-5D61Ac7DfrSWFqPRvY_Zp7DbaXL9_pTUu9LhEhSKTaJ8YoUsBpy9OmFe2qridinCBpsFQVTAKIAqgAQBBAAIAFQBVABYAAiACoAEwQTAVMBYgCQBJAAoAFqBJkAmQh3lLH2e0QDWfMsPw2piGcZ3JebnBGUmAnHMff6c5Jqqw==
+				https://www.pathofexile.com/passive-skill-tree/AAAABgMCbRzcm6H8Rzs_WfOPGlXgbAiCHvfXsfZYWk3Pv7jv65LByA1JUWS9NomFMuwYZ73YJHQQZp6OvtyN7j2drt-wX2poWBEtL9YzckcGarusiayqA1nmdobKYSgRD-vuHRTsOM0WJMDb5z8N8NXPgz3sTC0snLUEfIOVZlZILL_UB4_6cqmJoayYqDWNCxpsUfvP3TsN2b8bN6cIMcKYCVIpXGvUtPfB15aQ-vf6wcX60mcZpcst0vY_HxjDbdDQm5xTUu9LhEiPRvGKFLBpnhpy9Olqq4V7idhmVM4GFQCiAKoAEAQQACABUAVQAWAAIgAqABMEEwFTBVMBYgCQBJAAoAFqAJkEmQh3lLH2e0QDWfMsPw0RlJgJxzH3-qmIZxncl5ucc5Jqqw==
 			</URL>
 			<Sockets>
 				<Socket itemId="12" nodeId="7960"/>
@@ -4280,9 +4367,9 @@ Implicits: 0
 				<Socket itemId="41" nodeId="44169"/>
 				<Socket itemId="41" nodeId="33753"/>
 				<Socket itemId="6" nodeId="55190"/>
-				<Socket itemId="38" nodeId="9408"/>
-				<Socket itemId="13" nodeId="22748"/>
 				<Socket itemId="6" nodeId="32763"/>
+				<Socket itemId="13" nodeId="22748"/>
+				<Socket itemId="38" nodeId="9408"/>
 				<Socket itemId="37" nodeId="6910"/>
 				<Socket itemId="3" nodeId="61419"/>
 			</Sockets>
@@ -4311,14 +4398,14 @@ Implicits: 0
 				<Override nodeId="44184" dn="Tattoo of the Rongokurai Turtle" activeEffectImage="Art/2DArt/UIImages/InGame/AncestralTrial/PassiveTreeTattoos/RongokuraiTribePassiveBG.png" icon="Art/2DArt/SkillIcons/passives/dmgreduction.png">
 					You take 5% reduced Extra Damage from Critical Strikes
 				</Override>
-				<Override nodeId="53456" dn="Tattoo of the Rongokurai Turtle" activeEffectImage="Art/2DArt/UIImages/InGame/AncestralTrial/PassiveTreeTattoos/RongokuraiTribePassiveBG.png" icon="Art/2DArt/SkillIcons/passives/dmgreduction.png">
-					You take 5% reduced Extra Damage from Critical Strikes
+				<Override nodeId="56295" dn="Tattoo of the Hinekora Warmonger" activeEffectImage="Art/2DArt/UIImages/InGame/AncestralTrial/PassiveTreeTattoos/HinekoraTribePassiveBG.png" icon="Art/2DArt/SkillIcons/passives/minionlife.png">
+					Minions have 5% increased maximum Life
 				</Override>
 				<Override nodeId="6764" dn="Tattoo of the Rongokurai Turtle" activeEffectImage="Art/2DArt/UIImages/InGame/AncestralTrial/PassiveTreeTattoos/RongokuraiTribePassiveBG.png" icon="Art/2DArt/SkillIcons/passives/dmgreduction.png">
 					You take 5% reduced Extra Damage from Critical Strikes
 				</Override>
-				<Override nodeId="40366" dn="Tattoo of the Rongokurai Turtle" activeEffectImage="Art/2DArt/UIImages/InGame/AncestralTrial/PassiveTreeTattoos/RongokuraiTribePassiveBG.png" icon="Art/2DArt/SkillIcons/passives/dmgreduction.png">
-					You take 5% reduced Extra Damage from Critical Strikes
+				<Override nodeId="34171" dn="Tattoo of the Ngamahu Firewalker" activeEffectImage="Art/2DArt/UIImages/InGame/AncestralTrial/PassiveTreeTattoos/NgamahuTribePassiveBG.png" icon="Art/2DArt/SkillIcons/passives/FireResistNode.png">
+					+6% to Fire Resistance
 				</Override>
 				<Override nodeId="63447" dn="Tattoo of the Rongokurai Turtle" activeEffectImage="Art/2DArt/UIImages/InGame/AncestralTrial/PassiveTreeTattoos/RongokuraiTribePassiveBG.png" icon="Art/2DArt/SkillIcons/passives/dmgreduction.png">
 					You take 5% reduced Extra Damage from Critical Strikes
@@ -4338,10 +4425,8 @@ Implicits: 0
 				<Override nodeId="18182" dn="Tattoo of the Hinekora Warmonger" activeEffectImage="Art/2DArt/UIImages/InGame/AncestralTrial/PassiveTreeTattoos/HinekoraTribePassiveBG.png" icon="Art/2DArt/SkillIcons/passives/minionlife.png">
 					Minions have 5% increased maximum Life
 				</Override>
-				<Override nodeId="27307" dn="Runegraft of Treachery" activeEffectImage="Art/2DArt/UIImages/InGame/Village/RuneCraftingPassiveBG.png" icon="Art/2DArt/SkillIcons/passives/AtlasTrees/RuneGraftingIcon20.png">
-					15% increased Reservation Efficiency of Skills
-					Auras from your Skills which affect Allies also affect Enemies
-					Limited to 1 Runegraft of Treachery
+				<Override nodeId="53279" dn="Tattoo of the Hinekora Shaman" activeEffectImage="Art/2DArt/UIImages/InGame/AncestralTrial/PassiveTreeTattoos/HinekoraTribePassiveBG.png" icon="Art/2DArt/SkillIcons/passives/mana.png">
+					8% increased Mana Regeneration Rate
 				</Override>
 				<Override nodeId="64210" dn="Tattoo of the Rongokurai Turtle" activeEffectImage="Art/2DArt/UIImages/InGame/AncestralTrial/PassiveTreeTattoos/RongokuraiTribePassiveBG.png" icon="Art/2DArt/SkillIcons/passives/dmgreduction.png">
 					You take 5% reduced Extra Damage from Critical Strikes
@@ -4349,17 +4434,19 @@ Implicits: 0
 				<Override nodeId="60472" dn="Tattoo of the Ngamahu Firewalker" activeEffectImage="Art/2DArt/UIImages/InGame/AncestralTrial/PassiveTreeTattoos/NgamahuTribePassiveBG.png" icon="Art/2DArt/SkillIcons/passives/FireResistNode.png">
 					+6% to Fire Resistance
 				</Override>
-				<Override nodeId="26270" dn="Tattoo of the Rongokurai Turtle" activeEffectImage="Art/2DArt/UIImages/InGame/AncestralTrial/PassiveTreeTattoos/RongokuraiTribePassiveBG.png" icon="Art/2DArt/SkillIcons/passives/dmgreduction.png">
-					You take 5% reduced Extra Damage from Critical Strikes
+				<Override nodeId="27307" dn="Runegraft of Treachery" activeEffectImage="Art/2DArt/UIImages/InGame/Village/RuneCraftingPassiveBG.png" icon="Art/2DArt/SkillIcons/passives/AtlasTrees/RuneGraftingIcon20.png">
+					15% increased Reservation Efficiency of Skills
+					Auras from your Skills which affect Allies also affect Enemies
+					Limited to 1 Runegraft of Treachery
 				</Override>
-				<Override nodeId="53279" dn="Tattoo of the Hinekora Shaman" activeEffectImage="Art/2DArt/UIImages/InGame/AncestralTrial/PassiveTreeTattoos/HinekoraTribePassiveBG.png" icon="Art/2DArt/SkillIcons/passives/mana.png">
-					8% increased Mana Regeneration Rate
+				<Override nodeId="53456" dn="Tattoo of the Rongokurai Turtle" activeEffectImage="Art/2DArt/UIImages/InGame/AncestralTrial/PassiveTreeTattoos/RongokuraiTribePassiveBG.png" icon="Art/2DArt/SkillIcons/passives/dmgreduction.png">
+					You take 5% reduced Extra Damage from Critical Strikes
 				</Override>
 				<Override nodeId="27659" dn="Tattoo of the Tasalio Scout" activeEffectImage="Art/2DArt/UIImages/InGame/AncestralTrial/PassiveTreeTattoos/TasalioTribePassiveBG.png" icon="Art/2DArt/SkillIcons/passives/MarkNode.png">
 					4% increased Effect of your Marks
 				</Override>
-				<Override nodeId="34171" dn="Tattoo of the Ngamahu Firewalker" activeEffectImage="Art/2DArt/UIImages/InGame/AncestralTrial/PassiveTreeTattoos/NgamahuTribePassiveBG.png" icon="Art/2DArt/SkillIcons/passives/FireResistNode.png">
-					+6% to Fire Resistance
+				<Override nodeId="33310" dn="Tattoo of the Rongokurai Turtle" activeEffectImage="Art/2DArt/UIImages/InGame/AncestralTrial/PassiveTreeTattoos/RongokuraiTribePassiveBG.png" icon="Art/2DArt/SkillIcons/passives/dmgreduction.png">
+					You take 5% reduced Extra Damage from Critical Strikes
 				</Override>
 				<Override nodeId="15117" dn="Tattoo of the Rongokurai Turtle" activeEffectImage="Art/2DArt/UIImages/InGame/AncestralTrial/PassiveTreeTattoos/RongokuraiTribePassiveBG.png" icon="Art/2DArt/SkillIcons/passives/dmgreduction.png">
 					You take 5% reduced Extra Damage from Critical Strikes
@@ -4372,10 +4459,10 @@ Implicits: 0
 				<Override nodeId="42760" dn="Tattoo of the Rongokurai Turtle" activeEffectImage="Art/2DArt/UIImages/InGame/AncestralTrial/PassiveTreeTattoos/RongokuraiTribePassiveBG.png" icon="Art/2DArt/SkillIcons/passives/dmgreduction.png">
 					You take 5% reduced Extra Damage from Critical Strikes
 				</Override>
-				<Override nodeId="56295" dn="Tattoo of the Hinekora Warmonger" activeEffectImage="Art/2DArt/UIImages/InGame/AncestralTrial/PassiveTreeTattoos/HinekoraTribePassiveBG.png" icon="Art/2DArt/SkillIcons/passives/minionlife.png">
-					Minions have 5% increased maximum Life
+				<Override nodeId="26270" dn="Tattoo of the Rongokurai Turtle" activeEffectImage="Art/2DArt/UIImages/InGame/AncestralTrial/PassiveTreeTattoos/RongokuraiTribePassiveBG.png" icon="Art/2DArt/SkillIcons/passives/dmgreduction.png">
+					You take 5% reduced Extra Damage from Critical Strikes
 				</Override>
-				<Override nodeId="33310" dn="Tattoo of the Rongokurai Turtle" activeEffectImage="Art/2DArt/UIImages/InGame/AncestralTrial/PassiveTreeTattoos/RongokuraiTribePassiveBG.png" icon="Art/2DArt/SkillIcons/passives/dmgreduction.png">
+				<Override nodeId="40366" dn="Tattoo of the Rongokurai Turtle" activeEffectImage="Art/2DArt/UIImages/InGame/AncestralTrial/PassiveTreeTattoos/RongokuraiTribePassiveBG.png" icon="Art/2DArt/SkillIcons/passives/dmgreduction.png">
 					You take 5% reduced Extra Damage from Critical Strikes
 				</Override>
 				<Override nodeId="4367" dn="Tattoo of the Rongokurai Turtle" activeEffectImage="Art/2DArt/UIImages/InGame/AncestralTrial/PassiveTreeTattoos/RongokuraiTribePassiveBG.png" icon="Art/2DArt/SkillIcons/passives/dmgreduction.png">
@@ -4392,9 +4479,16 @@ Implicits: 0
 				</Override>
 			</Overrides>
 		</Spec>
-		<Spec masteryEffects="{63268,6216},{38921,4500},{43818,47642}" secondaryAscendClassId="0" nodes="17579,21934,24324,54447,55332,37163,17821,48362,27203,6967,11128,42760,40366,38921,57264,4397,885,58604,53123,36774,12738,44983,56029,5456,11420,30225,4184,57226,19919,63138,21330,34661,16023,43818,63268,6764,46340,31875,8135,22088,12852,33296,62767,60398,39648" classId="3" title="DeeMyArc" ascendClassId="2" treeVersion="3_28" clusterHashFormatVersion="2">
+		<Spec masteryEffects="{12503,19422},{2828,1251},{63268,6216},{34927,65020},{43818,47642},{39836,28638},{38921,4500},{40439,5907},{13862,64875},{32241,34242},{16123,52684},{21143,46672},{61343,32877}" secondaryAscendClassId="0" nodes="4184,39841,21143,7444,5743,61804,40776,10115,53018,57226,48362,27203,41472,34423,16123,42760,61343,63447,46904,46842,36452,29861,49254,12503,2828,13862,39648,40439,56029,15973,48118,42343,11420,25970,24324,54694,63398,37569,27038,46340,7503,39836,62970,22088,14040,4854,59728,30225,54447,54954,22315,14057,51954,29033,32241,5456,6967,34661,55332,64355,58402,31875,35233,17821,21330,9386,36542,56461,33435,11551,60989,4270,21389,40366,38921,57264,19919,2292,10893,4397,65203,44799,27929,36678,37163,23215,58218,34927,44184,63039,885,48514,18715,53123,63138,15365,54279,12738,27163,16023,43818,63268,6764,40927,58998,43000,62767,61308,52655,4367,60501,60398,58210" classId="3" title="DeeMyArc" ascendClassId="2" treeVersion="3_28" clusterHashFormatVersion="2">
 			<URL>
-				https://www.pathofexile.com/passive-skill-tree/AAAABgMCK0SrVa5fBNgkkStFnbzqakMbNyt4pwidrpgJ37ARLQN15OzPg4-mMcKvt9rdFVAsnHYREFjfik3P9qJTUodlqyr3JBpstQR8gx_HVkgyNIIQ9S_r7prgAAMRlJgJuhqrKhhI9yQ=
+				https://www.pathofexile.com/passive-skill-tree/AAAABgMCbxBYm6FSlx0UFm_xbJ9IJ4PPGt-KvOpqQ6IAhnc--6cI75_317c4tvqOZHSlwGYw1wsMNiaa4J332t0-Zbv2pWcsnGVyXwTVpvemksFpnrUEHU-bnPX6Vkg22BL26VB2EdaqVys26crycWl98RVQGzeHZdgk-2PkInyDiaFFnVNSJKqOvtyNgpstH-49EK5TjZ2umAnfsE3PCPQqjREt_rOu_20Zj0aRK1qv42qIb6yY9j8Ddb2CSRvPg_aiPAXUBzHCahurKvckGmyf3-Z2p_j1L-98za8RD-xV6-7jYgANtlBSl83MPvuAbe-fS94w1wTjCwz9azYmFxOd92_em5yFwn3xEZSYCf38iG-6GqsqGEj3JA==
+			</URL>
+			<Sockets/>
+			<Overrides/>
+		</Spec>
+		<Spec masteryEffects="{12503,19422},{21143,37186},{2828,1251},{63268,6216},{34927,65020},{44948,64875},{39836,28638},{38921,4500},{40439,5907},{43818,47642},{32241,34242},{16123,52684},{47197,61097},{61343,32877}" secondaryAscendClassId="0" nodes="4184,39841,21143,7444,5743,61804,40776,37163,53018,57226,48362,27203,41472,34423,16123,6764,61343,42343,5935,46842,36452,29861,8135,28076,12503,32932,2828,11420,44799,40439,64210,63447,48118,63398,25970,63138,43818,54694,62970,37569,58998,46340,54279,39836,61308,22088,14040,4854,59728,47197,60989,44948,60501,14057,51954,29033,60398,62767,15365,54447,55332,64355,58402,57264,35233,17821,56461,26270,36542,6967,33435,11128,58210,4270,21389,40366,38921,9386,54954,53123,24324,4397,15973,51108,49254,36678,46904,21974,58218,34927,44184,63039,42760,885,18715,19919,25831,21330,10893,34661,58453,16023,32241,63268,31875,40927,27038,22472,23215,12738,52655,4367,30225,56029,39648" classId="3" title="DeeMyArc Arcane Surge" ascendClassId="2" treeVersion="3_28" clusterHashFormatVersion="2">
+			<URL>
+				https://www.pathofexile.com/passive-skill-tree/AAAABgMCcRBYm6FSlx0UFm_xbJ9IkSvPGt-KvOpqQ6IAhnc--xps75-lZxcvtvqOZHSlH8dtrDDXgKQLDCycrv-d9_rS99e79vemZXL2oqsq1ab1-pLB5na1BNQHm5zvfFZINtgS9ulQuF3uPa-U7FU26crycWnr7vUvPAXYJPtj5CLfsImhRZ3cjWaejr4bN4KbK3jjYhCuU42drpgJJKrWqs-DXwQRLT5lx6TAZo9GtzhV1uNqiG-smPY_pwgDdUkbTc9k51NSKo2HZeRVffH3JHyDn99pnlfIWq8xws2vEQ92EdrdmuAADpFCUpfNzD77gG3vn0veMNcE4wsMFxOd97oaqypv3puc7qm4Xf1rr5QRlJgJ_fyIb4XCffEYSPck
 			</URL>
 			<Sockets/>
 			<Overrides/>
